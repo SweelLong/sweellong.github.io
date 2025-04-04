@@ -68,7 +68,7 @@ class PlayResult {
 		this.criticalRate = this.criticalPerfect / this.perfect;
 		this.far = far ? far : 0;
 		this.lost = lost ? lost : 0;
-		this.constant = constant;
+		this.constant = Number(constant);
 		this.playRating = playRating ? playRating : calculateSingleRating(score, constant, 5);
 		// this.loseScore = loseScore ? loseScore : 0;
 		if (loseScore) {

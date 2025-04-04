@@ -304,7 +304,7 @@ function saveQueryResult(result) {
 	});
 	filteredArray = currentArray;
 	displayB30(currentArray);
-	// generateCard(currentArray);
+	generateCard(currentArray);
 	generateTable(currentArray);
 	saveLocalStorage(currentArray);
 }
@@ -506,7 +506,7 @@ function calculateR10() {
  * 用于在卡片模式和表格模式之间切换
  * 本质是两个div的显示/隐藏切换
  */
-/*
+
 function switchView() {
 	//0=card 1=table
 	if (viewMode == 1) {
@@ -521,7 +521,7 @@ function switchView() {
 		$('#switch-view').text("显示为表格");
 	}
 }
-	*/
+
 /**
  * 下载分数表csv文件
  * 由于字符集限制只好用utf-8和全英文
@@ -700,6 +700,7 @@ async function initializeVHZEK() {
 			tempArray.push(single);
 		}
 		idx_constant = tempArray;
+		/*
 		idx_constant.push({
 			idx: 283,
 			songId: 'lasteternity',
@@ -713,7 +714,7 @@ async function initializeVHZEK() {
 		idx_constant = idx_constant.sort(function(a, b) {
 			return resultSort(a, b, 'idx', -1);
 		})
-
+		*/
 		idx_constant.shift();
 		
 		$('#load-sl').text("✔曲目列表文件已加载").css("color", "green");

@@ -33,10 +33,10 @@ with open(csv_path, 'w', encoding='utf-8-sig') as csv_file:
         title = list(song['title_localized'].values())[0]
         title = title.replace(',', '，')
         title = title.replace("'", '’')
-        ratings = [0, 0, 0, 0]
+        ratings = [0, 0, 0, 0, 0]
         for diff in song['difficulties']:
-            if diff['ratingClass'] in [0, 1, 2, 3]:
-                ratings[diff['ratingClass']] = diff['rating'] if diff['rating'] >= 1 else 0
+            if diff['ratingClass'] in [0, 1, 2, 3, 4]:
+                ratings[diff['ratingClass']] = round(float(diff['rating']), 1) if diff['rating'] >= 1 else 0
         #csv_file.write(f'{song_id},{title},{",".join(map(str, ratings))}\n')
         csv_file.write(f'{title},{song_id},{",".join(map(str, ratings))}\n')
 # 复制 songlist 文件到 json 文件夹
@@ -54,10 +54,10 @@ for song in songlist['songs']:
     title = list(song['title_localized'].values())[0]
     title = title.replace(',', '，')
     title = title.replace("'", '’')
-    ratings = ['-' for _ in range(4)]
+    ratings = [0, 0, 0, 0, 0]
     for diff in song['difficulties']:
-        if diff['ratingClass'] in [0, 1, 2, 3]:
-            ratings[diff['ratingClass']] = str(diff['rating']) if diff['rating'] >= 1 else '-'
+        if diff['ratingClass'] in [0, 1, 2, 3, 4]:
+            ratings[diff['ratingClass']] = round(float(diff['rating']), 1) if diff['rating'] >= 1 else '-'
     insert = f"INSERT INTO allsongs (songname, songId, PST, PRS, FTR, BYD, ETR) VALUES ('{title}', '{song_id}', '{ratings[0]}', '{ratings[1]}', '{ratings[2]}', '{ratings[3]}', '');"
     insert_statements.append(insert)
 sql_template = """PRAGMA foreign_keys = off;
