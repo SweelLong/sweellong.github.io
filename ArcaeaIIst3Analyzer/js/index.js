@@ -388,7 +388,7 @@ function convertToTable(currentRow, index) {
 	$trElem.append($('<td>').addClass('t-normal-perfect').text(currentRow.normalPerfect));
 	$trElem.append($('<td>').addClass('t-far').text(currentRow.far));
 	$trElem.append($('<td>').addClass('t-lost').text(currentRow.lost));
-	$trElem.append($('<td>').addClass('t-constant').text(currentRow.constant.toFixed(1)));
+	$trElem.append($('<td>').addClass('t-constant').text((currentRow.constant == null) ? "?" : (currentRow.constant.toFixed(1))));
 	let linearGradient = "";
 	if (currentRow.percentage == 100 || currentRow.loseScore == 0) {
 		linearGradient = "linear-gradient(90deg, #55aaff 0%, #55aaff 100%)";
@@ -431,7 +431,7 @@ function convertToCard(currentRow, index) {
 	} else {
 		rt = toFloor(currentRow.playRating, 4)
 	}
-	$cardElem.append($('<div>').addClass('song-rating').text(currentRow.constant.toFixed(1) + "→" + rt));
+	$cardElem.append($('<div>').addClass('song-rating').text((currentRow.constant == null) ? ("? →" + rt) : (currentRow.constant.toFixed(1) + "→" + rt)));
 	let linearGradient;
 	if ((currentRow.far != null && currentRow.lost != null) && (currentRow.far == 0 && currentRow.lost == 0)) {
 		linearGradient = "linear-gradient(90deg, #55aaff " + (currentRow.percentage - 100) * 100 + "%, #55ff00 " +

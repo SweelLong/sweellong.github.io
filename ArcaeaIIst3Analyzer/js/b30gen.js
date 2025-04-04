@@ -136,12 +136,13 @@ function initializeSettingListener() {
 		$('#user-id span').text(formatUserID(val));
 		localStorage.setItem('userId', val);
 	});
+	/*
 	$('#potential-input').on('input', function() {
 		var val = $('#potential-input').val();
 		$('#potential-value').text(val);
 		changePotential(parseFloat(val));
 	});
-
+*/
 	$('#use-custom-avatar').on('change', function() {
 		let isChecked = $('#use-custom-avatar').is(':checked');
 		console.log(isChecked);

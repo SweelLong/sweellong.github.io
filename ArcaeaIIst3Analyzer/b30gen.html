@@ -19,6 +19,14 @@
 		<link rel="icon" href="favicon.ico" />
 	</head>
 	<body>
+		<script>
+			window.onload = function () {
+				const pttMaxSpan = document.querySelector('#ptt-max span');
+				const pttMaxValue = parseFloat(pttMaxSpan.textContent);
+				const roundedValue = pttMaxValue.toFixed(2);
+				changePotential(parseFloat(roundedValue));
+			};
+		</script>
 		<div hidden="hidden" id="top-of-body"></div>
 		<div id="mainCover">
 			<img id="loadingGif" src="img/loading.gif" />
@@ -151,14 +159,15 @@
 						<button class="setting-button" onclick="hideUID()">显示/隐藏好友码</button>
 					</div>
 				</div>
+				<!--
 				<div class="setting-row">
 					<div class="setting-container">
 						<label for="potential-input" class="setting-label">潜力值</label>
 						<input id="potential-input" class="setting-input" placeholder="6.16" />
-						<!-- <label class="setting-label" style="float: none;">(*影响r10计算)</label> -->
+						 <label class="setting-label" style="float: none;">(*影响r10计算)</label> 
 					</div>
 				</div>
-
+				-->
 				<div class="setting-row">
 					<div class="setting-container">
 						<label for="user-course-dan-display" class="setting-label">段位</label>
@@ -342,15 +351,11 @@
 				</div>
 			</div>
 		</div>
-
-		<!-- ai-chan -->
 		<div id="ai-chan" onclick="displayWindow('ai-chan-dialog')">
 			<img src="img/ai-chan.png" />
 		</div>
-		<!-- 返回顶部 -->
 		<div id="back-to-top" onclick="scrollToElement('top-of-body')">
 			回到<br />顶部
-			<span></span>
 		</div>
 	</body>
 </html>
