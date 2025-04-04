@@ -4,7 +4,7 @@ import shutil
 songs_folder = 'songs'
 # 读取 songlist.json 文件
 songlist_path = os.path.join(songs_folder, 'songlist')
-with open(songlist_path, 'r', encoding='utf-8') as f:
+with open(songlist_path, 'r', encoding='utf-8-sig') as f:
     songlist = json.load(f)
 # 创建输出文件夹和子文件夹
 output_folder = 'Output'
@@ -27,7 +27,7 @@ for song in songlist['songs']:
             break
 # 生成 constantChart.csv 文件
 csv_path = os.path.join(sample_folder, 'constantChart.csv')
-with open(csv_path, 'w', encoding='utf-8') as csv_file:
+with open(csv_path, 'w', encoding='utf-8-sig') as csv_file:
     for song in songlist['songs']:
         song_id = song['id']
         title = list(song['title_localized'].values())[0]
@@ -44,7 +44,7 @@ shutil.copyfile(songlist_path, os.path.join(json_folder, 'songlist'))
 # 生成 simplified_songlist.json 文件
 simplified_songlist = {str(i): song['id'] for i, song in enumerate(songlist['songs'])}
 simplified_path = os.path.join(json_folder, 'simplified_songlist.json')
-with open(simplified_path, 'w', encoding='utf-8') as f:
+with open(simplified_path, 'w', encoding='utf-8-sig') as f:
     json.dump(simplified_songlist, f, ensure_ascii=False, indent=4)
 # 生成 query.sql 文件
 sql_path = os.path.join(json_folder, 'query.sql')
@@ -182,6 +182,6 @@ PRAGMA foreign_keys = on;
 
 --COMMIT TRANSACTION"""
 insert_str = '\n'.join(insert_statements)
-with open(sql_path, 'w', encoding='utf-8') as sql_file:
+with open(sql_path, 'w', encoding='utf-8-sig') as sql_file:
     sql_file.write(sql_template.format(insert_statements=insert_str))
 print('Done!')

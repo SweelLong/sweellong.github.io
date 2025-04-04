@@ -44,7 +44,7 @@ class PlayResult {
 				this.illustration = (songId + ".jpg");
 			}
 		} else {
-			this.illustration = ("sayonarahatsukoi.jpg");
+			this.illustration = ("random.jpg");
 		}
 		if (diffSongNameMapping) {
 			const diffSongId = diffSongNameMapping[songId];
@@ -54,7 +54,7 @@ class PlayResult {
 				this.songName = songName;
 			}
 		} else {
-			this.songName = "Sayounara Hatsukoi";
+			this.songName = "Random";
 		}
 
 		this.innerIndex = innerIndex;

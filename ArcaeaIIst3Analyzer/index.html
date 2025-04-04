@@ -25,10 +25,6 @@
 					<button class="func-btn" onclick="readSavedScore()">读取缓存的分数数据</button>
 				</div>
 				<div id="func-container2">
-					<!-- <button class="func-btn" onclick="inputFile()">选择st3或分数表文件</button>
-					<button class="func-btn">读取缓存的分数数据</button>
-					<button class="func-btn">下载手填分数表</button> -->
-
 					<button class="func-btn" onclick="window.open('b30gen.html')">生成b30</button>
 					<button class="func-btn" onclick="window.open('completion.html')">查看完成表</button>
 				</div>
@@ -46,10 +42,8 @@
 				</div>
 				<div id="filter-btn-container">
 					<br />
-					<!-- <label for="filter-btn">显示曲目筛选</label><br /> -->
 					<button id="filter-btn" class="func-btn" onclick="displayWindow('filter-window')">筛选 / 排序</button>
-					<!-- <label for="switch-view">切换显示</label><br /> -->
-					<button id="switch-view" class="func-btn" onclick="switchView()">显示为卡片</button>
+					<!--<button id="switch-view" class="func-btn" onclick="switchView()">显示为卡片</button>-->
 				</div>
 
 			</div>
@@ -82,23 +76,10 @@
 					<button class="func-btn" id="convert-to-VHZEK" onclick="saveVHZEK()">保存为VH版万能查分表</button>
 					<br />
 					<input type="file" id="uploadExcel" hidden>
-					
 				</div>
 				<label>点曲绘可以对曲目信息进行修改🖼</label><br />
 				<label id="try-to-rotate">横屏可以显示更多信息！♻</label>
 				<div id="result-card" style="display: none;">
-
-					<!-- <div class="single-card beyond">
-						<div class="card-rank">#n</div>
-						<div class="card-ill-container">
-							<img class="card-ill" src="IllustrationMin/ii.jpg"/>
-						</div>
-						<div class="song-name">cybernacia catharasis</div>
-						<div class="song-score">10002221</div>
-						<div class="song-rating">12.8000</div>
-						<div class="song-percentage">99.1%</div>
-						<div class="song-achievement"></div>
-					</div> -->
 				</div>
 				<div id="result-table" style="display: none;">
 					<table id="result">
@@ -119,17 +100,6 @@
 
 						</thead>
 						<tbody>
-							<!-- <tr>
-								<td><img src="IllustrationMin/ii.jpg" class="table-ill"/></td>
-								<td>Fracture Ray</td>
-								<td>10000000</td>
-								<td>1000</td>
-								<td>500</td>
-								<td>100</td>
-								<td>10</td>
-								<td>11.3</td>
-								<td>11.3</td>
-							</tr> -->
 						</tbody>
 					</table>
 				</div>
@@ -161,7 +131,6 @@
 							<option value="score">分数</option>
 							<option value="criticalRate">大P率</option>
 							<option value="normalPerfect">小p数</option>
-							<!-- <option value="percentage">吃分率</option> -->
 							<option value="loseScore">失分数</option>
 						</select>
 						<label for="sort-order" class="filter-label">,</label>
@@ -196,7 +165,6 @@
 				<div class="filter-row">
 					<div class="filter-container">
 						<select id="search-result" class="filter-select">
-							<!-- <option style="background: url('../img/11.webp');"></option> -->
 							<option selected="selected"><img src="img/11.webp"
 									style="display: block; height: 1rem;" />结果会显示在这里</option>
 						</select>
@@ -227,7 +195,7 @@
 
 					<input type="number" hidden="hidden" value="0" id="modify-current-index" />
 					<div class="modify-row" id="modify-illustration-container">
-						<img src="Processed_Illustration/last.jpg" />
+						<img src="Processed_Illustration/random.jpg" />
 					</div>
 					<div class="modify-row" id="modify-song-name">
 						<label>修改显示的曲名</label>

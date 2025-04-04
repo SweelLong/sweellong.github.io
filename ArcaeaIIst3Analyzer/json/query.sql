@@ -1,4 +1,4 @@
-PRAGMA foreign_keys = off;
+﻿PRAGMA foreign_keys = off;
 BEGIN TRANSACTION;
 
 -- 表：allsongs

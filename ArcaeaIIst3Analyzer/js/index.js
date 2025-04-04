@@ -304,7 +304,7 @@ function saveQueryResult(result) {
 	});
 	filteredArray = currentArray;
 	displayB30(currentArray);
-	generateCard(currentArray);
+	// generateCard(currentArray);
 	generateTable(currentArray);
 	saveLocalStorage(currentArray);
 }
@@ -506,6 +506,7 @@ function calculateR10() {
  * 用于在卡片模式和表格模式之间切换
  * 本质是两个div的显示/隐藏切换
  */
+/*
 function switchView() {
 	//0=card 1=table
 	if (viewMode == 1) {
@@ -520,6 +521,7 @@ function switchView() {
 		$('#switch-view').text("显示为表格");
 	}
 }
+	*/
 /**
  * 下载分数表csv文件
  * 由于字符集限制只好用utf-8和全英文
