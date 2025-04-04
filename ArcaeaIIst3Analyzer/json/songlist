@@ -1,124 +1,45 @@
 {
-    "songs": [
+  "songs": [
+    {
+      "id": "arcahv",
+      "title_localized": {
+        "en": "Arcahv"
+      },
+      "artist": "Feryquitous",
+      "bpm": "191",
+      "bpm_base": 191,
+      "set": "single",
+      "purchase": "",
+      "category": "poprec",
+      "audioPreview": 1256,
+      "audioPreviewEnd": 31413,
+      "side": 2,
+      "bg": "arcahv",
+      "bg_inverse": "arcahv",
+      "world_unlock": true,
+      "date": 1590537606,
+      "version": "1.0",
+      "difficulties": [
         {
-            "id": "arcahv",
-            "title_localized": {
-                "en": "Arcahv"
-            },
-            "artist": "Feryquitous",
-            "bpm": "191",
-            "bpm_base": 191,
-            "set": "single",
-            "purchase": "",
-            "audioPreview": 1256,
-            "audioPreviewEnd": 31413,
-            "side": 2,
-            "bg": "arcahv",
-            "remote_dl": false,
-            "world_unlock": true,
-            "date": 1590537606,
-            "version": "1.0",
-            "difficulties": [
-                {
-                    "ratingClass": 0,
-                    "chartDesigner": "∅",
-                    "jacketDesigner": "シエラ",
-                    "rating": 4
-                },
-                {
-                    "ratingClass": 1,
-                    "chartDesigner": "∅",
-                    "jacketDesigner": "シエラ",
-                    "rating": 7
-                },
-                {
-                    "ratingClass": 2,
-                    "chartDesigner": "∅",
-                    "jacketDesigner": "シエラ",
-                    "rating": 9,
-                    "ratingPlus": true
-                }
-            ]
+          "ratingClass": 0,
+          "chartDesigner": "∅",
+          "jacketDesigner": "シエラ",
+          "rating": 4,
+          "ratingPlus": false
         },
         {
-            "id": "random",
-            "title_localized": {
-                "en": "RANDOM"
-            },
-            "artist": "",
-            "bpm": "",
-            "bpm_base": 0,
-            "set": "single",
-            "purchase": "",
-            "audioPreview": 0,
-            "audioPreviewEnd": 100000,
-            "side": 3,
-            "bg": "base_light",
-            "date": 1487980800,
-            "version": "?",
-            "difficulties": [
-                {
-                    "ratingClass": 0,
-                    "chartDesigner": "",
-                    "jacketDesigner": "",
-                    "rating": 0
-                },
-                {
-                    "ratingClass": 1,
-                    "chartDesigner": "",
-                    "jacketDesigner": "",
-                    "rating": 0
-                },
-                {
-                    "ratingClass": 2,
-                    "chartDesigner": "",
-                    "jacketDesigner": "",
-                    "rating": 0
-                },
-                {
-                    "ratingClass": 3,
-                    "chartDesigner": "",
-                    "jacketDesigner": "",
-                    "rating": 0
-                }
-            ]
+          "ratingClass": 1,
+          "chartDesigner": "∅",
+          "jacketDesigner": "シエラ",
+          "rating": 7,
+          "ratingPlus": false
         },
         {
-            "id": "tutorial",
-            "title_localized": {
-                "en": "Tutorial"
-            },
-            "artist": "ak+q",
-            "bpm": "128",
-            "bpm_base": 128,
-            "set": "base",
-            "purchase": "",
-            "audioPreview": 0,
-            "audioPreviewEnd": 36850,
-            "side": 0,
-            "bg": "vs_light",
-            "date": 1487980800,
-            "version": "?",
-            "difficulties": [
-                {
-                    "ratingClass": 0,
-                    "chartDesigner": "",
-                    "jacketDesigner": "",
-                    "rating": 1
-                },
-                {
-                    "ratingClass": 1,
-                    "chartDesigner": "",
-                    "jacketDesigner": "",
-                    "rating": 4
-                },
-                {
-                    "ratingClass": 2,
-                    "chartDesigner": "",
-                    "jacketDesigner": "",
-                    "rating": 0
-              
-
+          "ratingClass": 2,
+          "chartDesigner": "∅",
+          "jacketDesigner": "シエラ",
+          "rating": 9,
+          "ratingPlus": true
         }
       ]
     },
@@ -137,31 +58,34 @@
       "side": 2,
       "bg": "suito",
       "bg_inverse": "suito",
+      "world_unlock": false,
+      "date": 1736819014,
       "version": "1.0",
       "source_copyright": "From Roteano",
-      "date": 1736819014,         
-         "difficulties": [
-                {
-                    "ratingClass": 0,
-                    "chartDesigner": "",
-                    "jacketDesigner": "",
-                    "rating": 0,                    "hidden_until": "always"
-                },
-                {
-                    "ratingClass": 1,
-                    "chartDesigner": "",
-                    "jacketDesigner": "",
-                    "rating": 0,                    "hidden_until": "always"
-                },
-                {
-                    "ratingClass": 2,
-                    "chartDesigner": "Fatum",
-                    "jacketDesigner": "",
-                    "rating": 10,
-          "ratingPlus": true
-                    }
-            ]
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
         },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "Fatum",
+          "jacketDesigner": "",
+          "rating": 10,
+          "ratingPlus": true
+        }
+      ]
+    },
     {
       "id": "galacticwarzone",
       "title_localized": {
@@ -175,10 +99,12 @@
       "audioPreview": 33702,
       "audioPreviewEnd": 55772,
       "side": 1,
-      "bg": "galacticwarzone","bg_inverse": "galacticwarzone",
+      "bg": "galacticwarzone",
+      "bg_inverse": "galacticwarzone",
+      "world_unlock": false,
+      "date": 1737004707,
       "version": "1.0",
       "source_copyright": "From Roteano",
-      "date": 1737004707,
       "difficulties": [
         {
           "ratingClass": 0,
@@ -200,11 +126,10 @@
           "jacketDesigner": "Mechari",
           "rating": 10,
           "ratingPlus": true
-           
-              }
+        }
       ]
     },
- {
+    {
       "id": "permutation",
       "title_localized": {
         "en": "Permutation"
@@ -219,6 +144,7 @@
       "side": 1,
       "bg": "storm_1",
       "bg_inverse": "storm_0",
+      "world_unlock": false,
       "date": 1727933466,
       "version": "1.0.6",
       "source_copyright": "From Paradigm: Reboot",
@@ -227,24 +153,26 @@
           "ratingClass": 0,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": -1,                    "hidden_until": "always"
+          "rating": -1,
+          "ratingPlus": false
         },
         {
           "ratingClass": 1,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": -1,                    "hidden_until": "always"
+          "rating": -1,
+          "ratingPlus": false
         },
         {
           "ratingClass": 2,
           "chartDesigner": "橼",
           "jacketDesigner": "兔仔牛奶",
-          "rating": 10          
-
-          }
-            ]
-        },
-        {
+          "rating": 10,
+          "ratingPlus": false
+        }
+      ]
+    },
+    {
       "id": "Boss Rush - USAO",
       "title_localized": {
         "en": "Boss Rush"
@@ -254,24 +182,29 @@
       "bpm_base": 95,
       "set": "single",
       "purchase": "",
+      "category": "poprec",
       "audioPreview": 666,
       "audioPreviewEnd": 21838,
       "side": 1,
       "bg": "single2_conflict",
       "bg_inverse": "single2_light",
-      "version": "1.0.6",
+      "world_unlock": false,
       "date": 1739616110,
+      "version": "1.0.6",
       "difficulties": [
-        {          "ratingClass": 0,
+        {
+          "ratingClass": 0,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": -1,                    "hidden_until": "always"
+          "rating": -1,
+          "ratingPlus": false
         },
         {
           "ratingClass": 1,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": -1,                    "hidden_until": "always"
+          "rating": -1,
+          "ratingPlus": false
         },
         {
           "ratingClass": 2,
@@ -282,7 +215,7 @@
         }
       ]
     },
-        {
+    {
       "id": "quadruplicity",
       "title_localized": {
         "en": "Quadruplicity"
@@ -297,39 +230,42 @@
       "side": 0,
       "bg": "quadruplicity",
       "bg_inverse": "quadruplicity_1",
+      "world_unlock": false,
+      "date": 1739526165,
       "version": "1.0",
       "source_copyright": "From Roteano",
-      "date": 1739526165,
       "difficulties": [
         {
           "ratingClass": 0,
           "chartDesigner": "",
           "jacketDesigner": "",
           "rating": 0,
-          "ratingPlus": false,                    "hidden_until": "always"
+          "ratingPlus": false
         },
         {
           "ratingClass": 1,
           "chartDesigner": "",
           "jacketDesigner": "",
           "rating": 0,
-          "ratingPlus": false,                    "hidden_until": "always"
+          "ratingPlus": false
         },
         {
           "ratingClass": 2,
           "chartDesigner": "Fall_snoW",
           "jacketDesigner": "月裏",
           "rating": 10,
-          "ratingPlus": true  },
+          "ratingPlus": true
+        },
         {
           "ratingClass": 4,
           "chartDesigner": "殘夢 IV APed",
           "jacketDesigner": "月裏",
           "rating": 11,
-          "ratingPlus": false                }
+          "ratingPlus": false
+        }
       ]
     },
-  {
+    {
       "id": "sakuhoshiboshi",
       "title_localized": {
         "en": "咲く星々"
@@ -344,6 +280,7 @@
       "side": 0,
       "bg": "rotaeno_light",
       "bg_inverse": "rotaeno_conflict",
+      "world_unlock": false,
       "date": 1740144705,
       "version": "1.0",
       "source_copyright": "From Roteano",
@@ -352,14 +289,15 @@
           "ratingClass": 0,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": -1,                    "hidden_until": "always"
+          "rating": -1,
+          "ratingPlus": false
         },
         {
           "ratingClass": 1,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": -1,                    "hidden_until": "always"
-
+          "rating": -1,
+          "ratingPlus": false
         },
         {
           "ratingClass": 2,
@@ -370,7 +308,7 @@
         }
       ]
     },
-      {
+    {
       "id": "StarlightTraveler",
       "title_localized": {
         "en": "Starlight Traveler"
@@ -385,6 +323,7 @@
       "side": 0,
       "bg": "rotaeno_light",
       "bg_inverse": "rotaeno_conflict",
+      "world_unlock": false,
       "date": 1740144705,
       "version": "1.0",
       "source_copyright": "From Roteano",
@@ -393,24 +332,26 @@
           "ratingClass": 0,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": 0,                    "hidden_until": "always"
+          "rating": 0,
+          "ratingPlus": false
         },
         {
           "ratingClass": 1,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": 0,                    "hidden_until": "always"
+          "rating": 0,
+          "ratingPlus": false
         },
         {
           "ratingClass": 2,
           "chartDesigner": "凛サきい",
           "jacketDesigner": "Rotaeno",
-          "rating": 10,      
+          "rating": 10,
           "ratingPlus": true
-            }
+        }
       ]
     },
-      {
+    {
       "id": "Meteorite Lotus",
       "title_localized": {
         "en": "Meteorite Lotus"
@@ -424,7 +365,8 @@
       "audioPreviewEnd": 110396,
       "side": 1,
       "bg": "mirai_conflict",
-      "bg_inverse": "mirai_conflict", 
+      "bg_inverse": "mirai_conflict",
+      "world_unlock": false,
       "date": 1727949518,
       "version": "1.0.6",
       "source_copyright": "From Paradigm: Reboot",
@@ -433,13 +375,15 @@
           "ratingClass": 0,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": -1,                    "hidden_until": "always"
+          "rating": -1,
+          "ratingPlus": false
         },
         {
           "ratingClass": 1,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": -1,                    "hidden_until": "always"
+          "rating": -1,
+          "ratingPlus": false
         },
         {
           "ratingClass": 2,
@@ -450,7 +394,7 @@
         }
       ]
     },
-      {
+    {
       "id": "rere",
       "title_localized": {
         "en": "Ré：Ré"
@@ -460,11 +404,13 @@
       "bpm_base": 222,
       "set": "single",
       "purchase": "",
+      "category": "poprec",
       "audioPreview": 46214,
       "audioPreviewEnd": 59187,
       "side": 1,
       "bg": "observer_conflict",
-      "bg_inverse": "observer_light", 
+      "bg_inverse": "observer_light",
+      "world_unlock": false,
       "date": 1731223375,
       "version": "1.0.6",
       "source_copyright": "From Muse Dash",
@@ -473,30 +419,33 @@
           "ratingClass": 0,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": -1,                    "hidden_until": "always"
+          "rating": -1,
+          "ratingPlus": false
         },
         {
           "ratingClass": 1,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": -1,                    "hidden_until": "always"
+          "rating": -1,
+          "ratingPlus": false
         },
         {
           "ratingClass": 2,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": -1                    
+          "rating": -1,
+          "ratingPlus": false
         },
         {
           "ratingClass": 4,
           "chartDesigner": "- 残された鼓動 -\n- 壊れた魂 -",
           "jacketDesigner": "thurim6 ©PeroPero",
           "rating": 11,
-          "rantingPlus": true
+          "ratingPlus": false
         }
       ]
     },
-  {    
+    {
       "id": "noel",
       "title_localized": {
         "en": "Noël"
@@ -506,34 +455,38 @@
       "bpm_base": 220,
       "set": "single",
       "purchase": "",
-      "audioPreview":92449,
-      "audioPreviewEnd":105540,
+      "category": "poprec",
+      "audioPreview": 92449,
+      "audioPreviewEnd": 105540,
       "side": 0,
       "bg": "shiawase2",
       "bg_inverse": "shiawase2_1",
+      "world_unlock": false,
       "date": 1620691201,
       "version": "1.0.6",
-          "source_copyright": "From VOZE",
+      "source_copyright": "From VOZE",
       "difficulties": [
         {
           "ratingClass": 0,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": -1,                    "hidden_until": "always"
+          "rating": -1,
+          "ratingPlus": false
         },
         {
           "ratingClass": 1,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": -1,                    "hidden_until": "always"
+          "rating": -1,
+          "ratingPlus": false
         },
         {
           "ratingClass": 2,
           "chartDesigner": "IIlCutR1ylII affected by Okita",
           "jacketDesigner": "",
           "rating": 10,
-          "ratingPlus": true 
-             }
+          "ratingPlus": true
+        }
       ]
     },
     {
@@ -546,11 +499,13 @@
       "bpm_base": 170,
       "set": "single",
       "purchase": "",
+      "category": "poprec",
       "audioPreview": 40941,
       "audioPreviewEnd": 70235,
       "side": 0,
       "bg": "yu",
       "bg_inverse": "yu",
+      "world_unlock": false,
       "date": 1732896675,
       "version": "1.0.6",
       "difficulties": [
@@ -558,13 +513,15 @@
           "ratingClass": 0,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": -1,                    "hidden_until": "always"
+          "rating": -1,
+          "ratingPlus": false
         },
         {
           "ratingClass": 1,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": -1,                    "hidden_until": "always"
+          "rating": -1,
+          "ratingPlus": false
         },
         {
           "ratingClass": 2,
@@ -572,10 +529,10 @@
           "jacketDesigner": "原口沙輔",
           "rating": 9,
           "ratingPlus": true
-          }
+        }
       ]
     },
-      {
+    {
       "id": "World Vanquisher(Full)",
       "title_localized": {
         "en": "World Vanquisher(Full)"
@@ -585,28 +542,30 @@
       "bpm_base": 170,
       "set": "single",
       "purchase": "",
+      "category": "poprec",
       "audioPreview": 23834,
       "audioPreviewEnd": 48352,
       "side": 0,
       "bg": "worldvanquisherfull",
       "bg_inverse": "worldvanquisherfull",
+      "world_unlock": false,
+      "date": 1740203372,
       "version": "1.0.6",
       "source_copyright": "From CHUNITHM",
-      "date": 1740203372,
       "difficulties": [
         {
           "ratingClass": 0,
           "chartDesigner": "",
           "jacketDesigner": "",
           "rating": 0,
-          "ratingPlus": false,                    "hidden_until": "always"
+          "ratingPlus": false
         },
         {
           "ratingClass": 1,
           "chartDesigner": "",
           "jacketDesigner": "",
           "rating": 0,
-          "ratingPlus": false,                    "hidden_until": "always"
+          "ratingPlus": false
         },
         {
           "ratingClass": 2,
@@ -632,38 +591,42 @@
       "side": 1,
       "bg": "dongzhuo",
       "bg_inverse": "dongzhuo",
-      "version": "1.0.6",      "source_copyright": "Chaotic 止",
+      "world_unlock": false,
       "date": 1740203950,
+      "version": "1.0.6",
+      "source_copyright": "Chaotic 止",
       "difficulties": [
         {
           "ratingClass": 0,
           "chartDesigner": "",
           "jacketDesigner": "",
           "rating": 0,
-          "ratingPlus": false,                    "hidden_until": "always"
+          "ratingPlus": false
         },
         {
           "ratingClass": 1,
           "chartDesigner": "",
           "jacketDesigner": "",
           "rating": 0,
-          "ratingPlus": false,                    "hidden_until": "always"
+          "ratingPlus": false
         },
         {
           "ratingClass": 2,
           "chartDesigner": "ickちゃん推し",
           "jacketDesigner": "",
-          "rating": 0
+          "rating": 0,
+          "ratingPlus": false
         },
         {
           "ratingClass": 3,
           "chartDesigner": "ickちゃん推し",
           "jacketDesigner": "",
-          "rating": 0
+          "rating": 0,
+          "ratingPlus": false
         }
       ]
     },
-{
+    {
       "id": "supernova",
       "title_localized": {
         "en": "SUPERNOVA"
@@ -673,11 +636,13 @@
       "bpm_base": 252,
       "set": "single",
       "purchase": "",
+      "category": "poprec",
       "audioPreview": 146785,
       "audioPreviewEnd": 163928,
       "side": 1,
       "bg": "supernova",
       "bg_inverse": "supernova",
+      "world_unlock": false,
       "date": 1737860611,
       "version": "1.0.6",
       "source_copyright": "From vivid/stasis",
@@ -686,25 +651,26 @@
           "ratingClass": 0,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": -1,                    "hidden_until": "always"
+          "rating": -1,
+          "ratingPlus": false
         },
         {
           "ratingClass": 1,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": -1,                    "hidden_until": "always"
-
+          "rating": -1,
+          "ratingPlus": false
         },
         {
           "ratingClass": 2,
           "chartDesigner": "Cycle Count:8266\nLock S has been reset.",
           "jacketDesigner": "AriaL",
-          "rating": 13
-
+          "rating": 13,
+          "ratingPlus": false
         }
       ]
     },
-      {
+    {
       "id": "epitaxy",
       "title_localized": {
         "en": "epitaxy"
@@ -717,26 +683,27 @@
       "audioPreview": 51728,
       "audioPreviewEnd": 74023,
       "side": 0,
-      
       "bg": "epitaxy",
-      
       "bg_inverse": "epitaxy",
-      "version": "1.1.0",      "source_copyright": "From Roteano",
+      "world_unlock": false,
       "date": 1719459527,
+      "version": "1.1.0",
+      "source_copyright": "From Roteano",
       "difficulties": [
         {
           "ratingClass": 0,
           "chartDesigner": "",
           "jacketDesigner": "",
           "rating": 0,
-          "ratingPlus": false,                    "hidden_until": "always"
+          "ratingPlus": false
         },
         {
           "ratingClass": 1,
           "chartDesigner": "",
           "jacketDesigner": "",
           "rating": 0,
-          "ratingPlus": false,                    "hidden_until": "always"        },
+          "ratingPlus": false
+        },
         {
           "ratingClass": 2,
           "chartDesigner": "F",
@@ -753,7 +720,7 @@
         }
       ]
     },
-  {
+    {
       "id": "totsukanotsurugi",
       "title_localized": {
         "en": "十拳剣"
@@ -763,76 +730,85 @@
       "bpm_base": 212,
       "set": "single",
       "purchase": "",
+      "category": "poprec",
       "audioPreview": 128349,
       "audioPreviewEnd": 154176,
       "side": 1,
       "bg": "totsukanotsurugi",
       "bg_inverse": "totsukanotsurugi",
+      "world_unlock": false,
       "date": 1706447312,
       "version": "2.0",
-            "source_copyright": "From Orzmic",
+      "source_copyright": "From Orzmic",
       "difficulties": [
         {
           "ratingClass": 0,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": -1,                    "hidden_until": "always"
+          "rating": -1,
+          "ratingPlus": false
         },
         {
           "ratingClass": 1,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": -1,                    "hidden_until": "always"
+          "rating": -1,
+          "ratingPlus": false
         },
         {
           "ratingClass": 2,
           "chartDesigner": "Johnese",
           "jacketDesigner": "",
-          "rating": 11
-          }
+          "rating": 11,
+          "ratingPlus": false
+        }
       ]
     },
-  {
+    {
       "id": "tsunagite(SaltedFish)",
       "title_localized": {
         "en": "系ぎて"
       },
       "artist": "rintaro soma",
       "bpm": "88",
-      "bpm_base": 177.6,
+      "bpm_base": 177,
       "set": "single",
       "purchase": "",
+      "category": "poprec",
       "audioPreview": 47922,
       "audioPreviewEnd": 69541,
       "side": 0,
       "bg": "vs_light",
       "bg_inverse": "vs_light",
-      "version": "2.0",      "source_copyright": "From maimai",
+      "world_unlock": false,
       "date": 20240317,
+      "version": "2.0",
+      "source_copyright": "From maimai",
       "difficulties": [
         {
           "ratingClass": 0,
           "chartDesigner": "",
           "jacketDesigner": "",
           "rating": 0,
-                             "hidden_until": "always"
+          "ratingPlus": false
         },
         {
           "ratingClass": 1,
           "chartDesigner": "",
           "jacketDesigner": "",
           "rating": 0,
-                              "hidden_until": "always"
+          "ratingPlus": false
         },
         {
           "ratingClass": 2,
           "chartDesigner": "···line to line···\n···hand to hand···\n···friend to friend···\n···heart to heart···",
           "jacketDesigner": "Shinichiro Miyazaki",
           "rating": 9,
-          "ratingPlus": true          }
+          "ratingPlus": true
+        }
       ]
     },
-{
+    {
       "id": "turningpoint",
       "title_localized": {
         "en": "Turning Point"
@@ -847,36 +823,35 @@
       "side": 0,
       "bg": "storm_0",
       "bg_inverse": "storm_1",
+      "world_unlock": false,
+      "date": 1651477892,
       "version": "2.0",
       "source_copyright": "From Paradigm:Reboot",
-      "date": 1651477892,
       "difficulties": [
         {
           "ratingClass": 0,
           "chartDesigner": "-",
           "jacketDesigner": "",
           "rating": -1,
-          "ratingPlus": false,
-                              "hidden_until": "always"
+          "ratingPlus": false
         },
         {
           "ratingClass": 1,
           "chartDesigner": "-",
           "jacketDesigner": "",
           "rating": -1,
-          "ratingPlus": false,
-                              "hidden_until": "always"
+          "ratingPlus": false
         },
         {
           "ratingClass": 2,
           "chartDesigner": "PureWhite3733",
           "jacketDesigner": "",
           "rating": 9,
-          "ratingPlus": true 
-          }
+          "ratingPlus": true
+        }
       ]
     },
-{
+    {
       "id": "viyellasmelancholy",
       "title_localized": {
         "en": "Viyella's Melancholy"
@@ -891,26 +866,24 @@
       "side": 1,
       "bg": "viyella",
       "bg_inverse": "viyella",
+      "world_unlock": false,
+      "date": 1736754607,
       "version": "2.0",
       "source_copyright": "From Paradigm:Reboot",
-      "date": 1736754607,
       "difficulties": [
         {
           "ratingClass": 0,
           "chartDesigner": "PureWhite3733",
           "jacketDesigner": "みしやも",
           "rating": 0,
-          "ratingPlus": false,
-                              "hidden_until": "always"
+          "ratingPlus": false
         },
         {
           "ratingClass": 1,
           "chartDesigner": "PureWhite3733",
           "jacketDesigner": "みしやも",
           "rating": 0,
-          "ratingPlus": false,
-                              "hidden_until": "always"
-        
+          "ratingPlus": false
         },
         {
           "ratingClass": 2,
@@ -918,10 +891,10 @@
           "jacketDesigner": "みしやも",
           "rating": 11,
           "ratingPlus": false
-          }
+        }
       ]
     },
-      {
+    {
       "id": "Abyssgazer",
       "title_localized": {
         "en": "Abyssgazer"
@@ -936,15 +909,17 @@
       "side": 0,
       "bg": "abyssgazer",
       "bg_inverse": "abyssgazer_2",
+      "world_unlock": false,
+      "date": 7,
       "version": "2.0",
       "source_copyright": "From Paradigm:Reboot",
-      "date": 7,
       "difficulties": [
         {
           "ratingClass": 0,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": -1
+          "rating": -1,
+          "ratingPlus": false
         },
         {
           "ratingClass": 1,
@@ -959,10 +934,10 @@
           "jacketDesigner": "子一",
           "rating": 11,
           "ratingPlus": true
-          }
+        }
       ]
     },
-      {
+    {
       "id": "observatory",
       "title_localized": {
         "en": "Observatory"
@@ -977,6 +952,7 @@
       "side": 1,
       "bg": "observatory",
       "bg_inverse": "observatory",
+      "world_unlock": false,
       "date": 1705059854,
       "version": "2.0",
       "difficulties": [
@@ -985,15 +961,14 @@
           "chartDesigner": "",
           "jacketDesigner": "",
           "rating": -1,
-                              "hidden_until": "always"
+          "ratingPlus": false
         },
         {
           "ratingClass": 1,
           "chartDesigner": "",
           "jacketDesigner": "",
           "rating": 0,
-                              "hidden_until": "always"
-        
+          "ratingPlus": false
         },
         {
           "ratingClass": 2,
@@ -1004,7 +979,7 @@
         }
       ]
     },
-	{
+    {
       "id": "renascence",
       "title_localized": {
         "en": "Re_Nascence(Psystyle.ver)"
@@ -1014,38 +989,40 @@
       "bpm_base": 150,
       "set": "single",
       "purchase": "",
+      "category": "poprec",
       "audioPreview": 30500,
       "audioPreviewEnd": 44400,
       "side": 1,
       "bg": "renascence",
       "bg_inverse": "renascence",
-      "version": "2.0",
+      "world_unlock": false,
       "date": 1494547200,
+      "version": "2.0",
       "difficulties": [
         {
           "ratingClass": 0,
           "chartDesigner": "",
           "jacketDesigner": "",
           "rating": 0,
-                              "hidden_until": "always"
+          "ratingPlus": false
         },
         {
           "ratingClass": 1,
           "chartDesigner": "",
           "jacketDesigner": "",
           "rating": 0,
-                              "hidden_until": "always"
+          "ratingPlus": false
         },
         {
           "ratingClass": 2,
           "chartDesigner": "TinySnowPig x FoxSqrt Revitalization",
           "jacketDesigner": "Tsuioku",
           "rating": 9,
-          "ratingPlus": true     
-             }
+          "ratingPlus": true
+        }
       ]
     },
-{
+    {
       "id": "rushe",
       "title_localized": {
         "en": "RUSH E"
@@ -1055,11 +1032,13 @@
       "bpm_base": 170,
       "set": "single",
       "purchase": "",
+      "category": "poprec",
       "audioPreview": 41495,
       "audioPreviewEnd": 67174,
       "side": 1,
       "bg": "base_conflict",
       "bg_inverse": "base_light",
+      "world_unlock": false,
       "date": 1740840149,
       "version": "2.0",
       "difficulties": [
@@ -1068,24 +1047,25 @@
           "chartDesigner": "",
           "jacketDesigner": "",
           "rating": -1,
-                              "hidden_until": "always"
+          "ratingPlus": false
         },
         {
           "ratingClass": 1,
           "chartDesigner": "",
           "jacketDesigner": "",
           "rating": -1,
-                              "hidden_until": "always"
+          "ratingPlus": false
         },
         {
           "ratingClass": 2,
           "chartDesigner": "抖mのCOOR",
           "jacketDesigner": "Tsukimi Kaya",
-          "rating": 10
+          "rating": 10,
+          "ratingPlus": false
         }
       ]
     },
-  {
+    {
       "id": "Lostwizz",
       "title_localized": {
         "en": "Lostwizz"
@@ -1095,27 +1075,29 @@
       "bpm_base": 155,
       "set": "single",
       "purchase": "",
+      "category": "poprec",
       "audioPreview": 0,
       "audioPreviewEnd": 100000,
       "side": 1,
       "bg": "byd2conflict",
       "bg_inverse": "byd2conflict",
-      "version": "2.0",
+      "world_unlock": false,
       "date": 1740888460,
+      "version": "2.0",
       "difficulties": [
         {
           "ratingClass": 0,
           "chartDesigner": "",
           "jacketDesigner": "",
           "rating": 0,
-          "ratingPlus": false,                    "hidden_until": "always"
+          "ratingPlus": false
         },
         {
           "ratingClass": 1,
           "chartDesigner": "",
           "jacketDesigner": "",
           "rating": 0,
-          "ratingPlus": false,                    "hidden_until": "always"
+          "ratingPlus": false
         },
         {
           "ratingClass": 2,
@@ -1123,10 +1105,10 @@
           "jacketDesigner": "",
           "rating": 10,
           "ratingPlus": false
-          }
+        }
       ]
     },
-  {
+    {
       "id": "eureka",
       "title_localized": {
         "en": "'Eureka'"
@@ -1141,31 +1123,34 @@
       "side": 1,
       "bg": "single2_conflict",
       "bg_inverse": "single2_light",
-      "version": "2.0",
+      "world_unlock": false,
       "date": 10,
+      "version": "2.0",
       "difficulties": [
         {
           "ratingClass": 0,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": 0,                    "hidden_until": "always"
+          "rating": 0,
+          "ratingPlus": false
         },
         {
           "ratingClass": 1,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": 0,                    "hidden_until": "always"
-        
+          "rating": 0,
+          "ratingPlus": false
         },
         {
           "ratingClass": 2,
           "chartDesigner": "2005*1998 'Eureka!'",
           "jacketDesigner": "pam+HDLV",
           "rating": 10,
-          "ratingPlus": false          }
+          "ratingPlus": false
+        }
       ]
     },
-  {
+    {
       "id": "anomaly",
       "title_localized": {
         "en": "Anomaly"
@@ -1180,6 +1165,7 @@
       "side": 0,
       "bg": "single2_light",
       "bg_inverse": "single2_conflict",
+      "world_unlock": false,
       "date": 1,
       "version": "2.0",
       "difficulties": [
@@ -1187,68 +1173,76 @@
           "ratingClass": 0,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": 0,                    "hidden_until": "always"
+          "rating": 0,
+          "ratingPlus": false
         },
         {
           "ratingClass": 1,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": 0,                    "hidden_until": "always"
+          "rating": 0,
+          "ratingPlus": false
         },
         {
           "ratingClass": 2,
           "chartDesigner": "C/:--h61ai--)))lLL551",
           "jacketDesigner": "姜米條",
-          "rating": 9
+          "rating": 9,
+          "ratingPlus": false
         },
         {
           "ratingClass": 3,
           "chartDesigner": "··71-322:;[[.;:",
           "jacketDesigner": "姜米條",
-          "rating": 10          }
+          "rating": 10,
+          "ratingPlus": false
+        }
       ]
     },
-        {
-            "id": "angeldust",
-            "title_localized": {
-                "en": "Angel dust"
-            },
-            "artist": "LV.4",
-            "bpm": "170",
-            "bpm_base": 170.0,
-            "set": "single",
-            "purchase": "",
-            "audioPreview": 92024,
-            "audioPreviewEnd": 114529,
-            "side": 1,
-            "bg": "single_conflict",
+    {
+      "id": "angeldust",
+      "title_localized": {
+        "en": "Angel dust"
+      },
+      "artist": "LV.4",
+      "bpm": "170",
+      "bpm_base": 170,
+      "set": "single",
+      "purchase": "",
+      "category": "poprec",
+      "audioPreview": 92024,
+      "audioPreviewEnd": 114529,
+      "side": 1,
+      "bg": "single_conflict",
       "bg_inverse": "single_light",
-            "date": 1740936016,
-            "version": "2.0",
-            "difficulties": [
-                {                                           "ratingClass": 0,
-                    "chartDesigner": "",
-                    "jacketDesigner": "",
-                    "rating": 0,                    "hidden_until": "always"
-
-                },
-                {
-                    "ratingClass": 1,
-                    "chartDesigner": "",
-                    "jacketDesigner": "",
-                    "rating": 0,                    "hidden_until": "always"
-
-                },
-                {
-                    "ratingClass": 2,
-                    "chartDesigner": "鈴海風",
-                    "jacketDesigner": "",
-                    "rating": 10
-
-                }
-            ]
+      "world_unlock": false,
+      "date": 1740936016,
+      "version": "2.0",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
         },
-{
+        {
+          "ratingClass": 1,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "鈴海風",
+          "jacketDesigner": "",
+          "rating": 10,
+          "ratingPlus": false
+        }
+      ]
+    },
+    {
       "id": "Double Agent",
       "title_localized": {
         "en": "Double Agent"
@@ -1258,34 +1252,36 @@
       "bpm_base": 160,
       "set": "single",
       "purchase": "",
+      "category": "poprec",
       "audioPreview": 109874,
       "audioPreviewEnd": 121596,
       "side": 1,
       "bg": "prelude_conflict",
       "bg_inverse": "prelude_light",
-      "version": "2.1.0",
+      "world_unlock": false,
       "date": 1740821787,
+      "version": "2.1.0",
       "difficulties": [
         {
           "ratingClass": 0,
           "chartDesigner": "",
           "jacketDesigner": "",
           "rating": 0,
-          "ratingPlus": false,                    "hidden_until": "always"
+          "ratingPlus": false
         },
         {
           "ratingClass": 1,
           "chartDesigner": "",
           "jacketDesigner": "",
           "rating": 0,
-          "ratingPlus": false,                    "hidden_until": "always"
+          "ratingPlus": false
         },
         {
           "ratingClass": 2,
           "chartDesigner": "",
           "jacketDesigner": "",
           "rating": 0,
-          "ratingPlus": false,                    "hidden_until": "always"
+          "ratingPlus": false
         },
         {
           "ratingClass": 3,
@@ -1293,133 +1289,144 @@
           "jacketDesigner": "",
           "rating": 10,
           "ratingPlus": false
-          }
-            ]
-        },
+        }
+      ]
+    },
     {
-  "id": "boundedquietude",
-  "title_localized": {
-    "en": "Bounded Quietude"
-  },
-  "artist": "SiLiS vs Finite Limit",
-  "bpm": "280",
-  "bpm_base": 280.0,
-  "set": "single",
-  "purchase": "",
-  "audioPreview": 54428,
-  "audioPreviewEnd": 84000,
-  "side": 1,
-  "bg": "eden_conflict",
+      "id": "boundedquietude",
+      "title_localized": {
+        "en": "Bounded Quietude"
+      },
+      "artist": "SiLiS vs Finite Limit",
+      "bpm": "280",
+      "bpm_base": 280,
+      "set": "single",
+      "purchase": "",
+      "category": "poprec",
+      "audioPreview": 54428,
+      "audioPreviewEnd": 84000,
+      "side": 1,
+      "bg": "eden_conflict",
       "bg_inverse": "eden_light",
-  "remote_dl": false,
-  "world_unlock": false,
-  "date": 0,
-  "version": "2.1.0",
-  "difficulties": [
-    {
-      "ratingClass": 0,
-      "chartDesigner": "",
-      "jacketDesigner": "",
-      "rating": 0,                    "hidden_until": "always"
-    },
-    {
-      "ratingClass": 1,
-      "chartDesigner": "",
-      "jacketDesigner": "",
-      "rating": 0,                    "hidden_until": "always"
-    },
-    {
-      "ratingClass": 2,
-      "chartDesigner": "[EXTRA+] FindersX ~BREAK the SILENCE~",
-      "jacketDesigner": "",
-      "rating": 11
-                }
-            ]
+      "world_unlock": false,
+      "date": 0,
+      "version": "2.1.0",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
         },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "[EXTRA+] FindersX ~BREAK the SILENCE~",
+          "jacketDesigner": "",
+          "rating": 11,
+          "ratingPlus": false
+        }
+      ]
+    },
     {
-  "id": "gekka",
-  "title_localized": {
-    "en": "Gekka (Short Version)"
-  },
-  "artist": "Nhato",
-  "bpm": "132",
-  "bpm_base": 132.0,
-  "set": "single",
-  "purchase": "",
-  "audioPreview": 0,
-  "audioPreviewEnd": 10000,
-  "side": 0,
-   "bg": "single_light",
+      "id": "gekka",
+      "title_localized": {
+        "en": "Gekka (Short Version)"
+      },
+      "artist": "Nhato",
+      "bpm": "132",
+      "bpm_base": 132,
+      "set": "single",
+      "purchase": "",
+      "category": "poprec",
+      "audioPreview": 0,
+      "audioPreviewEnd": 10000,
+      "side": 0,
+      "bg": "single_light",
       "bg_inverse": "single_conflict",
-  "remote_dl": false,
-  "world_unlock": false,
-  "date": 0,
-  "version": "2.1.0",
-  "difficulties": [
-    {
-      "ratingClass": 0,
-      "chartDesigner": "",
-      "jacketDesigner": "",
-      "rating": 0,                    "hidden_until": "always"
-    },
-    {
-      "ratingClass": 1,
-      "chartDesigner": "",
-      "jacketDesigner": "",
-      "rating": 0,                    "hidden_until": "always"   
-    },
-    {
-      "ratingClass": 2,
-      "chartDesigner": "",
-      "jacketDesigner": "",
-      "rating": 0,                    "hidden_until": "always"
-    },
-    {
-      "ratingClass": 3,
-      "chartDesigner": "TheSamsara666 affected by Nitro",
-      "jacketDesigner": "",
-      "rating": 9,
-      "ratingPlus": true
-                }
-            ]
+      "world_unlock": false,
+      "date": 0,
+      "version": "2.1.0",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
         },
-{
-            "id": "wegonnaparty",
-            "title_localized": {
-                "en": "We Gonna Party"
-            },
-            "artist": "Cranky",
-            "bpm": "159",
-            "bpm_base": 159.0,
-            "set": "lowest",
-            "purchase": "",
-            "audioPreview": 9063,
-            "audioPreviewEnd": 22258,
-            "bg": "maimai_boss",
-            "bg_inverse": "maimai_boss",
-            "date": 1739119281,
-            "version": "2.1.0",
-            "difficulties": [
-                {
-                                        "ratingClass": 0,
-                    "chartDesigner": "Suzu Umikaze",
-                    "jacketDesigner": "",
-                    "rating": 0,                    "hidden_until": "always"
-                },
-                {
-                    "ratingClass": 1,
-                    "chartDesigner": "Suzu Umikaze",
-                    "jacketDesigner": "",
-                    "rating": 0,                    "hidden_until": "always"
-                },
-                {
-                    "ratingClass": 2,
-                    "chartDesigner": "Suzu Umikaze",
-                    "jacketDesigner": "",
-                    "rating": 9
-                }
-            ]
+        {
+          "ratingClass": 1,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
         },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 3,
+          "chartDesigner": "TheSamsara666 affected by Nitro",
+          "jacketDesigner": "",
+          "rating": 9,
+          "ratingPlus": true
+        }
+      ]
+    },
+    {
+      "id": "wegonnaparty",
+      "title_localized": {
+        "en": "We Gonna Party"
+      },
+      "artist": "Cranky",
+      "bpm": "159",
+      "bpm_base": 159,
+      "set": "lowest",
+      "purchase": "",
+      "audioPreview": 9063,
+      "audioPreviewEnd": 22258,
+      "side": 0,
+      "bg": "maimai_boss",
+      "bg_inverse": "maimai_boss",
+      "world_unlock": false,
+      "date": 1739119281,
+      "version": "2.1.0",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "Suzu Umikaze",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "Suzu Umikaze",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "Suzu Umikaze",
+          "jacketDesigner": "",
+          "rating": 9,
+          "ratingPlus": false
+        }
+      ]
+    },
     {
       "id": "missionary",
       "title_localized": {
@@ -1435,22 +1442,23 @@
       "side": 0,
       "bg": "single_light",
       "bg_inverse": "single_conflict",
-      "version": "2.1.0",
+      "world_unlock": false,
       "date": 1741422535,
+      "version": "2.1.0",
       "difficulties": [
         {
           "ratingClass": 0,
           "chartDesigner": "",
           "jacketDesigner": "",
           "rating": 0,
-          "ratingPlus": false,                    "hidden_until": "always"
+          "ratingPlus": false
         },
         {
           "ratingClass": 1,
           "chartDesigner": "",
           "jacketDesigner": "",
           "rating": 0,
-          "ratingPlus": false,                    "hidden_until": "always"
+          "ratingPlus": false
         },
         {
           "ratingClass": 2,
@@ -1476,22 +1484,23 @@
       "side": 0,
       "bg": "storm_0",
       "bg_inverse": "storm_1",
-      "version": "2.1.0",
+      "world_unlock": false,
       "date": 1741422982,
+      "version": "2.1.0",
       "difficulties": [
         {
           "ratingClass": 0,
           "chartDesigner": "",
           "jacketDesigner": "",
           "rating": 0,
-          "ratingPlus": false,                    "hidden_until": "always"
+          "ratingPlus": false
         },
         {
           "ratingClass": 1,
           "chartDesigner": "",
           "jacketDesigner": "",
           "rating": 0,
-          "ratingPlus": false,                    "hidden_until": "always"
+          "ratingPlus": false
         },
         {
           "ratingClass": 2,
@@ -1502,7 +1511,7 @@
         }
       ]
     },
- {
+    {
       "id": "amiya",
       "title_localized": {
         "en": "......已至"
@@ -1517,6 +1526,7 @@
       "side": 1,
       "bg": "amiya",
       "bg_inverse": "amiya",
+      "world_unlock": false,
       "date": 1736921746,
       "version": "2.1.0",
       "difficulties": [
@@ -1524,13 +1534,15 @@
           "ratingClass": 0,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": -1,                    "hidden_until": "always"
+          "rating": -1,
+          "ratingPlus": false
         },
         {
           "ratingClass": 1,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": -1,                    "hidden_until": "always"
+          "rating": -1,
+          "ratingPlus": false
         },
         {
           "ratingClass": 2,
@@ -1538,10 +1550,10 @@
           "jacketDesigner": "",
           "rating": 10,
           "ratingPlus": true
-         }
+        }
       ]
     },
-      {
+    {
       "id": "para with riz",
       "title_localized": {
         "en": "Paradial Resonator"
@@ -1551,27 +1563,29 @@
       "bpm_base": 156,
       "set": "single",
       "purchase": "",
+      "category": "poprec",
       "audioPreview": 14712,
       "audioPreviewEnd": 27020,
       "side": 0,
       "bg": "paradialresonator",
       "bg_inverse": "paradialresonator",
-      "version": "2.1.0",
+      "world_unlock": false,
       "date": 1741496143,
+      "version": "2.1.0",
       "difficulties": [
         {
           "ratingClass": 0,
           "chartDesigner": "",
           "jacketDesigner": "",
           "rating": 0,
-          "ratingPlus": false,                    "hidden_until": "always"
+          "ratingPlus": false
         },
         {
           "ratingClass": 1,
           "chartDesigner": "",
           "jacketDesigner": "",
           "rating": 0,
-          "ratingPlus": false,                    "hidden_until": "always"
+          "ratingPlus": false
         },
         {
           "ratingClass": 2,
@@ -1592,27 +1606,29 @@
       "bpm_base": 180,
       "set": "single",
       "purchase": "",
+      "category": "poprec",
       "audioPreview": 0,
       "audioPreviewEnd": 134394,
       "side": 2,
       "bg": "colorless",
       "bg_inverse": "colorless",
-      "version": "2.1.0",
+      "world_unlock": false,
       "date": 1741500674,
+      "version": "2.1.0",
       "difficulties": [
         {
           "ratingClass": 0,
           "chartDesigner": "",
           "jacketDesigner": "",
           "rating": 0,
-          "ratingPlus": false,                    "hidden_until": "always"
+          "ratingPlus": false
         },
         {
           "ratingClass": 1,
           "chartDesigner": "",
           "jacketDesigner": "",
           "rating": 0,
-          "ratingPlus": false,                    "hidden_until": "always"
+          "ratingPlus": false
         },
         {
           "ratingClass": 2,
@@ -1623,7 +1639,7 @@
         }
       ]
     },
-  {
+    {
       "id": "echoism",
       "title_localized": {
         "en": "Echoism"
@@ -1638,6 +1654,7 @@
       "side": 1,
       "bg": "echoism",
       "bg_inverse": "echoism",
+      "world_unlock": false,
       "date": 1716038840,
       "version": "2.1.0",
       "difficulties": [
@@ -1645,19 +1662,22 @@
           "ratingClass": 0,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": -1
+          "rating": -1,
+          "ratingPlus": false
         },
         {
           "ratingClass": 1,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": -1
+          "rating": -1,
+          "ratingPlus": false
         },
         {
           "ratingClass": 2,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": -1
+          "rating": -1,
+          "ratingPlus": false
         },
         {
           "ratingClass": 4,
@@ -1668,7 +1688,7 @@
         }
       ]
     },
-  {
+    {
       "id": "kupingjing",
       "title_localized": {
         "en": "枯枰竞"
@@ -1683,32 +1703,31 @@
       "side": 0,
       "bg": "kupingjing",
       "bg_inverse": "kupingjing",
-      "source_localized": {
-        "en": "明日方舟"
-       },
-      "source_copyright": "©Monster Siren Records",
+      "world_unlock": false,
       "date": 1738579863,
       "version": "2.1.0",
+      "source_copyright": "©Monster Siren Records",
       "difficulties": [
         {
           "ratingClass": 0,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": -1,                    "hidden_until": "always"
+          "rating": -1,
+          "ratingPlus": false
         },
         {
           "ratingClass": 1,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": -1,                    "hidden_until": "always"
+          "rating": -1,
+          "ratingPlus": false
         },
         {
           "ratingClass": 2,
           "chartDesigner": "司岁台",
           "jacketDesigner": "",
-          "rating": 10
-
-        
+          "rating": 10,
+          "ratingPlus": false
         }
       ]
     },
@@ -1727,22 +1746,23 @@
       "side": 1,
       "bg": "observer_conflict",
       "bg_inverse": "observer_light",
-      "version": "2.1.0",
+      "world_unlock": false,
       "date": 2024,
+      "version": "2.1.0",
       "difficulties": [
         {
           "ratingClass": 0,
           "chartDesigner": "",
           "jacketDesigner": "",
           "rating": 0,
-          "ratingPlus": false,                    "hidden_until": "always"
+          "ratingPlus": false
         },
         {
           "ratingClass": 1,
           "chartDesigner": "",
           "jacketDesigner": "",
           "rating": 0,
-          "ratingPlus": false,                    "hidden_until": "always"
+          "ratingPlus": false
         },
         {
           "ratingClass": 2,
@@ -1768,22 +1788,23 @@
       "side": 1,
       "bg": "chunithmthird_conflict",
       "bg_inverse": "chunithmthird_conflict",
-      "version": "2.1.0",
+      "world_unlock": false,
       "date": 20241001,
+      "version": "2.1.0",
       "difficulties": [
         {
           "ratingClass": 0,
           "chartDesigner": "",
           "jacketDesigner": "",
           "rating": 0,
-          "ratingPlus": false,                    "hidden_until": "always"
+          "ratingPlus": false
         },
         {
           "ratingClass": 1,
           "chartDesigner": "",
           "jacketDesigner": "",
           "rating": 0,
-          "ratingPlus": false,                    "hidden_until": "always"
+          "ratingPlus": false
         },
         {
           "ratingClass": 2,
@@ -1809,22 +1830,23 @@
       "side": 0,
       "bg": "tonesphere-solarsphere",
       "bg_inverse": "tonesphere-darksphere",
-      "version": "2.1.0",
+      "world_unlock": false,
       "date": 1705059854,
+      "version": "2.1.0",
       "difficulties": [
         {
           "ratingClass": 0,
           "chartDesigner": "",
           "jacketDesigner": "",
           "rating": 0,
-          "ratingPlus": false,                    "hidden_until": "always"
+          "ratingPlus": false
         },
         {
           "ratingClass": 1,
           "chartDesigner": "",
           "jacketDesigner": "",
           "rating": 0,
-          "ratingPlus": false,                    "hidden_until": "always"
+          "ratingPlus": false
         },
         {
           "ratingClass": 2,
@@ -1850,22 +1872,23 @@
       "side": 1,
       "bg": "tempestissimo_red",
       "bg_inverse": "tempestissimo_red",
-      "version": "2.1.0",
+      "world_unlock": false,
       "date": 1706071203,
+      "version": "2.1.0",
       "difficulties": [
         {
           "ratingClass": 0,
           "chartDesigner": "",
           "jacketDesigner": "",
           "rating": 0,
-          "ratingPlus": false,                    "hidden_until": "always"
+          "ratingPlus": false
         },
         {
           "ratingClass": 1,
           "chartDesigner": "",
           "jacketDesigner": "",
           "rating": 0,
-          "ratingPlus": false,                    "hidden_until": "always"
+          "ratingPlus": false
         },
         {
           "ratingClass": 2,
@@ -1891,6 +1914,7 @@
       "side": 0,
       "bg": "bg_mirai_light",
       "bg_inverse": "bg_mirai_conflict",
+      "world_unlock": false,
       "date": 1665741735,
       "version": "2.1.0",
       "difficulties": [
@@ -1899,14 +1923,14 @@
           "chartDesigner": "",
           "jacketDesigner": "",
           "rating": 1,
-          "ratingPlus": false,                    "hidden_until": "always"
+          "ratingPlus": false
         },
         {
           "ratingClass": 1,
           "chartDesigner": "",
           "jacketDesigner": "",
           "rating": 1,
-          "ratingPlus": false,                    "hidden_until": "always"
+          "ratingPlus": false
         },
         {
           "ratingClass": 2,
@@ -1914,7 +1938,7 @@
           "jacketDesigner": "手島nari",
           "rating": 10,
           "ratingPlus": false
-       },
+        },
         {
           "ratingClass": 3,
           "chartDesigner": "Fantasy",
@@ -1934,34 +1958,36 @@
       "bpm_base": 301,
       "set": "single",
       "purchase": "",
+      "category": "poprec",
       "audioPreview": 996,
       "audioPreviewEnd": 38272,
       "side": 0,
       "bg": "epilogue",
       "bg_inverse": "epilogue",
-      "version": "2.1.0",
+      "world_unlock": false,
       "date": 1688954258,
+      "version": "2.1.0",
       "difficulties": [
         {
           "ratingClass": 0,
           "chartDesigner": "",
           "jacketDesigner": "",
           "rating": -1,
-          "ratingPlus": false,                    "hidden_until": "always"
+          "ratingPlus": false
         },
         {
           "ratingClass": 1,
           "chartDesigner": "",
           "jacketDesigner": "",
           "rating": -1,
-          "ratingPlus": false,                    "hidden_until": "always"
+          "ratingPlus": false
         },
         {
           "ratingClass": 2,
           "chartDesigner": "",
           "jacketDesigner": "",
           "rating": -1,
-          "ratingPlus": false,                    "hidden_until": "always"
+          "ratingPlus": false
         },
         {
           "ratingClass": 3,
@@ -1972,7 +1998,7 @@
         }
       ]
     },
-     {
+    {
       "id": "emptycatharsis",
       "title_localized": {
         "en": "空白とカタルシス"
@@ -1987,22 +2013,23 @@
       "side": 1,
       "bg": "tanoc_conflict",
       "bg_inverse": "tanoc_light",
-      "version": "2.1.0",
+      "world_unlock": false,
       "date": 1720526899,
+      "version": "2.1.0",
       "difficulties": [
         {
           "ratingClass": 0,
           "chartDesigner": "",
           "jacketDesigner": "",
           "rating": 0,
-          "ratingPlus": false,                    "hidden_until": "always"
+          "ratingPlus": false
         },
         {
           "ratingClass": 1,
           "chartDesigner": "",
           "jacketDesigner": "",
           "rating": 0,
-          "ratingPlus": false,                    "hidden_until": "always"
+          "ratingPlus": false
         },
         {
           "ratingClass": 2,
@@ -2014,7 +2041,6 @@
         {
           "ratingClass": 3,
           "chartDesigner": "ひとりぼっちの怒りも    無くした喜びも\nウソの哀しさも\nこの歌に    全部ぶちこめ",
-          "audioOverride": true,
           "jacketDesigner": "",
           "rating": 11,
           "ratingPlus": false
@@ -2036,22 +2062,24 @@
       "side": 1,
       "bg": "maimai_boss",
       "bg_inverse": "maimai_boss",
-      "version": "2.1.0",
+      "world_unlock": false,
       "date": 1615090270,
+      "version": "2.1.0",
       "difficulties": [
         {
           "ratingClass": 0,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": 1,                    "hidden_until": "always"
+          "rating": 1,
+          "ratingPlus": false
         },
         {
           "ratingClass": 1,
           "chartDesigner": "DAYE",
           "jacketDesigner": "",
           "rating": 9,
-          "ratingPlus": true     
-            },
+          "ratingPlus": true
+        },
         {
           "ratingClass": 2,
           "chartDesigner": "高级抄手一周目",
@@ -2068,47 +2096,49 @@
         }
       ]
     },
+    {
+      "id": "blewmoon",
+      "title_localized": {
+        "en": "Blew Moon"
+      },
+      "artist": "t+pazolite",
+      "bpm": "180",
+      "bpm_base": 180,
+      "set": "lowest",
+      "purchase": "",
+      "audioPreview": 45333,
+      "audioPreviewEnd": 55833,
+      "side": 1,
+      "bg": "maimai_conflict",
+      "bg_inverse": "maimai_light",
+      "world_unlock": false,
+      "date": 1731620656,
+      "version": "2.1.0",
+      "difficulties": [
         {
-            "id": "blewmoon",
-            "title_localized": {
-                "en": "Blew Moon"
-            },
-            "artist": "t+pazolite",
-            "bpm": "180",
-            "bpm_base": 180.0,
-            "set": "lowest",
-            "purchase": "",
-            "audioPreview": 45333,
-            "audioPreviewEnd": 55833,
-            "side": 1,
-            "bg": "maimai_conflict",
-            "bg_inverse": "maimai_light",
-            "date": 1731620656,
-            "version": "2.1.0",
-            "difficulties": [
-                {
-                    "ratingClass": 0,
-                    "chartDesigner": "",
-                    "jacketDesigner": "",
-                    "rating": 0,                    "hidden_until": "always"
-                },
-                {
-                    "ratingClass": 1,
-                    "chartDesigner": "",
-                    "jacketDesigner": "",
-                    "rating": 0,                    "hidden_until": "always"
-                },
-                {
-                    "ratingClass": 2,
-                    "chartDesigner": "Suzu Umikaze",
-                    "jacketDesigner": "",
-                    "rating": 9,
-                    "ratingPlus": true
-                
-                }
-            ]
+          "ratingClass": 0,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
         },
-            {
+        {
+          "ratingClass": 1,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "Suzu Umikaze",
+          "jacketDesigner": "",
+          "rating": 9,
+          "ratingPlus": true
+        }
+      ]
+    },
+    {
       "id": "giveroflife",
       "title_localized": {
         "en": "Giver of Life"
@@ -2118,11 +2148,13 @@
       "bpm_base": 138,
       "set": "single",
       "purchase": "",
+      "category": "poprec",
       "audioPreview": 363478,
       "audioPreviewEnd": 418260,
       "side": 1,
       "bg": "mirai_awakened",
       "bg_inverse": "mirai_awakened",
+      "world_unlock": false,
       "date": 1689947581,
       "version": "2.1.0",
       "difficulties": [
@@ -2130,19 +2162,22 @@
           "ratingClass": 0,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": 0,                    "hidden_until": "always"
+          "rating": 0,
+          "ratingPlus": false
         },
         {
           "ratingClass": 1,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": 0,                    "hidden_until": "always"
+          "rating": 0,
+          "ratingPlus": false
         },
         {
           "ratingClass": 2,
           "chartDesigner": "Freshman-兰-",
           "jacketDesigner": "",
-          "rating": 11
+          "rating": 11,
+          "ratingPlus": false
         }
       ]
     },
@@ -2161,6 +2196,7 @@
       "side": 0,
       "bg": "cytus_light",
       "bg_inverse": "cytus_conflict",
+      "world_unlock": false,
       "date": 1723453923,
       "version": "2.2.0",
       "difficulties": [
@@ -2168,13 +2204,15 @@
           "ratingClass": 0,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": 0,                    "hidden_until": "always"
+          "rating": 0,
+          "ratingPlus": false
         },
         {
           "ratingClass": 1,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": 0,                    "hidden_until": "always"
+          "rating": 0,
+          "ratingPlus": false
         },
         {
           "ratingClass": 2,
@@ -2200,6 +2238,7 @@
       "side": 0,
       "bg": "untitledworld",
       "bg_inverse": "untitledworld",
+      "world_unlock": false,
       "date": 1724818477,
       "version": "2.2.0",
       "difficulties": [
@@ -2208,24 +2247,25 @@
           "chartDesigner": "",
           "jacketDesigner": "",
           "rating": 0,
-          "ratingPlus": false,                    "hidden_until": "always"
+          "ratingPlus": false
         },
         {
           "ratingClass": 1,
           "chartDesigner": "",
           "jacketDesigner": "",
           "rating": 0,
-          "ratingPlus": false,                    "hidden_until": "always"
+          "ratingPlus": false
         },
         {
           "ratingClass": 2,
           "chartDesigner": "HJZS",
           "jacketDesigner": "",
-          "rating": 9
+          "rating": 9,
+          "ratingPlus": false
         }
       ]
     },
-      {
+    {
       "id": "lightspark",
       "title_localized": {
         "en": "「阴云火花」"
@@ -2234,38 +2274,40 @@
       "bpm": "175",
       "bpm_base": 175,
       "set": "arknights",
+      "purchase": "",
       "audioPreview": 74742,
       "audioPreviewEnd": 98057,
       "side": 0,
-      "purchase": "",
       "bg": "bg_mirai_conflict",
       "bg_inverse": "bg_mirai_light",
+      "world_unlock": false,
       "date": 1644321806,
       "version": "2.2.0",
-      "source_localized": {
-        "en": "Arknights"
-      },
       "difficulties": [
         {
           "ratingClass": 0,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": -1,                    "hidden_until": "always"
+          "rating": -1,
+          "ratingPlus": false
         },
         {
           "ratingClass": 1,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": -1,                    "hidden_until": "always"
+          "rating": -1,
+          "ratingPlus": false
         },
         {
           "ratingClass": 2,
           "chartDesigner": "Dr.悠雨千夜",
           "jacketDesigner": "",
-          "rating": 9        }
+          "rating": 9,
+          "ratingPlus": false
+        }
       ]
     },
-{
+    {
       "id": "braveroad",
       "title_localized": {
         "en": "BRAVE：ROAD"
@@ -2275,11 +2317,13 @@
       "bpm_base": 240,
       "set": "single",
       "purchase": "",
+      "category": "poprec",
       "audioPreview": 72246,
       "audioPreviewEnd": 97246,
       "side": 0,
       "bg": "braveroad",
       "bg_inverse": "braveroad",
+      "world_unlock": false,
       "date": 1715173772,
       "version": "2.2.1",
       "difficulties": [
@@ -2287,24 +2331,26 @@
           "ratingClass": 0,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": 1,                    "hidden_until": "always"
+          "rating": 1,
+          "ratingPlus": false
         },
         {
           "ratingClass": 1,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": 1,                    "hidden_until": "always"
-
+          "rating": 1,
+          "ratingPlus": false
         },
         {
           "ratingClass": 2,
           "chartDesigner": "KURUMI：087",
           "jacketDesigner": "",
           "rating": 10,
-          "ratingPlus": true        }
+          "ratingPlus": true
+        }
       ]
     },
-{
+    {
       "id": "maboroshi",
       "title_localized": {
         "en": "Maboroshi"
@@ -2314,11 +2360,13 @@
       "bpm_base": 190,
       "set": "single",
       "purchase": "",
+      "category": "poprec",
       "audioPreview": 0,
       "audioPreviewEnd": 50000,
       "side": 1,
       "bg": "maboroshi",
       "bg_inverse": "maboroshi",
+      "world_unlock": false,
       "date": 1648608318,
       "version": "2.2.1",
       "difficulties": [
@@ -2326,23 +2374,26 @@
           "ratingClass": 0,
           "chartDesigner": "Kurorak",
           "jacketDesigner": "",
-          "rating": 2,                    "hidden_until": "always"
+          "rating": 2,
+          "ratingPlus": false
         },
         {
           "ratingClass": 1,
           "chartDesigner": "Kurorak",
           "jacketDesigner": "",
-          "rating": 5,                    "hidden_until": "always"
+          "rating": 5,
+          "ratingPlus": false
         },
         {
           "ratingClass": 2,
           "chartDesigner": "Kurumi vs 美味的厚蛋烧",
           "jacketDesigner": "",
           "rating": 10,
-          "ratingPlus": false        }
+          "ratingPlus": false
+        }
       ]
     },
-{
+    {
       "id": "please",
       "title_localized": {
         "en": "幻影鬼魅(PLEASE)"
@@ -2357,6 +2408,7 @@
       "side": 1,
       "bg": "single_conflict",
       "bg_inverse": "single_light",
+      "world_unlock": false,
       "date": 1740028716,
       "version": "2.2.1",
       "difficulties": [
@@ -2364,23 +2416,26 @@
           "ratingClass": 0,
           "chartDesigner": "COOR",
           "jacketDesigner": "RM Design Team",
-          "rating": 4
+          "rating": 4,
+          "ratingPlus": false
         },
         {
           "ratingClass": 1,
           "chartDesigner": "COOR",
           "jacketDesigner": "RM Design Team",
-          "rating": 6
+          "rating": 6,
+          "ratingPlus": false
         },
         {
           "ratingClass": 2,
           "chartDesigner": "COOR",
           "jacketDesigner": "RM Design Team",
-          "rating": 10
+          "rating": 10,
+          "ratingPlus": false
         }
       ]
     },
-  {
+    {
       "id": "bibicheart",
       "title_localized": {
         "en": "Bibic Heart"
@@ -2395,6 +2450,7 @@
       "side": 0,
       "bg": "single2_light",
       "bg_inverse": "single2_conflict",
+      "world_unlock": false,
       "date": 1740028074,
       "version": "2.2.1",
       "difficulties": [
@@ -2402,23 +2458,26 @@
           "ratingClass": 0,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": -1,                    "hidden_until": "always"
+          "rating": -1,
+          "ratingPlus": false
         },
         {
           "ratingClass": 1,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": -1,                    "hidden_until": "always"
+          "rating": -1,
+          "ratingPlus": false
         },
         {
           "ratingClass": 2,
           "chartDesigner": "COOR",
           "jacketDesigner": "",
-          "rating": 9
+          "rating": 9,
+          "ratingPlus": false
         }
       ]
     },
-  {
+    {
       "id": "divideetimpera",
       "title_localized": {
         "en": "Divide et impera!"
@@ -2433,6 +2492,7 @@
       "side": 1,
       "bg": "maimai_boss",
       "bg_inverse": "maimai_boss",
+      "world_unlock": false,
       "date": 1660106040,
       "version": "2.2.1",
       "difficulties": [
@@ -2441,14 +2501,14 @@
           "chartDesigner": "",
           "jacketDesigner": "",
           "rating": 0,
-          "ratingPlus": false,                    "hidden_until": "always"
+          "ratingPlus": false
         },
         {
           "ratingClass": 1,
           "chartDesigner": "",
           "jacketDesigner": "",
           "rating": 0,
-          "ratingPlus": false,                    "hidden_until": "always"
+          "ratingPlus": false
         },
         {
           "ratingClass": 2,
@@ -2456,10 +2516,10 @@
           "jacketDesigner": "",
           "rating": 11,
           "ratingPlus": false
-          }
+        }
       ]
     },
-      {
+    {
       "id": "synthesizedgirlsheart",
       "title_localized": {
         "en": "Synthesized Girl's Heart"
@@ -2474,6 +2534,7 @@
       "side": 0,
       "bg": "single2_light",
       "bg_inverse": "single2_conflict",
+      "world_unlock": false,
       "date": 1741478401,
       "version": "2.2.1",
       "difficulties": [
@@ -2481,13 +2542,15 @@
           "ratingClass": 0,
           "chartDesigner": "NanGua",
           "jacketDesigner": "",
-          "rating": 4
+          "rating": 4,
+          "ratingPlus": false
         },
         {
           "ratingClass": 1,
           "chartDesigner": "NanGua",
           "jacketDesigner": "",
-          "rating": 7
+          "rating": 7,
+          "ratingPlus": false
         },
         {
           "ratingClass": 2,
@@ -2498,7 +2561,7 @@
         }
       ]
     },
-{
+    {
       "id": "spellofchaos",
       "title_localized": {
         "en": "Spell of ChaoS"
@@ -2512,6 +2575,8 @@
       "audioPreviewEnd": 21000,
       "side": 1,
       "bg": "vs_conflict",
+      "bg_inverse": "vs_conflict",
+      "world_unlock": false,
       "date": 1735321991,
       "version": "UrcSlow2TestMatch",
       "difficulties": [
@@ -2519,19 +2584,22 @@
           "ratingClass": 0,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": -1
+          "rating": -1,
+          "ratingPlus": false
         },
         {
           "ratingClass": 1,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": -1
+          "rating": -1,
+          "ratingPlus": false
         },
         {
           "ratingClass": 2,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": -1
+          "rating": -1,
+          "ratingPlus": false
         },
         {
           "ratingClass": 3,
@@ -2542,7 +2610,7 @@
         }
       ]
     },
-      {
+    {
       "id": "SuperUniverse",
       "title_localized": {
         "en": "Super Universe (Knighthood Remix)"
@@ -2552,27 +2620,29 @@
       "bpm_base": 196,
       "set": "single",
       "purchase": "",
+      "category": "poprec",
       "audioPreview": 91933,
       "audioPreviewEnd": 112364,
       "side": 1,
       "bg": "SuperUniverse",
       "bg_inverse": "SuperUniverse",
-      "version": "2.2.2",
+      "world_unlock": false,
       "date": 1742031206,
+      "version": "2.2.2",
       "difficulties": [
         {
           "ratingClass": 0,
           "chartDesigner": "",
           "jacketDesigner": "",
           "rating": 0,
-          "ratingPlus": false,                    "hidden_until": "always"
+          "ratingPlus": false
         },
         {
           "ratingClass": 1,
           "chartDesigner": "",
           "jacketDesigner": "",
           "rating": 0,
-          "ratingPlus": false,                    "hidden_until": "always"
+          "ratingPlus": false
         },
         {
           "ratingClass": 2,
@@ -2590,7 +2660,7 @@
         }
       ]
     },
-{
+    {
       "id": "rainshower",
       "title_localized": {
         "en": "驟雨の狭間"
@@ -2600,27 +2670,29 @@
       "bpm_base": 174,
       "set": "single",
       "purchase": "",
+      "category": "poprec",
       "audioPreview": 108963,
       "audioPreviewEnd": 132240,
       "side": 1,
       "bg": "rainshower",
       "bg_inverse": "rainshower",
-      "version": "2.2.2",
+      "world_unlock": false,
       "date": 1740191714,
+      "version": "2.2.2",
       "difficulties": [
         {
           "ratingClass": 0,
           "chartDesigner": "",
           "jacketDesigner": "",
           "rating": 0,
-          "ratingPlus": false,                    "hidden_until": "always"
+          "ratingPlus": false
         },
         {
           "ratingClass": 1,
           "chartDesigner": "",
           "jacketDesigner": "",
           "rating": 0,
-          "ratingPlus": false,                    "hidden_until": "always"
+          "ratingPlus": false
         },
         {
           "ratingClass": 2,
@@ -2631,7 +2703,7 @@
         }
       ]
     },
-{
+    {
       "id": "raikiri",
       "title_localized": {
         "en": "雷切-RAIKIRI-"
@@ -2646,20 +2718,23 @@
       "side": 1,
       "bg": "maimai_boss",
       "bg_inverse": "maimai_boss",
-      "version": "2.2.2",
+      "world_unlock": false,
       "date": 1607838000,
+      "version": "2.2.2",
       "difficulties": [
         {
           "ratingClass": 0,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": 1,                    "hidden_until": "always"
+          "rating": 1,
+          "ratingPlus": false
         },
         {
           "ratingClass": 1,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": 1,                    "hidden_until": "always"
+          "rating": 1,
+          "ratingPlus": false
         },
         {
           "ratingClass": 2,
@@ -2667,47 +2742,51 @@
           "jacketDesigner": "",
           "rating": 10,
           "ratingPlus": true
-          }
+        }
       ]
     },
-  {
-            "id": "evergreen",
-            "title_localized": {
-                "en": "EVERGREEN"
-            },
-            "artist": "Cranky",
-            "bpm": "145",
-            "bpm_base": 145.0,
-            "set": "lowest",
-            "purchase": "",
-            "audioPreview": 28137,
-            "audioPreviewEnd": 54479,
-            "bg": "rei",
-            "bg_inverse": "yugamu",
-            "date": 1742061286,
-            "version": "2.2.2",
-            "difficulties": [
-                {   "ratingClass": 0,
-                    "chartDesigner": "",
-                    "jacketDesigner": "",
-                    "rating": 0,                   "hidden_until": "always"
-                },
-                {
-                    "ratingClass": 1,
-                    "chartDesigner": "",
-                    "jacketDesigner": "",
-                    "rating": 0,                    "hidden_until": "always"
-                },
-                {
-                    "ratingClass": 2,
-                    "chartDesigner": "Suzu Umikaze",
-                    "jacketDesigner": "",
-                    "rating": 9,
-                    "ratingPlus": true
-
-                }
-            ]
+    {
+      "id": "evergreen",
+      "title_localized": {
+        "en": "EVERGREEN"
+      },
+      "artist": "Cranky",
+      "bpm": "145",
+      "bpm_base": 145,
+      "set": "lowest",
+      "purchase": "",
+      "audioPreview": 28137,
+      "audioPreviewEnd": 54479,
+      "side": 0,
+      "bg": "rei",
+      "bg_inverse": "yugamu",
+      "world_unlock": false,
+      "date": 1742061286,
+      "version": "2.2.2",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
         },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "Suzu Umikaze",
+          "jacketDesigner": "",
+          "rating": 9,
+          "ratingPlus": true
+        }
+      ]
+    },
     {
       "id": "natsu",
       "title_localized": {
@@ -2724,6 +2803,7 @@
       "side": 1,
       "bg": "base_light",
       "bg_inverse": "base_conflict",
+      "world_unlock": false,
       "date": 1741478400,
       "version": "2.2.2",
       "difficulties": [
@@ -2731,23 +2811,26 @@
           "ratingClass": 0,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": 0,                    "hidden_until": "always"
+          "rating": 0,
+          "ratingPlus": false
         },
         {
           "ratingClass": 1,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": 0,                    "hidden_until": "always"
+          "rating": 0,
+          "ratingPlus": false
         },
         {
           "ratingClass": 2,
           "chartDesigner": "NanGua 2003",
           "jacketDesigner": "",
-          "rating": 8
+          "rating": 8,
+          "ratingPlus": false
         }
       ]
     },
-  {
+    {
       "id": "enjoythistime",
       "title_localized": {
         "en": "Enjoy This Time feat. Yukacco"
@@ -2762,6 +2845,7 @@
       "side": 1,
       "bg": "single2_conflict",
       "bg_inverse": "single2_light",
+      "world_unlock": false,
       "date": 1723852800,
       "version": "2.2.2",
       "difficulties": [
@@ -2769,13 +2853,15 @@
           "ratingClass": 0,
           "chartDesigner": "",
           "jacketDesigner": "黒兎 + Hitomasu Modoru",
-          "rating": 0,                    "hidden_until": "always"
+          "rating": 0,
+          "ratingPlus": false
         },
         {
           "ratingClass": 1,
           "chartDesigner": "",
           "jacketDesigner": "黒兎 + Hitomasu Modoru",
-          "rating": 0,                    "hidden_until": "always"
+          "rating": 0,
+          "ratingPlus": false
         },
         {
           "ratingClass": 2,
@@ -2786,7 +2872,7 @@
         }
       ]
     },
-      {
+    {
       "id": "sora",
       "title_localized": {
         "en": "Distant Sky",
@@ -2802,6 +2888,7 @@
       "side": 0,
       "bg": "base_light",
       "bg_inverse": "base_conflict",
+      "world_unlock": false,
       "date": 1738108800,
       "version": "2.2.2",
       "difficulties": [
@@ -2809,23 +2896,26 @@
           "ratingClass": 0,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": 0,                    "hidden_until": "always"
+          "rating": 0,
+          "ratingPlus": false
         },
         {
           "ratingClass": 1,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": 0,                    "hidden_until": "always"
+          "rating": 0,
+          "ratingPlus": false
         },
         {
           "ratingClass": 2,
           "chartDesigner": "NANGUA",
           "jacketDesigner": "",
-          "rating": 9
+          "rating": 9,
+          "ratingPlus": false
         }
       ]
     },
-      {
+    {
       "id": "toybox",
       "title_localized": {
         "en": "とあちゃんのおもちゃ箱"
@@ -2840,6 +2930,7 @@
       "side": 0,
       "bg": "eden_light",
       "bg_inverse": "eden_conflict",
+      "world_unlock": false,
       "date": 1,
       "version": "2.2.2",
       "difficulties": [
@@ -2847,101 +2938,110 @@
           "ratingClass": 0,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": 0,                    "hidden_until": "always"
+          "rating": 0,
+          "ratingPlus": false
         },
         {
           "ratingClass": 1,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": 0,                    "hidden_until": "always"
+          "rating": 0,
+          "ratingPlus": false
         },
         {
           "ratingClass": 2,
           "chartDesigner": "柴狸『玩具箱』",
           "jacketDesigner": "お久しぶり",
           "rating": 9,
-          "ratingPlus": true       
-           }
+          "ratingPlus": true
+        }
       ]
     },
-  {
-            "id": "gekiteikokukagekidan",
-            "title_localized": {
-                "en": "檄！帝国華撃団(改)"
-            },
-            "artist": "「サクラ大戦」",
-            "bpm": "144",
-            "bpm_base": 144.0,
-            "set": "lowest",
-            "purchase": "",
-            "audioPreview": 60835,
-            "audioPreviewEnd": 73879,
-            "bg": "base_light",
-            "bg_inverse": "base_conflict",
-            "date": 1739407058,
-            "version": "2.2.2",
-            "difficulties": [
-                {
-                    "ratingClass": 0,
-                    "chartDesigner": "Suzu Umikaze",
-                    "jacketDesigner": "",
-                    "rating": 0,                    "hidden_until": "always"
-                },
-                {
-                                        "ratingClass": 1,
-                    "chartDesigner": "Suzu Umikaze",
-                    "jacketDesigner": "",
-                    "rating": 0,                    "hidden_until": "always"
-                },
-                {
-                    "ratingClass": 2,
-                    "chartDesigner": "Suzu Umikaze",
-                    "jacketDesigner": "",
-                    "rating": 7
-
-                }
-            ]
+    {
+      "id": "gekiteikokukagekidan",
+      "title_localized": {
+        "en": "檄！帝国華撃団(改)"
+      },
+      "artist": "「サクラ大戦」",
+      "bpm": "144",
+      "bpm_base": 144,
+      "set": "lowest",
+      "purchase": "",
+      "audioPreview": 60835,
+      "audioPreviewEnd": 73879,
+      "side": 0,
+      "bg": "base_light",
+      "bg_inverse": "base_conflict",
+      "world_unlock": false,
+      "date": 1739407058,
+      "version": "2.2.2",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "Suzu Umikaze",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
         },
         {
-            "id": "j219",
-            "title_localized": {
-                "en": "J219"
-            },
-            "artist": "Cranky",
-            "bpm": "100",
-            "bpm_base": 100.0,
-            "set": "lowest",
-            "purchase": "",
-            "audioPreview": 19591,
-            "audioPreviewEnd": 32592,
-            "side": 0,
-            "bg": "single_light",
-            "bg_inverse": "single_conflict",
-            "date": 1731620165,
-            "version": "2.2.2",
-            "difficulties": [
-                {
-                    "ratingClass": 0,
-                    "chartDesigner": "",
-                    "jacketDesigner": "",
-                    "rating": -1,                    "hidden_until": "always"
-                },
-                {
-                    "ratingClass": 1,
-                    "chartDesigner": "",
-                    "jacketDesigner": "",
-                    "rating": -1,                    "hidden_until": "always"
-                },
-                {
-                    "ratingClass": 2,
-                    "chartDesigner": "Suzu Umikaze",
-                    "jacketDesigner": "",
-                    "rating": 9,
-                    "ratingPlus": true
-                }
-            ]
+          "ratingClass": 1,
+          "chartDesigner": "Suzu Umikaze",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
         },
-{
+        {
+          "ratingClass": 2,
+          "chartDesigner": "Suzu Umikaze",
+          "jacketDesigner": "",
+          "rating": 7,
+          "ratingPlus": false
+        }
+      ]
+    },
+    {
+      "id": "j219",
+      "title_localized": {
+        "en": "J219"
+      },
+      "artist": "Cranky",
+      "bpm": "100",
+      "bpm_base": 100,
+      "set": "lowest",
+      "purchase": "",
+      "audioPreview": 19591,
+      "audioPreviewEnd": 32592,
+      "side": 0,
+      "bg": "single_light",
+      "bg_inverse": "single_conflict",
+      "world_unlock": false,
+      "date": 1731620165,
+      "version": "2.2.2",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": -1,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": -1,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "Suzu Umikaze",
+          "jacketDesigner": "",
+          "rating": 9,
+          "ratingPlus": true
+        }
+      ]
+    },
+    {
       "id": "tetorisu",
       "title_localized": {
         "en": "テトリス"
@@ -2956,6 +3056,7 @@
       "side": 0,
       "bg": "shiawase",
       "bg_inverse": "shiawase_1",
+      "world_unlock": false,
       "date": 1741448620,
       "version": "2.2.2",
       "difficulties": [
@@ -2963,13 +3064,15 @@
           "ratingClass": 0,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": 0,                    "hidden_until": "always"
+          "rating": 0,
+          "ratingPlus": false
         },
         {
           "ratingClass": 1,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": 0,                    "hidden_until": "always"
+          "rating": 0,
+          "ratingPlus": false
         },
         {
           "ratingClass": 2,
@@ -2987,7 +3090,7 @@
         }
       ]
     },
-        {
+    {
       "id": "gbcop",
       "title_localized": {
         "en": "雑踏、僕らの街"
@@ -3002,6 +3105,7 @@
       "side": 1,
       "bg": "GBC",
       "bg_inverse": "GBC",
+      "world_unlock": false,
       "date": 1741436382,
       "version": "2.2.2",
       "difficulties": [
@@ -3009,19 +3113,22 @@
           "ratingClass": 0,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": -1,                    "hidden_until": "always"
+          "rating": -1,
+          "ratingPlus": false
         },
         {
           "ratingClass": 1,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": -1,                    "hidden_until": "always"
+          "rating": -1,
+          "ratingPlus": false
         },
         {
           "ratingClass": 2,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": -1,                    "hidden_until": "always"
+          "rating": -1,
+          "ratingPlus": false
         },
         {
           "ratingClass": 3,
@@ -3032,7 +3139,7 @@
         }
       ]
     },
-      {
+    {
       "id": "exris",
       "title_localized": {
         "en": "EX - RiS"
@@ -3047,6 +3154,7 @@
       "side": 1,
       "bg": "exris",
       "bg_inverse": "exris",
+      "world_unlock": false,
       "date": 1693305143,
       "version": "2.2.7",
       "difficulties": [
@@ -3054,13 +3162,15 @@
           "ratingClass": 0,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": 0,                    "hidden_until": "always"
+          "rating": 0,
+          "ratingPlus": false
         },
         {
           "ratingClass": 1,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": 0,                    "hidden_until": "always"
+          "rating": 0,
+          "ratingPlus": false
         },
         {
           "ratingClass": 2,
@@ -3071,7 +3181,7 @@
         }
       ]
     },
-      {
+    {
       "id": "vw",
       "title_localized": {
         "en": "Vapor Whirl"
@@ -3086,6 +3196,7 @@
       "side": 1,
       "bg": "cytus_conflict",
       "bg_inverse": "cytus_light",
+      "world_unlock": false,
       "date": 1741835068,
       "version": "2.2.6",
       "difficulties": [
@@ -3093,23 +3204,26 @@
           "ratingClass": 0,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": -1,                    "hidden_until": "always"
+          "rating": -1,
+          "ratingPlus": false
         },
         {
           "ratingClass": 1,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": -1,                    "hidden_until": "always"
+          "rating": -1,
+          "ratingPlus": false
         },
         {
           "ratingClass": 2,
           "chartDesigner": "Zeap",
           "jacketDesigner": "",
-          "rating": 10
+          "rating": 10,
+          "ratingPlus": false
         }
       ]
     },
-      {
+    {
       "id": "mysticlightquestfull",
       "title_localized": {
         "en": "Mystic Light Quest (Full ver.)"
@@ -3124,22 +3238,23 @@
       "side": 0,
       "bg": "pepe",
       "bg_inverse": "pepe",
-      "version": "2.3.1",
+      "world_unlock": false,
       "date": 1722652013,
+      "version": "2.3.1",
       "difficulties": [
         {
           "ratingClass": 0,
           "chartDesigner": "",
           "jacketDesigner": "",
           "rating": 0,
-          "ratingPlus": false,                    "hidden_until": "always"
+          "ratingPlus": false
         },
         {
           "ratingClass": 1,
           "chartDesigner": "",
           "jacketDesigner": "",
           "rating": 0,
-          "ratingPlus": false,                    "hidden_until": "always"
+          "ratingPlus": false
         },
         {
           "ratingClass": 2,
@@ -3150,7 +3265,7 @@
         }
       ]
     },
-      {
+    {
       "id": "ge",
       "title_localized": {
         "en": "彁"
@@ -3160,11 +3275,13 @@
       "bpm_base": 125,
       "set": "single",
       "purchase": "",
+      "category": "poprec",
       "audioPreview": 0,
       "audioPreviewEnd": 1111111,
       "side": 1,
       "bg": "cyblack",
       "bg_inverse": "cyblack",
+      "world_unlock": false,
       "date": 1739401282,
       "version": "2.3.1",
       "difficulties": [
@@ -3172,13 +3289,15 @@
           "ratingClass": 0,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": -1,                    "hidden_until": "always"
+          "rating": -1,
+          "ratingPlus": false
         },
         {
           "ratingClass": 1,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": -1,                    "hidden_until": "always"
+          "rating": -1,
+          "ratingPlus": false
         },
         {
           "ratingClass": 2,
@@ -3196,7 +3315,7 @@
         }
       ]
     },
-          {
+    {
       "id": "aclock",
       "title_localized": {
         "en": "A Clock"
@@ -3211,6 +3330,7 @@
       "side": 0,
       "bg": "aclock",
       "bg_inverse": "aclock",
+      "world_unlock": false,
       "date": 1487980800,
       "version": "2.3.1",
       "difficulties": [
@@ -3218,23 +3338,26 @@
           "ratingClass": 0,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": -1,                    "hidden_until": "always"
+          "rating": -1,
+          "ratingPlus": false
         },
         {
           "ratingClass": 1,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": -1,                    "hidden_until": "always"
+          "rating": -1,
+          "ratingPlus": false
         },
         {
           "ratingClass": 2,
           "chartDesigner": "花火離子",
           "jacketDesigner": "",
-          "rating": 9
-                }
+          "rating": 9,
+          "ratingPlus": false
+        }
       ]
     },
-          {
+    {
       "id": "endtime",
       "title_localized": {
         "en": "End Time"
@@ -3244,11 +3367,13 @@
       "bpm_base": 180,
       "set": "single",
       "purchase": "",
+      "category": "poprec",
       "audioPreview": 77415,
       "audioPreviewEnd": 112082,
       "side": 0,
       "bg": "prelude_light",
       "bg_inverse": "prelude_conflict",
+      "world_unlock": false,
       "date": 1487980800,
       "version": "2.3.1",
       "difficulties": [
@@ -3256,13 +3381,15 @@
           "ratingClass": 0,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": -1,                    "hidden_until": "always"
+          "rating": -1,
+          "ratingPlus": false
         },
         {
           "ratingClass": 1,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": -1,                    "hidden_until": "always"
+          "rating": -1,
+          "ratingPlus": false
         },
         {
           "ratingClass": 2,
@@ -3273,7 +3400,7 @@
         }
       ]
     },
-          {
+    {
       "id": "folern",
       "title_localized": {
         "en": "folern"
@@ -3283,11 +3410,13 @@
       "bpm_base": 200,
       "set": "single",
       "purchase": "",
+      "category": "poprec",
       "audioPreview": 79400,
       "audioPreviewEnd": 118800,
       "side": 1,
       "bg": "chunithmthird_conflict",
-      "bg_inverse": "chunithmthird_light",
+      "bg_inverse": "chunithmthird_conflict",
+      "world_unlock": false,
       "date": 1718726492,
       "version": "2.3.1",
       "difficulties": [
@@ -3295,23 +3424,26 @@
           "ratingClass": 0,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": -1,                    "hidden_until": "always"
+          "rating": -1,
+          "ratingPlus": false
         },
         {
           "ratingClass": 1,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": -1,                    "hidden_until": "always"
+          "rating": -1,
+          "ratingPlus": false
         },
         {
           "ratingClass": 2,
           "chartDesigner": "「星」から降る「コナユキ」",
           "jacketDesigner": "",
-          "rating": 10
+          "rating": 10,
+          "ratingPlus": false
         }
       ]
     },
-          {
+    {
       "id": "internetyamero",
       "title_localized": {
         "en": "INTERNET YAMERO"
@@ -3321,11 +3453,13 @@
       "bpm_base": 185,
       "set": "single",
       "purchase": "",
+      "category": "poprec",
       "audioPreview": 174403,
       "audioPreviewEnd": 200428,
       "side": 1,
       "bg": "single2_conflict",
       "bg_inverse": "single2_light",
+      "world_unlock": false,
       "date": 1487980800,
       "version": "2.3.1",
       "difficulties": [
@@ -3333,23 +3467,26 @@
           "ratingClass": 0,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": -1,                    "hidden_until": "always"
+          "rating": -1,
+          "ratingPlus": false
         },
         {
           "ratingClass": 1,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": -1,                    "hidden_until": "always"
+          "rating": -1,
+          "ratingPlus": false
         },
         {
           "ratingClass": 2,
           "chartDesigner": "†Riko Patto†",
           "jacketDesigner": "",
-          "rating": 10
+          "rating": 10,
+          "ratingPlus": false
         }
       ]
     },
-{
+    {
       "id": "liftoff",
       "title_localized": {
         "en": "LiftOff"
@@ -3359,11 +3496,13 @@
       "bpm_base": 137,
       "set": "single",
       "purchase": "",
+      "category": "poprec",
       "audioPreview": 86147,
       "audioPreviewEnd": 115127,
       "side": 1,
       "bg": "ongeki_conflict",
       "bg_inverse": "ongeki_light",
+      "world_unlock": false,
       "date": 1732808889,
       "version": "2.3.1",
       "difficulties": [
@@ -3371,23 +3510,26 @@
           "ratingClass": 0,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": -1,                    "hidden_until": "always"
+          "rating": -1,
+          "ratingPlus": false
         },
         {
           "ratingClass": 1,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": -1,                    "hidden_until": "always"
+          "rating": -1,
+          "ratingPlus": false
         },
         {
           "ratingClass": 2,
           "chartDesigner": "\"Riko Patto\"\n↓↓↓ VS ↓↓↓\n\"Luxance's Case-Book\"",
           "jacketDesigner": "",
-          "rating": 10
+          "rating": 10,
+          "ratingPlus": false
         }
       ]
     },
-          {
+    {
       "id": "quiq",
       "title_localized": {
         "en": "QuiQ"
@@ -3402,6 +3544,7 @@
       "side": 0,
       "bg": "alice_light",
       "bg_inverse": "alice_conflict",
+      "world_unlock": false,
       "date": 1712328167,
       "version": "2.3.1",
       "difficulties": [
@@ -3409,23 +3552,26 @@
           "ratingClass": 0,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": -1,                    "hidden_until": "always"
+          "rating": -1,
+          "ratingPlus": false
         },
         {
           "ratingClass": 1,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": -1,                    "hidden_until": "always"
+          "rating": -1,
+          "ratingPlus": false
         },
         {
           "ratingClass": 2,
           "chartDesigner": "Riko Patto,\nDon't go back to sleep!!",
           "jacketDesigner": "サム & 群青リコリス",
-          "rating": 11
-                }
+          "rating": 11,
+          "ratingPlus": false
+        }
       ]
     },
-  {
+    {
       "id": "vspook",
       "title_localized": {
         "en": "VSpook!"
@@ -3439,7 +3585,8 @@
       "audioPreviewEnd": 53285,
       "side": 1,
       "bg": "chunithmthird_conflict",
-      "bg_inverse": "chunithmthird_light",
+      "bg_inverse": "chunithmthird_conflict",
+      "world_unlock": false,
       "date": 1739905723,
       "version": "2.3.1",
       "difficulties": [
@@ -3447,23 +3594,26 @@
           "ratingClass": 0,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": -1,                    "hidden_until": "always"
+          "rating": -1,
+          "ratingPlus": false
         },
         {
           "ratingClass": 1,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": -1,                    "hidden_until": "always"
+          "rating": -1,
+          "ratingPlus": false
         },
         {
           "ratingClass": 2,
           "chartDesigner": "Riko Patto \"Phantasma\"",
           "jacketDesigner": "",
-          "rating": 10
+          "rating": 10,
+          "ratingPlus": false
         }
       ]
     },
-          {
+    {
       "id": "hyakusanjyugosyousetsu",
       "title_localized": {
         "en": "氷滅の135小節"
@@ -3478,6 +3628,7 @@
       "side": 1,
       "bg": "observer_conflict",
       "bg_inverse": "observer_light",
+      "world_unlock": false,
       "date": 1732648225,
       "version": "2.3.1",
       "difficulties": [
@@ -3485,13 +3636,15 @@
           "ratingClass": 0,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": -1
+          "rating": -1,
+          "ratingPlus": false
         },
         {
           "ratingClass": 1,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": -1
+          "rating": -1,
+          "ratingPlus": false
         },
         {
           "ratingClass": 2,
@@ -3502,7 +3655,7 @@
         }
       ]
     },
-          {
+    {
       "id": "tothecosmic",
       "title_localized": {
         "en": "とびだせ！TO THE COSMIC!!"
@@ -3517,6 +3670,7 @@
       "side": 1,
       "bg": "maimai_conflict",
       "bg_inverse": "maimai_light",
+      "world_unlock": false,
       "date": 1487980800,
       "version": "2.3.1",
       "difficulties": [
@@ -3524,23 +3678,26 @@
           "ratingClass": 0,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": -1,                    "hidden_until": "always"
+          "rating": -1,
+          "ratingPlus": false
         },
         {
           "ratingClass": 1,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": -1,                    "hidden_until": "always"
+          "rating": -1,
+          "ratingPlus": false
         },
         {
           "ratingClass": 2,
           "chartDesigner": "Pαttoωo♪",
           "jacketDesigner": "",
-          "rating": 10
-                }
+          "rating": 10,
+          "ratingPlus": false
+        }
       ]
     },
-  {
+    {
       "id": "idiotictransaction",
       "title_localized": {
         "en": "Idiotic Transaction",
@@ -3551,11 +3708,13 @@
       "bpm_base": 240,
       "set": "single",
       "purchase": "",
+      "category": "poprec",
       "audioPreview": 109062,
       "audioPreviewEnd": 117125,
       "side": 1,
       "bg": "single2_conflict",
       "bg_inverse": "single2_light",
+      "world_unlock": false,
       "date": 1718643060,
       "version": "2.3.1",
       "difficulties": [
@@ -3563,23 +3722,26 @@
           "ratingClass": 0,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": -1,                    "hidden_until": "always"
+          "rating": -1,
+          "ratingPlus": false
         },
         {
           "ratingClass": 1,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": -1,                    "hidden_until": "always"
+          "rating": -1,
+          "ratingPlus": false
         },
         {
           "ratingClass": 2,
           "chartDesigner": "バカヒナベ！",
           "jacketDesigner": "",
-          "rating": 10
+          "rating": 10,
+          "ratingPlus": false
         }
       ]
     },
-  {
+    {
       "id": "etabetaita",
       "title_localized": {
         "en": "エータ・ベータ・イータ"
@@ -3589,11 +3751,13 @@
       "bpm_base": 186,
       "set": "single",
       "purchase": "",
+      "category": "poprec",
       "audioPreview": 88064,
       "audioPreviewEnd": 108740,
       "side": 1,
       "bg": "ongeki_conflict",
       "bg_inverse": "ongeki_light",
+      "world_unlock": false,
       "date": 1546992004,
       "version": "2.3.1",
       "difficulties": [
@@ -3601,29 +3765,33 @@
           "ratingClass": 0,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": -1,                    "hidden_until": "always"
+          "rating": -1,
+          "ratingPlus": false
         },
         {
           "ratingClass": 1,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": -1,                    "hidden_until": "always"
+          "rating": -1,
+          "ratingPlus": false
         },
         {
           "ratingClass": 2,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": -1,                    "hidden_until": "always"
+          "rating": -1,
+          "ratingPlus": false
         },
         {
           "ratingClass": 3,
           "chartDesigner": "縦連打の神「火鍋ミ」",
           "jacketDesigner": "",
-          "rating": 11
+          "rating": 11,
+          "ratingPlus": false
         }
       ]
     },
-{
+    {
       "id": "lagtrain",
       "title_localized": {
         "en": "ラグトレイン"
@@ -3633,11 +3801,13 @@
       "bpm_base": 147,
       "set": "single",
       "purchase": "",
+      "category": "poprec",
       "audioPreview": 60400,
       "audioPreviewEnd": 76224,
       "side": 0,
       "bg": "single2_light",
       "bg_inverse": "single2_conflict",
+      "world_unlock": false,
       "date": 1487980800,
       "version": "2.3.1",
       "difficulties": [
@@ -3645,13 +3815,15 @@
           "ratingClass": 0,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": -1,                    "hidden_until": "always"
+          "rating": -1,
+          "ratingPlus": false
         },
         {
           "ratingClass": 1,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": -1,                    "hidden_until": "always"
+          "rating": -1,
+          "ratingPlus": false
         },
         {
           "ratingClass": 2,
@@ -3662,7 +3834,7 @@
         }
       ]
     },
-          {
+    {
       "id": "calamity",
       "title_localized": {
         "en": "Calamity Fortune"
@@ -3672,11 +3844,13 @@
       "bpm_base": 200,
       "set": "single",
       "purchase": "",
+      "category": "poprec",
       "audioPreview": 11885,
       "audioPreviewEnd": 26550,
       "side": 1,
       "bg": "zettai",
       "bg_inverse": "zettai_light",
+      "world_unlock": false,
       "date": 1713024616,
       "version": "2.3.1",
       "difficulties": [
@@ -3684,23 +3858,26 @@
           "ratingClass": 0,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": -1,                    "hidden_until": "always"
+          "rating": -1,
+          "ratingPlus": false
         },
         {
           "ratingClass": 1,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": -1,                    "hidden_until": "always"
+          "rating": -1,
+          "ratingPlus": false
         },
         {
           "ratingClass": 2,
           "chartDesigner": "くさぐさこ with ひなべみ",
           "jacketDesigner": "",
-          "rating": 10
-                }
+          "rating": 10,
+          "ratingPlus": false
+        }
       ]
     },
-      {
+    {
       "id": "daybreak",
       "title_localized": {
         "en": "The Daybreak Will Never Come Again."
@@ -3715,22 +3892,23 @@
       "side": 1,
       "bg": "daybreak",
       "bg_inverse": "daybreak",
-      "version": "2.4.0",
+      "world_unlock": false,
       "date": 1719460782,
+      "version": "2.4.0",
       "difficulties": [
         {
           "ratingClass": 0,
           "chartDesigner": "",
           "jacketDesigner": "",
           "rating": 0,
-          "ratingPlus": false,                    "hidden_until": "always"
+          "ratingPlus": false
         },
         {
           "ratingClass": 1,
           "chartDesigner": "",
           "jacketDesigner": "",
           "rating": 0,
-          "ratingPlus": false,                    "hidden_until": "always"
+          "ratingPlus": false
         },
         {
           "ratingClass": 2,
@@ -3741,7 +3919,7 @@
         }
       ]
     },
-          {
+    {
       "id": "horizonblue",
       "title_localized": {
         "en": "Horizon Blue"
@@ -3756,6 +3934,7 @@
       "side": 1,
       "bg": "horizonblue",
       "bg_inverse": "horizonblue",
+      "world_unlock": false,
       "date": 1725895090,
       "version": "2.4.0",
       "difficulties": [
@@ -3763,67 +3942,75 @@
           "ratingClass": 0,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": -1
+          "rating": -1,
+          "ratingPlus": false
         },
         {
           "ratingClass": 1,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": -1
+          "rating": -1,
+          "ratingPlus": false
         },
         {
           "ratingClass": 2,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": -1
+          "rating": -1,
+          "ratingPlus": false
         },
         {
           "ratingClass": 4,
           "chartDesigner": "↓↓↓リッコパット↓↓↓",
           "jacketDesigner": "",
-          "rating": 11
-                        }
+          "rating": 11,
+          "ratingPlus": false
+        }
       ]
     },
-          {
-  "id": "tempestla",
-  "title_localized": {
-    "en": "TεμπεΣT"
-  },
-  "artist": "Zekk",
-  "bpm": "195",
-  "bpm_base": 195,
-  "set": "lanotacolla",
-  "purchase": "",
-  "audioPreview": 79999,
-  "audioPreviewEnd": 100923,
-  "side": 1,
-  "bg": "tempestla",
+    {
+      "id": "tempestla",
+      "title_localized": {
+        "en": "TεμπεΣT"
+      },
+      "artist": "Zekk",
+      "bpm": "195",
+      "bpm_base": 195,
+      "set": "lanotacolla",
+      "purchase": "",
+      "audioPreview": 79999,
+      "audioPreviewEnd": 100923,
+      "side": 1,
+      "bg": "tempestla",
       "bg_inverse": "tempestla",
-    "date": 1725895090,
-  "version": "2.4.0",
-  "difficulties": [
-    {
-      "ratingClass": 0,
-      "chartDesigner": "",
-      "jacketDesigner": "",
-      "rating": -1,                    "hidden_until": "always"
-    },
-    {
-      "ratingClass": 1,
-      "chartDesigner": "",
-      "jacketDesigner": "",
-      "rating": -1,                    "hidden_until": "always"
-    },
-    {
-      "ratingClass": 2,
-      "chartDesigner": "TheSamsara666",
-      "jacketDesigner": "",
-      "rating": 10
-                      }
+      "world_unlock": false,
+      "date": 1725895090,
+      "version": "2.4.0",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": -1,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": -1,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "TheSamsara666",
+          "jacketDesigner": "",
+          "rating": 10,
+          "ratingPlus": false
+        }
       ]
     },
-          {
+    {
       "id": "sweetmoment",
       "title_localized": {
         "en": "焦がれるひととき"
@@ -3837,34 +4024,36 @@
       "audioPreviewEnd": 72135,
       "side": 0,
       "bg": "hime_light",
-      "bg_inverse": "hime_conflict","source_localized": {
-        "en": "明日方舟"
-       },
-      "source_copyright": "©Monster Siren Records",
+      "bg_inverse": "hime_conflict",
+      "world_unlock": false,
       "date": 1742630554,
       "version": "2.4.2",
+      "source_copyright": "©Monster Siren Records",
       "difficulties": [
         {
           "ratingClass": 0,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": -1,                    "hidden_until": "always"
+          "rating": -1,
+          "ratingPlus": false
         },
         {
           "ratingClass": 1,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": -1,                    "hidden_until": "always"
+          "rating": -1,
+          "ratingPlus": false
         },
         {
           "ratingClass": 2,
           "chartDesigner": "Fantasy the Hvít Aska",
           "jacketDesigner": "",
-          "rating": 9
-       }
+          "rating": 9,
+          "ratingPlus": false
+        }
       ]
     },
-{
+    {
       "id": "abovetheclouds",
       "title_localized": {
         "en": "Above the Clouds"
@@ -3879,24 +4068,24 @@
       "side": 0,
       "bg": "single2_light",
       "bg_inverse": "single2_conflict",
-      "source_localized": {
-        "en": "polytone"
-      },
-      "source_copyright": "",
+      "world_unlock": false,
       "date": 1742083200,
       "version": "2.4.0",
+      "source_copyright": "",
       "difficulties": [
         {
           "ratingClass": 0,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": 0,                    "hidden_until": "always"
+          "rating": 0,
+          "ratingPlus": false
         },
         {
           "ratingClass": 1,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": 0,                    "hidden_until": "always"
+          "rating": 0,
+          "ratingPlus": false
         },
         {
           "ratingClass": 2,
@@ -3904,11 +4093,10 @@
           "jacketDesigner": "",
           "rating": 8,
           "ratingPlus": true
-
-                }
+        }
       ]
     },
-{
+    {
       "id": "matsuri",
       "title_localized": {
         "en": "金色のマーチ"
@@ -3922,24 +4110,25 @@
       "audioPreviewEnd": 125223,
       "side": 0,
       "bg": "bg_mirai_conflict",
-      "bg_inverse": "bg_mirai_light","source_localized": {
-        "en": "明日方舟"
-       },
-      "source_copyright": "©Monster Siren Records",
+      "bg_inverse": "bg_mirai_light",
+      "world_unlock": false,
       "date": 1742292724,
       "version": "2.4.0",
+      "source_copyright": "©Monster Siren Records",
       "difficulties": [
         {
           "ratingClass": 0,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": -1,                    "hidden_until": "always"
+          "rating": -1,
+          "ratingPlus": false
         },
         {
           "ratingClass": 1,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": -1,                    "hidden_until": "always"
+          "rating": -1,
+          "ratingPlus": false
         },
         {
           "ratingClass": 2,
@@ -3947,10 +4136,10 @@
           "jacketDesigner": "",
           "rating": 9,
           "ratingPlus": true
-                }
+        }
       ]
     },
-          {
+    {
       "id": "mistymemory",
       "title_localized": {
         "en": "Misty Memory (Night Version)"
@@ -3964,34 +4153,36 @@
       "audioPreviewEnd": 112693,
       "side": 0,
       "bg": "hime_light",
-      "bg_inverse": "hime_conflict","source_localized": {
-        "en": "明日方舟"
-       },
-      "source_copyright": "©Monster Siren Records",
+      "bg_inverse": "hime_conflict",
+      "world_unlock": false,
       "date": 1742294234,
       "version": "2.4.0",
+      "source_copyright": "©Monster Siren Records",
       "difficulties": [
         {
           "ratingClass": 0,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": -1,                    "hidden_until": "always"
+          "rating": -1,
+          "ratingPlus": false
         },
         {
           "ratingClass": 1,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": -1,                    "hidden_until": "always"
+          "rating": -1,
+          "ratingPlus": false
         },
         {
           "ratingClass": 2,
           "chartDesigner": "To Eyjafjalla",
           "jacketDesigner": "",
           "rating": 9,
-          "ratingPlus": true                }
-            ]
-        },
-{
+          "ratingPlus": true
+        }
+      ]
+    },
+    {
       "id": "DoubleAgent",
       "title_localized": {
         "en": "Double Agent"
@@ -4005,18 +4196,14 @@
       "audioPreviewEnd": 121596,
       "side": 1,
       "bg": "prelude_conflict",
-      "bg_inverse": "prelude_light","source_copyright": "Chaotic 初",
-      "version": "2.4.0",
+      "bg_inverse": "prelude_light",
+      "world_unlock": false,
       "date": 1740821787,
+      "version": "2.4.0",
+      "source_copyright": "Chaotic 初",
       "difficulties": [
         {
           "ratingClass": 0,
-          "title_localized": {
-            "en": "EMPTY"
-          },
-          "bpm": "160",
-          "bpm_base": 160,
-          "audioOverride": false,
           "chartDesigner": "",
           "jacketDesigner": "",
           "rating": 0,
@@ -4024,12 +4211,6 @@
         },
         {
           "ratingClass": 1,
-          "title_localized": {
-            "en": "EMPTY"
-          },
-          "bpm": "160",
-          "bpm_base": 160,
-          "audioOverride": false,
           "chartDesigner": "",
           "jacketDesigner": "",
           "rating": 0,
@@ -4037,12 +4218,6 @@
         },
         {
           "ratingClass": 2,
-          "title_localized": {
-            "en": "EMPTY"
-          },
-          "bpm": "160",
-          "bpm_base": 160,
-          "audioOverride": false,
           "chartDesigner": "",
           "jacketDesigner": "",
           "rating": 0,
@@ -4050,19 +4225,14 @@
         },
         {
           "ratingClass": 3,
-          "title_localized": {
-            "en": "Double Agent"
-          },
-          "bpm": "160",
-          "bpm_base": 160,
-          "audioOverride": false,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": 0
-                }
+          "rating": 0,
+          "ratingPlus": false
+        }
       ]
     },
-  {
+    {
       "id": "Kamurogiku",
       "title_localized": {
         "en": "冠菊"
@@ -4077,22 +4247,23 @@
       "side": 1,
       "bg": "ongeki_conflict",
       "bg_inverse": "ongeki_light",
-      "version": "2.4.0",
+      "world_unlock": false,
       "date": 1731238088,
+      "version": "2.4.0",
       "difficulties": [
         {
           "ratingClass": 0,
           "chartDesigner": "",
           "jacketDesigner": "",
           "rating": 0,
-          "ratingPlus": false,                    "hidden_until": "always"
+          "ratingPlus": false
         },
         {
           "ratingClass": 1,
           "chartDesigner": "",
           "jacketDesigner": "",
           "rating": 0,
-          "ratingPlus": false,                    "hidden_until": "always"
+          "ratingPlus": false
         },
         {
           "ratingClass": 2,
@@ -4103,7 +4274,7 @@
         }
       ]
     },
-{
+    {
       "id": "shawarma",
       "title_localized": {
         "en": "Shawarma Legend"
@@ -4118,6 +4289,7 @@
       "side": 0,
       "bg": "base_light",
       "bg_inverse": "base_conflict",
+      "world_unlock": false,
       "date": 1742290639,
       "version": "2.4.0",
       "difficulties": [
@@ -4125,13 +4297,15 @@
           "ratingClass": 0,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": -1,                    "hidden_until": "always"
+          "rating": -1,
+          "ratingPlus": false
         },
         {
           "ratingClass": 1,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": -1,                    "hidden_until": "always"
+          "rating": -1,
+          "ratingPlus": false
         },
         {
           "ratingClass": 2,
@@ -4142,12 +4316,6 @@
         },
         {
           "ratingClass": 3,
-          "title_localized": {
-            "en": "Shawarma Legendx2.0"
-          },
-          "bpm": "252",
-          "bpm_base": 252,
-          "audioOverride": true,
           "chartDesigner": "COOR",
           "jacketDesigner": "",
           "rating": 14,
@@ -4155,7 +4323,7 @@
         }
       ]
     },
-        {
+    {
       "id": "theatorecreatore",
       "title_localized": {
         "en": "Theatore Creatore"
@@ -4170,6 +4338,7 @@
       "side": 1,
       "bg": "chunigarakuta",
       "bg_inverse": "chunigarakuta",
+      "world_unlock": false,
       "date": 11,
       "version": "2.4.0",
       "difficulties": [
@@ -4177,19 +4346,22 @@
           "ratingClass": 0,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": 0,                    "hidden_until": "always"
+          "rating": 0,
+          "ratingPlus": false
         },
         {
           "ratingClass": 1,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": 0,                    "hidden_until": "always"
+          "rating": 0,
+          "ratingPlus": false
         },
         {
           "ratingClass": 2,
           "chartDesigner": "C=A:11:",
           "jacketDesigner": "ぴば子",
-          "rating": 11
+          "rating": 11,
+          "ratingPlus": false
         }
       ]
     },
@@ -4208,34 +4380,35 @@
       "side": 1,
       "bg": "ziweichang",
       "bg_inverse": "ziweichang",
-      "source_localized": {
-        "en": "明日方舟"
-      },
-      "source_copyright": "©Monster Siren Records",
+      "world_unlock": false,
       "date": 1737813118,
       "version": "2.4.0",
+      "source_copyright": "©Monster Siren Records",
       "difficulties": [
         {
           "ratingClass": 0,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": -1,                    "hidden_until": "always"
+          "rating": -1,
+          "ratingPlus": false
         },
         {
           "ratingClass": 1,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": -1,                    "hidden_until": "always"
+          "rating": -1,
+          "ratingPlus": false
         },
         {
           "ratingClass": 2,
           "chartDesigner": "今日做东\n厚礼上宾\n灶里乾坤",
           "jacketDesigner": "",
-          "rating": 10
+          "rating": 10,
+          "ratingPlus": false
         }
       ]
     },
-  {
+    {
       "id": "jinchunwu",
       "title_localized": {
         "en": "浸春芜"
@@ -4250,6 +4423,7 @@
       "side": 0,
       "bg": "jinchunwu",
       "bg_inverse": "jinchunwu",
+      "world_unlock": false,
       "date": 1707222220,
       "version": "2.4.0",
       "difficulties": [
@@ -4257,13 +4431,15 @@
           "ratingClass": 0,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": -1
+          "rating": -1,
+          "ratingPlus": false
         },
         {
           "ratingClass": 1,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": -1
+          "rating": -1,
+          "ratingPlus": false
         },
         {
           "ratingClass": 2,
@@ -4281,7 +4457,7 @@
         }
       ]
     },
-      {
+    {
       "id": "firstcrevasseonthefrozenlake",
       "title_localized": {
         "en": "First Crevasse on the Frozen Lake"
@@ -4296,6 +4472,7 @@
       "side": 0,
       "bg": "firstcrevasseonthefrozenlake",
       "bg_inverse": "firstcrevasseonthefrozenlake",
+      "world_unlock": false,
       "date": 1703327591,
       "version": "2.4.0",
       "difficulties": [
@@ -4303,13 +4480,15 @@
           "ratingClass": 0,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": -1,                    "hidden_until": "always"
+          "rating": -1,
+          "ratingPlus": false
         },
         {
           "ratingClass": 1,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": -1,                    "hidden_until": "always"
+          "rating": -1,
+          "ratingPlus": false
         },
         {
           "ratingClass": 2,
@@ -4320,7 +4499,7 @@
         }
       ]
     },
-        {
+    {
       "id": "Wolves Standing Towards Ememies",
       "title_localized": {
         "en": "Wolves Standing Towards Ememies"
@@ -4335,31 +4514,34 @@
       "side": 1,
       "bg": "Wolves",
       "bg_inverse": "Wolves",
-
+      "world_unlock": false,
       "date": 10,
       "version": "2.4.0",
       "difficulties": [
-      {
+        {
           "ratingClass": 0,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": 7,                    "hidden_until": "always"
+          "rating": 7,
+          "ratingPlus": false
         },
         {
           "ratingClass": 1,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": 9,                    "hidden_until": "always"
+          "rating": 9,
+          "ratingPlus": false
         },
         {
           "ratingClass": 2,
           "chartDesigner": "Team.Solar vs. SaturnKiller",
           "jacketDesigner": "",
-          "rating": 12
+          "rating": 12,
+          "ratingPlus": false
         }
       ]
     },
-      {
+    {
       "id": "opia",
       "title_localized": {
         "en": "opia"
@@ -4374,6 +4556,7 @@
       "side": 1,
       "bg": "alice_conflict",
       "bg_inverse": "alice_light",
+      "world_unlock": false,
       "date": 1737532994,
       "version": "2.4.0",
       "difficulties": [
@@ -4381,62 +4564,67 @@
           "ratingClass": 0,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": -1,                    "hidden_until": "always"
+          "rating": -1,
+          "ratingPlus": false
         },
         {
           "ratingClass": 1,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": -1,                    "hidden_until": "always"
+          "rating": -1,
+          "ratingPlus": false
         },
         {
           "ratingClass": 2,
           "chartDesigner": "cooR",
           "jacketDesigner": "",
-          "rating": 9
+          "rating": 9,
+          "ratingPlus": false
         }
       ]
     },
-          {
-            "id": "mythos",
-            "title_localized": {
-                "en": "MYTHOS"
-            },
-            "artist": "Cranky feat. まらしぃ & てっぺい 先生",
-            "bpm": "158",
-            "bpm_base": 158,
-            "set": "lowest",
-            "purchase": "",
-            "audioPreview": 36457,
-            "audioPreviewEnd": 50128,
-            "side":1,
-            "bg": "maimai_boss",
-            "bg_inverse": "maimai_boss",
-            "date": 1739118818,
-            "version": "2.4.0",
-            "difficulties": [
-                {
-                    "ratingClass":0,
-                    "chartDesigner": "",
-                    "jacketDesigner": "",
-                    "rating": 0,
-                    "hidden_until":"always"
-                },
-                {
-                    "ratingClass": 1,
-                    "chartDesigner": "",
-                    "jacketDesigner": "",
-                    "rating": 0,
-                     "hidden_until":"always"
-                },
-                { 
-                "ratingClass": 2,
-                "chartDesigner": "Suzu Umikaze",
-                "jacketDesigner": "",
-                "rating": 10
-                }
-            ]
+    {
+      "id": "mythos",
+      "title_localized": {
+        "en": "MYTHOS"
+      },
+      "artist": "Cranky feat. まらしぃ & てっぺい 先生",
+      "bpm": "158",
+      "bpm_base": 158,
+      "set": "lowest",
+      "purchase": "",
+      "audioPreview": 36457,
+      "audioPreviewEnd": 50128,
+      "side": 1,
+      "bg": "maimai_boss",
+      "bg_inverse": "maimai_boss",
+      "world_unlock": false,
+      "date": 1739118818,
+      "version": "2.4.0",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
         },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "Suzu Umikaze",
+          "jacketDesigner": "",
+          "rating": 10,
+          "ratingPlus": false
+        }
+      ]
+    },
     {
       "id": "outerheaven",
       "title_localized": {
@@ -4451,7 +4639,8 @@
       "audioPreviewEnd": 47814,
       "side": 1,
       "bg": "single2_conflict",
-            "bg_inverse": "single2_light",
+      "bg_inverse": "single2_light",
+      "world_unlock": false,
       "date": 1698670226,
       "version": "2.4.0",
       "difficulties": [
@@ -4459,13 +4648,15 @@
           "ratingClass": 0,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": 0,                    "hidden_until": "always"
+          "rating": 0,
+          "ratingPlus": false
         },
         {
           "ratingClass": 1,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": 0,                    "hidden_until": "always"
+          "rating": 0,
+          "ratingPlus": false
         },
         {
           "ratingClass": 2,
@@ -4476,7 +4667,7 @@
         }
       ]
     },
-      {
+    {
       "id": "dbdoll",
       "title_localized": {
         "en": "dB doll"
@@ -4490,7 +4681,8 @@
       "audioPreviewEnd": 73125,
       "side": 0,
       "bg": "shiawase2",
-            "bg_inverse": "shiawase2_1",
+      "bg_inverse": "shiawase2_1",
+      "world_unlock": false,
       "date": 1742351979,
       "version": "2.4.0",
       "difficulties": [
@@ -4498,19 +4690,22 @@
           "ratingClass": 0,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": -1,                    "hidden_until": "always"
+          "rating": -1,
+          "ratingPlus": false
         },
         {
           "ratingClass": 1,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": -1,                    "hidden_until": "always"
+          "rating": -1,
+          "ratingPlus": false
         },
         {
           "ratingClass": 2,
           "chartDesigner": "cooring",
           "jacketDesigner": "何呵",
-          "rating": 7
+          "rating": 7,
+          "ratingPlus": false
         },
         {
           "ratingClass": 3,
@@ -4518,11 +4713,10 @@
           "jacketDesigner": "何呵",
           "rating": 8,
           "ratingPlus": true
-        
         }
       ]
     },
-  {
+    {
       "id": "alastingpromise",
       "title_localized": {
         "en": "A Lasting Promise"
@@ -4537,22 +4731,23 @@
       "side": 1,
       "bg": "byd2conflict",
       "bg_inverse": "byd2light",
-      "version": "2.4.0",
+      "world_unlock": false,
       "date": 1491868800,
+      "version": "2.4.0",
       "difficulties": [
         {
           "ratingClass": 0,
           "chartDesigner": "",
           "jacketDesigner": "",
           "rating": 0,
-          "ratingPlus": false,                    "hidden_until": "always"
+          "ratingPlus": false
         },
         {
           "ratingClass": 1,
           "chartDesigner": "",
           "jacketDesigner": "",
           "rating": 0,
-          "ratingPlus": false,                    "hidden_until": "always"
+          "ratingPlus": false
         },
         {
           "ratingClass": 2,
@@ -4563,7 +4758,7 @@
         }
       ]
     },
-  {
+    {
       "id": "HeavensCage",
       "title_localized": {
         "en": "Heaven's Cage"
@@ -4578,22 +4773,23 @@
       "side": 0,
       "bg": "HeavensCage",
       "bg_inverse": "HeavensCage",
-      "version": "2.4.0",
+      "world_unlock": false,
       "date": 1742733841,
+      "version": "2.4.0",
       "difficulties": [
         {
           "ratingClass": 0,
           "chartDesigner": "",
           "jacketDesigner": "",
           "rating": 0,
-          "ratingPlus": false,                    "hidden_until": "always"
+          "ratingPlus": false
         },
         {
           "ratingClass": 1,
           "chartDesigner": "",
           "jacketDesigner": "",
           "rating": 0,
-          "ratingPlus": false,                    "hidden_until": "always"
+          "ratingPlus": false
         },
         {
           "ratingClass": 2,
@@ -4604,7 +4800,7 @@
         }
       ]
     },
-  {
+    {
       "id": "cryptarithm",
       "title_localized": {
         "en": "Cryptarithm"
@@ -4613,12 +4809,13 @@
       "bpm": "175",
       "bpm_base": 175,
       "set": "lowest",
+      "purchase": "",
       "audioPreview": 4219,
       "audioPreviewEnd": 29219,
       "side": 1,
-      "purchase": "",
       "bg": "single_conflict",
       "bg_inverse": "single_light",
+      "world_unlock": false,
       "date": 1735968930,
       "version": "2.4.0",
       "difficulties": [
@@ -4626,13 +4823,15 @@
           "ratingClass": 0,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": -1,                    "hidden_until": "always"
+          "rating": -1,
+          "ratingPlus": false
         },
         {
           "ratingClass": 1,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": -1,                    "hidden_until": "always"
+          "rating": -1,
+          "ratingPlus": false
         },
         {
           "ratingClass": 2,
@@ -4643,7 +4842,7 @@
         }
       ]
     },
-  {
+    {
       "id": "raputa",
       "title_localized": {
         "en": "raputa"
@@ -4653,31 +4852,32 @@
       "bpm_base": 230,
       "set": "single",
       "purchase": "",
+      "category": "poprec",
       "audioPreview": 2086,
       "audioPreviewEnd": 17739,
       "side": 1,
       "bg": "byd2conflict",
       "bg_inverse": "byd2light",
-      "version": "2.4.0",
+      "world_unlock": false,
       "date": 1212121212,
+      "version": "2.4.0",
       "difficulties": [
         {
           "ratingClass": 0,
           "chartDesigner": "",
           "jacketDesigner": "",
           "rating": -1,
-          "ratingPlus": false,                    "hidden_until": "always"
+          "ratingPlus": false
         },
         {
           "ratingClass": 1,
           "chartDesigner": "",
           "jacketDesigner": "",
           "rating": -1,
-          "ratingPlus": false,                    "hidden_until": "always"
+          "ratingPlus": false
         },
         {
           "ratingClass": 2,
-          "bpm": "230-339 \nwithout sp arctap",
           "chartDesigner": "F",
           "jacketDesigner": "Shun Yamaguchi",
           "rating": 11,
@@ -4692,7 +4892,7 @@
         }
       ]
     },
-      {
+    {
       "id": "amethyst",
       "title_localized": {
         "en": "amethyst"
@@ -4705,22 +4905,26 @@
       "audioPreview": 25631,
       "audioPreviewEnd": 57846,
       "side": 1,
-      "bg": "amethyst","source_copyright": "CH3COOCH2CH3_541 生贺",
+      "bg": "amethyst",
+      "bg_inverse": "amethyst",
+      "world_unlock": false,
       "date": 1742811064,
       "version": "3.0",
-
+      "source_copyright": "CH3COOCH2CH3_541 生贺",
       "difficulties": [
         {
           "ratingClass": 0,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": -1
+          "rating": -1,
+          "ratingPlus": false
         },
         {
           "ratingClass": 1,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": -1
+          "rating": -1,
+          "ratingPlus": false
         },
         {
           "ratingClass": 2,
@@ -4731,7 +4935,7 @@
         }
       ]
     },
-      {
+    {
       "id": "vsTREAMER",
       "title_localized": {
         "en": "vs.TREAMEЯ"
@@ -4745,9 +4949,10 @@
       "audioPreviewEnd": 18721,
       "side": 0,
       "bg": "vs",
-            "bg_inverse": "vs_1",
-      "version": "3.0.0",
+      "bg_inverse": "vs_1",
+      "world_unlock": false,
       "date": 1742811064,
+      "version": "3.0.0",
       "difficulties": [
         {
           "ratingClass": 0,
@@ -4775,10 +4980,11 @@
           "chartDesigner": "和泉凛咲",
           "jacketDesigner": "Rotaeno",
           "rating": 10,
-          "ratingPlus": true        }
+          "ratingPlus": true
+        }
       ]
     },
-{
+    {
       "id": "Gangnam Style",
       "title_localized": {
         "en": "Gangnam Style"
@@ -4792,9 +4998,11 @@
       "audioPreviewEnd": 114514,
       "side": 1,
       "bg": "base_conflict",
-            "bg_inverse": "base_light","source_copyright": "Chaotic A",
-      "version": "24.4",
+      "bg_inverse": "base_light",
+      "world_unlock": false,
       "date": 1737727387,
+      "version": "24.4",
+      "source_copyright": "Chaotic A",
       "difficulties": [
         {
           "ratingClass": 0,
@@ -4814,77 +5022,62 @@
           "ratingClass": 2,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": 0
-                }
-            ]
+          "rating": 0,
+          "ratingPlus": false
+        }
+      ]
+    },
+    {
+      "id": "faded",
+      "title_localized": {
+        "en": "Faded"
+      },
+      "artist": "Alan Walker",
+      "bpm": "90",
+      "bpm_base": 180,
+      "set": "chaotic",
+      "purchase": "",
+      "audioPreview": 16172,
+      "audioPreviewEnd": 21505,
+      "side": 1,
+      "bg": "Background_nijuusei2_conflict",
+      "bg_inverse": "Background_nijuusei2_conflict",
+      "world_unlock": false,
+      "date": 1923486863,
+      "version": "24.4",
+      "source_copyright": "Chaotic W",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": -1,
+          "ratingPlus": false
         },
-            {
-        "idx": 350,
-        "id": "faded",
-        "title_localized": {
-            "en": "Faded"
+        {
+          "ratingClass": 1,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": -1,
+          "ratingPlus": false
         },
-        "artist": "Alan Walker",
-        "search_title": {
-            "en": [
-                "aminoac"
-            ],
-            "ja": [
-                "あみのあっしゅ"
-            ]
+        {
+          "ratingClass": 2,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": -1,
+          "ratingPlus": false
         },
-        "search_artist": {
-            "en": [
-                "solomom"
-            ],
-            "ja": [
-                "そろまむ"
-            ]
-        },
-        "bpm": "90",
-        "bpm_base": 180,
-        "set": "chaotic",
-        "purchase": "",
-        "audioPreview": 16172,
-        "audioPreviewEnd": 21505,
-        "side": 1,
-        "bg": "Background_nijuusei2_conflict",
-        "source_copyright": "Chaotic W",
-        "date": 1923486863,
-        "version": "24.4",
-        "difficulties": [
-            {
-                "ratingClass": 0,
-                "chartDesigner": "",
-                "jacketDesigner": "",
-                "rating": -1,
-                              "hidden_until": "always"
-            },
-            {
-                "ratingClass": 1,
-                "chartDesigner": "",
-                "jacketDesigner": "",
-                "rating": -1,
-                              "hidden_until": "always"
-            },
-            {
-                "ratingClass": 2,
-                "chartDesigner": "",
-                "jacketDesigner": "",
-                "rating": -1,
-                "ratingPlus": false,
-                              "hidden_until": "always"
-            },
-            {
-                "ratingClass": 3,
-                "chartDesigner": "wys0318/nwys0319/nwys0320/nwys0321",
-                "jacketDesigner": "",
-                "rating": 0,
-                "ratingPlus": false
-}
-            ]
-        },
-            {
+        {
+          "ratingClass": 3,
+          "chartDesigner": "wys0318/nwys0319/nwys0320/nwys0321",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        }
+      ]
+    },
+    {
       "id": "song",
       "title_localized": {
         "en": "Waht Song"
@@ -4898,49 +5091,48 @@
       "audioPreviewEnd": 110954,
       "side": 0,
       "bg": "bg_designant",
-      "source_copyright": "Chaotic 干什么!",
-      "version": "24.4",
+      "bg_inverse": "bg_designant",
+      "world_unlock": false,
       "date": 1716390745,
+      "version": "24.4",
+      "source_copyright": "Chaotic 干什么!",
       "difficulties": [
         {
           "ratingClass": 0,
           "chartDesigner": "",
           "jacketDesigner": "",
           "rating": 0,
-          "ratingPlus": false,
-                              "hidden_until": "always"
+          "ratingPlus": false
         },
         {
           "ratingClass": 1,
           "chartDesigner": "",
           "jacketDesigner": "",
           "rating": 0,
-          "ratingPlus": false,
-                              "hidden_until": "always"
+          "ratingPlus": false
         },
         {
           "ratingClass": 2,
           "chartDesigner": "",
           "jacketDesigner": "",
           "rating": 0,
-          "ratingPlus": false,
-                              "hidden_until": "always"
+          "ratingPlus": false
         },
         {
           "ratingClass": 3,
           "chartDesigner": "HXdaN",
           "jacketDesigner": "",
-          "rating": 0
+          "rating": 0,
+          "ratingPlus": false
         }
-            ]
-        },
+      ]
+    },
     {
       "id": "youlikethreewinter",
-
-            "title_localized": {
-                "en": "你若三冬 (想吃广东菜DJ)"
-            },
-            "artist": "秦末",
+      "title_localized": {
+        "en": "你若三冬 (想吃广东菜DJ)"
+      },
+      "artist": "秦末",
       "bpm": "225",
       "bpm_base": 225,
       "set": "chaotic",
@@ -4950,33 +5142,35 @@
       "side": 0,
       "bg": "base_light",
       "bg_inverse": "base_conflict",
-      "source_copyright": "Chaotic 3",
+      "world_unlock": false,
       "date": 1743079593,
       "version": "24.4",
+      "source_copyright": "Chaotic 3",
       "difficulties": [
         {
           "ratingClass": 0,
           "chartDesigner": "IsSun50000",
           "jacketDesigner": "",
           "rating": 0,
-                              "hidden_until": "always"
+          "ratingPlus": false
         },
         {
           "ratingClass": 1,
           "chartDesigner": "",
           "jacketDesigner": "",
           "rating": 0,
-                              "hidden_until": "always"
+          "ratingPlus": false
         },
         {
           "ratingClass": 2,
           "chartDesigner": "IsSun50000",
           "jacketDesigner": "",
-          "rating": 0
+          "rating": 0,
+          "ratingPlus": false
         }
       ]
     },
-          {
+    {
       "id": "lightning",
       "title_localized": {
         "en": "Lightning"
@@ -4991,6 +5185,7 @@
       "side": 0,
       "bg": "lightning_0",
       "bg_inverse": "lightning_1",
+      "world_unlock": false,
       "date": 1582290840,
       "version": "2.4.4",
       "difficulties": [
@@ -4998,13 +5193,15 @@
           "ratingClass": 0,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": 0,                    "hidden_until": "always"
+          "rating": 0,
+          "ratingPlus": false
         },
         {
           "ratingClass": 1,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": 0,                    "hidden_until": "always"
+          "rating": 0,
+          "ratingPlus": false
         },
         {
           "ratingClass": 2,
@@ -5012,7 +5209,7 @@
           "jacketDesigner": "",
           "rating": 9,
           "ratingPlus": true
-}
+        }
       ]
     },
     {
@@ -5030,6 +5227,7 @@
       "side": 0,
       "bg": "Rainmaker_0",
       "bg_inverse": "Rainmaker_1",
+      "world_unlock": false,
       "date": 1743310010,
       "version": "2.4.4",
       "difficulties": [
@@ -5037,23 +5235,26 @@
           "ratingClass": 0,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": -1,                    "hidden_until": "always"
+          "rating": -1,
+          "ratingPlus": false
         },
         {
           "ratingClass": 1,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": -1,                    "hidden_until": "always"
+          "rating": -1,
+          "ratingPlus": false
         },
         {
           "ratingClass": 2,
           "chartDesigner": "アルカリ人格",
           "jacketDesigner": "",
-          "rating": 9
+          "rating": 9,
+          "ratingPlus": false
         }
       ]
     },
-{
+    {
       "id": "southerncross",
       "title_localized": {
         "en": "Southern Cross"
@@ -5063,11 +5264,13 @@
       "bpm_base": 171,
       "set": "single",
       "purchase": "",
+      "category": "poprec",
       "audioPreview": 63069,
       "audioPreviewEnd": 84035,
       "side": 0,
       "bg": "base_light",
       "bg_inverse": "base_conflict",
+      "world_unlock": false,
       "date": 1743251651,
       "version": "2.4.4",
       "difficulties": [
@@ -5075,19 +5278,22 @@
           "ratingClass": 0,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": -1,                    "hidden_until": "always"
+          "rating": -1,
+          "ratingPlus": false
         },
         {
           "ratingClass": 1,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": -1,                    "hidden_until": "always"
+          "rating": -1,
+          "ratingPlus": false
         },
         {
           "ratingClass": 2,
           "chartDesigner": "Issouth403",
           "jacketDesigner": "",
-          "rating": 10
+          "rating": 10,
+          "ratingPlus": false
         }
       ]
     },
@@ -5106,6 +5312,7 @@
       "side": 1,
       "bg": "cytus_conflict",
       "bg_inverse": "cytus_light",
+      "world_unlock": false,
       "date": 1742052523,
       "version": "2.4.4",
       "difficulties": [
@@ -5113,13 +5320,15 @@
           "ratingClass": 0,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": -1,                    "hidden_until": "always"
+          "rating": -1,
+          "ratingPlus": false
         },
         {
           "ratingClass": 1,
           "chartDesigner": "",
           "jacketDesigner": "",
-          "rating": -1,                    "hidden_until": "always"
+          "rating": -1,
+          "ratingPlus": false
         },
         {
           "ratingClass": 2,

@@ -32,6 +32,7 @@ with open(csv_path, 'w', encoding='utf-8') as csv_file:
         song_id = song['id']
         title = list(song['title_localized'].values())[0]
         title = title.replace(',', '，')
+        title = title.replace("'", '’')
         ratings = [0, 0, 0, 0]
         for diff in song['difficulties']:
             if diff['ratingClass'] in [0, 1, 2, 3]:
@@ -51,11 +52,13 @@ insert_statements = []
 for song in songlist['songs']:
     song_id = song['id']
     title = list(song['title_localized'].values())[0]
+    title = title.replace(',', '，')
+    title = title.replace("'", '’')
     ratings = ['-' for _ in range(4)]
     for diff in song['difficulties']:
         if diff['ratingClass'] in [0, 1, 2, 3]:
             ratings[diff['ratingClass']] = str(diff['rating']) if diff['rating'] >= 1 else '-'
-    insert = f"INSERT INTO allsongs (songname, songId, PST, PRS, FTR, BYD, ETR) VALUES (\"{title}\", \"{song_id}\", \"{ratings[0]}\", \"{ratings[1]}\", \"{ratings[2]}\", \"{ratings[3]}\");"
+    insert = f"INSERT INTO allsongs (songname, songId, PST, PRS, FTR, BYD, ETR) VALUES ('{title}', '{song_id}', '{ratings[0]}', '{ratings[1]}', '{ratings[2]}', '{ratings[3]}', '');"
     insert_statements.append(insert)
 sql_template = """PRAGMA foreign_keys = off;
 BEGIN TRANSACTION;
@@ -181,3 +184,4 @@ PRAGMA foreign_keys = on;
 insert_str = '\n'.join(insert_statements)
 with open(sql_path, 'w', encoding='utf-8') as sql_file:
     sql_file.write(sql_template.format(insert_statements=insert_str))
+print('Done!')
