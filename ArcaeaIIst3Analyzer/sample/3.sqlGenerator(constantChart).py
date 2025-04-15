@@ -4,12 +4,12 @@ import pandas as pd
 # 读取 constantChart.csv 文件
 csv_path = 'constantChart.csv'
 df = pd.read_csv(csv_path, header=None)
-df.columns = ['歌曲名', '歌曲id', 'PAST', 'PRE', 'FTR', 'BYD', 'ETR']
+df.columns = ['歌曲名', '歌曲ID', 'PAST', 'PRE', 'FTR', 'BYD', 'ETR']
 
 # 生成 SQL 插入语句
 insert_statements = []
 for index, row in df.iterrows():
-    song_id = row['歌曲id']
+    song_id = row['歌曲ID']
     title = row['歌曲名']
     title = title.replace(',', '，')
     title = title.replace("'", "’")
