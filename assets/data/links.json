@@ -1,0 +1,254 @@
+{
+    "links": [
+        {
+            "title": "Arcaea本地查分",
+            "link": "https://smartrte.github.io/index.html",
+            "description": "用于Arcaea游戏本地成绩查询的工具，支持查看游戏内歌曲成绩、评级等数据"
+        },
+        {
+            "title": "Unity游戏引擎",
+            "link": "https://unity.cn/releases",
+            "description": "Unity游戏引擎的官方中文网站，提供引擎下载、教程、文档和资源商店等内容"
+        },
+        {
+            "title": "Krita画图软件",
+            "link": "http://www.krita.org",
+            "description": "专业开源数字绘画软件，适合插画师、概念艺术家和漫画创作者使用"
+        },
+        {
+            "title": "与佛论禅",
+            "link": "http://www.keyfc.net/bbs/tools/tudoucode.aspx",
+            "description": "一个有趣的字符画生成工具，可以将文字转换为艺术字符图案"
+        },
+        {
+            "title": "菜鸟教程",
+            "link": "https://www.runoob.com",
+            "description": "提供丰富编程教程和示例的学习平台，涵盖HTML、CSS、JavaScript、Python等多种技术"
+        },
+        {
+            "title": "DogFight360",
+            "link": "https://www.dogfight360.com",
+            "description": "提供网络工具、技术文章和游戏辅助工具的综合网站"
+        },
+        {
+            "title": "樱花映射(内网穿透)",
+            "link": "https://www.natfrp.com",
+            "description": "免费的内网穿透服务，帮助用户在外网访问内网设备和服务"
+        },
+        {
+            "title": "Json在线校验",
+            "link": "https://www.sojson.com",
+            "description": "提供JSON格式化、校验、压缩和解析等功能的在线工具"
+        },
+        {
+            "title": "在线转图标",
+            "link": "http://www.ico51.cn",
+            "description": "在线将图片转换为ICO图标格式的工具，支持多种尺寸和质量选项"
+        },
+        {
+            "title": "小幻IP代理",
+            "link": "https://ip.ihuan.me",
+            "description": "提供免费和付费代理IP服务的平台，适合网络测试和访问限制内容"
+        },
+        {
+            "title": "teamDB-INFO",
+            "link": "https://steamdb.info",
+            "description": "Steam游戏数据库，提供游戏价格历史、折扣信息和游戏统计数据"
+        },
+        {
+            "title": "Ping查询",
+            "link": "https://tools.ipip.net/newping.php",
+            "description": "网络诊断工具，用于测试与目标服务器的连接延迟和丢包率"
+        },
+        {
+            "title": "MSDN我告诉你",
+            "link": "https://msdn.itellyou.cn",
+            "description": "提供微软官方原版软件下载的非官方网站，包含Windows、Office等产品"
+        },
+        {
+            "title": "营销号生成器",
+            "link": "https://codepen.io/kasei-dis/pen/JjYjwza",
+            "description": "一个有趣的在线工具，可以自动生成营销号风格的文章内容"
+        },
+        {
+            "title": "我的世界皮肤站",
+            "link": "https://littleskin.cn",
+            "description": "我的世界(Minecraft)玩家社区，提供自定义皮肤上传、分享和下载功能"
+        },
+        {
+            "title": "恋恋的博客",
+            "link": "https://sgkoi.dev/th",
+            "description": "技术博客，分享编程、网络技术和开发经验等内容"
+        },
+        {
+            "title": "裙子的模组制作",
+            "link": "https://fs49.org/sample-page",
+            "description": "提供游戏模组制作教程和资源的网站，专注于特定游戏的个性化修改"
+        },
+        {
+            "title": "搜图工具",
+            "link": "https://saucenao.com",
+            "description": "反向图片搜索引擎，可以通过图片查找来源和相似图片"
+        },
+        {
+            "title": "力扣",
+            "link": "https://leetcode-cn.com",
+            "description": "知名的算法练习平台，提供大量编程题目和在线评测系统，适合准备技术面试"
+        },
+        {
+            "title": "小飞兔整站工具",
+            "link": "https://www.xftsoft.com",
+            "description": "提供网站整站下载、分析和转换等功能的工具集合"
+        },
+        {
+            "title": "Watt Toolkit",
+            "link": "https://www.steampp.net",
+            "description": "Steam社区加速工具，提供网络优化、下载加速和社区访问等功能"
+        },
+        {
+            "title": "Pixiv镜像",
+            "link": "https://pixiv.moe",
+            "description": "日本插画艺术网站Pixiv的镜像站点，方便用户访问和浏览各类插画作品"
+        },
+        {
+            "title": "免费商业字体大全",
+            "link": "https://www.100font.com",
+            "description": "提供大量可商用免费字体下载的网站，适合设计师和开发者使用"
+        },
+        {
+            "title": "字体版权查询",
+            "link": "http://fonts.safe.360.cn",
+            "description": "查询字体版权信息的工具，帮助用户了解字体使用许可和限制"
+        },
+        {
+            "title": "萌娘百科",
+            "link": "https://zh.moegirl.org.cn",
+            "description": "专注于ACG文化的中文百科全书，涵盖动漫、游戏、轻小说等内容"
+        },
+        {
+            "title": "修复模糊图片",
+            "link": "https://jpghd.com",
+            "description": "使用AI技术增强和修复模糊图片的在线工具，提高图片清晰度和质量"
+        },
+        {
+            "title": "帮你找动漫",
+            "link": "https://trace.moe",
+            "description": "通过截图查找动漫出处的工具，识别动漫场景并提供相关信息"
+        },
+        {
+            "title": "洛谷",
+            "link": "https://www.luogu.com.cn",
+            "description": "面向信息学竞赛的在线评测系统和学习社区，提供大量编程题目和教程"
+        },
+        {
+            "title": "Codeforces",
+            "link": "https://codeforces.com",
+            "description": "国际知名的竞争性编程平台，提供算法竞赛、编程挑战和交流社区"
+        },
+        {
+            "title": "AtCoder",
+            "link": "https://atcoder.jp",
+            "description": "日本的竞争性编程平台，举办各类算法竞赛和提供高质量编程题目"
+        },
+        {
+            "title": "OI Wiki",
+            "link": "https://oi-wiki.org",
+            "description": "面向信息学竞赛的开源知识库，提供算法、数据结构和编程技巧等内容"
+        },
+        {
+            "title": "菜鸟论坛",
+            "link": "https://www.runoob.com",
+            "description": "菜鸟教程的社区板块，用户可以在这里交流学习经验和技术问题"
+        },
+        {
+            "title": "中二节奏资源网",
+            "link": "https://segay.notion.site/CHUNITHM-Manual-58662bc82028459aaa18e5982ecfc197",
+            "description": "中二节奏(CHUNITHM)游戏的资源和攻略网站，提供歌曲信息、难度分析等内容"
+        },
+        {
+            "title": "CSS可视化",
+            "link": "https://css.bqrdh.com/glassmorphism/editor",
+            "description": "CSS玻璃态(Glassmorphism)效果生成器，帮助开发者可视化创建现代UI设计"
+        },
+        {
+            "title": "Arcaea中文维基",
+            "link": "https://arcwiki.mcd.blue",
+            "description": "Arcaea游戏的中文维基百科，提供游戏攻略、角色介绍和歌曲信息等内容"
+        },
+        {
+            "title": "NEXUSMODS",
+            "link": "https://www.nexusmods.com",
+            "description": "全球最大的游戏模组(mod)社区，提供各种游戏的自定义修改和扩展"
+        },
+        {
+            "title": "爱玩音乐网",
+            "link": "https://www.22a5.com",
+            "description": "提供音乐下载、试听和分享的网站，涵盖多种音乐类型和风格"
+        },
+        {
+            "title": "decrypt在线脱壳ipa下载",
+            "link": "https://decrypt.day/app/id1205999125#google_vignette",
+            "description": "iOS应用脱壳和下载工具，帮助用户获取和修改iOS应用程序"
+        },
+        {
+            "title": "SQL转ER图",
+            "link": "https://generator.cengxuyuan.cn/sql2er",
+            "description": "将SQL语句转换为实体关系图(ER图)的在线工具，帮助数据库设计和理解"
+        },
+        {
+            "title": "ai生成流程图",
+            "link": "https://www.processon.com/thirds/editorbaidu?category=flowchart&query=ai%E7%94%9F%E6%88%90%E6%B5%81%E7%A8%8B%E5%9B%BE",
+            "description": "基于AI技术的流程图生成工具，支持自然语言描述转换为可视化流程图"
+        },
+        {
+            "title": "Tailwind CSS",
+            "link": "https://tailwindcss.com",
+            "description": "流行的CSS工具类框架，帮助开发者快速构建现代响应式网页界面"
+        },
+        {
+            "title": "ShaderToy",
+            "link": "https://www.shadertoy.com/view/tdG3Rd",
+            "description": "交互式着色器编程平台，用户可以创建和分享各种视觉效果和动画"
+        },
+        {
+            "title": "ShaderFrog",
+            "link": "https://www.shaderfrog.com",
+            "description": "可视化着色器编辑器，无需编程经验即可创建和应用3D视觉效果"
+        },
+        {
+            "title": "PubScholar 公益学术平台",
+            "link": "https://pubscholar.cn",
+            "description": "提供免费学术论文检索和下载的公益平台，覆盖多个学科领域"
+        },
+        {
+            "title": "Hello 算法",
+            "link": "https://www.hello-algo.com",
+            "description": "面向初学者的算法教程网站，以图形化方式解释各种算法原理和实现"
+        },
+        {
+            "title": "动漫天堂",
+            "link": "https://www.lovejay.top/favorites/%e5%8a%a8%e6%bc%ab%e5%a4%a9%e5%a0%82",
+            "description": "提供动漫资源下载、在线观看和讨论的社区网站"
+        },
+        {
+            "title": "Hydro",
+            "link": "https://hydro.js.org",
+            "description": "开源的在线评测系统，支持多种编程语言和算法竞赛模式"
+        },
+        {
+            "title": "AirPortal 空投快传",
+            "link": "https://www.airportal.cn",
+            "description": "无需注册的在线文件传输工具，支持大文件快速分享和下载"
+        },
+        {
+            "title": "轻松传",
+            "link": "https://easychuan.cn",
+            "description": "简单易用的文件传输服务，支持多设备间快速共享文件"
+        },
+        {
+            "title": "奶牛快传",
+            "link": "https://cowtransfer.com",
+            "description": "支持大文件传输的在线工具，提供高速上传和下载服务"
+        }
+    ]
+}

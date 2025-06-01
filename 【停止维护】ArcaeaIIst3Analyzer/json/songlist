@@ -1,0 +1,5343 @@
+{
+  "songs": [
+    {
+      "id": "arcahv",
+      "title_localized": {
+        "en": "Arcahv"
+      },
+      "artist": "Feryquitous",
+      "bpm": "191",
+      "bpm_base": 191,
+      "set": "single",
+      "purchase": "",
+      "category": "poprec",
+      "audioPreview": 1256,
+      "audioPreviewEnd": 31413,
+      "side": 2,
+      "bg": "arcahv",
+      "bg_inverse": "arcahv",
+      "world_unlock": true,
+      "date": 1590537606,
+      "version": "1.0",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "∅",
+          "jacketDesigner": "シエラ",
+          "rating": 4,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "∅",
+          "jacketDesigner": "シエラ",
+          "rating": 7,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "∅",
+          "jacketDesigner": "シエラ",
+          "rating": 9,
+          "ratingPlus": true
+        }
+      ]
+    },
+    {
+      "id": "suito",
+      "title_localized": {
+        "en": "翠杜 - 隣の庭は青い"
+      },
+      "artist": "Aoi & 庭师",
+      "bpm": "180",
+      "bpm_base": 180,
+      "set": "rot",
+      "purchase": "",
+      "audioPreview": 0,
+      "audioPreviewEnd": 16441368,
+      "side": 2,
+      "bg": "suito",
+      "bg_inverse": "suito",
+      "world_unlock": false,
+      "date": 1736819014,
+      "version": "1.0",
+      "source_copyright": "From Roteano",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "Fatum",
+          "jacketDesigner": "",
+          "rating": 10,
+          "ratingPlus": true
+        }
+      ]
+    },
+    {
+      "id": "galacticwarzone",
+      "title_localized": {
+        "en": "GALACTIC WARZONE"
+      },
+      "artist": "Akira Complex",
+      "bpm": "174",
+      "bpm_base": 174,
+      "set": "rot",
+      "purchase": "",
+      "audioPreview": 33702,
+      "audioPreviewEnd": 55772,
+      "side": 1,
+      "bg": "galacticwarzone",
+      "bg_inverse": "galacticwarzone",
+      "world_unlock": false,
+      "date": 1737004707,
+      "version": "1.0",
+      "source_copyright": "From Roteano",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "",
+          "jacketDesigner": "Mechari",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "GALACTIC TRAVELER",
+          "jacketDesigner": "Mechari",
+          "rating": 9,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "awa_az",
+          "jacketDesigner": "Mechari",
+          "rating": 10,
+          "ratingPlus": true
+        }
+      ]
+    },
+    {
+      "id": "permutation",
+      "title_localized": {
+        "en": "Permutation"
+      },
+      "artist": "Prower",
+      "bpm": "175",
+      "bpm_base": 175,
+      "set": "para",
+      "purchase": "",
+      "audioPreview": 43618,
+      "audioPreviewEnd": 65904,
+      "side": 1,
+      "bg": "storm_1",
+      "bg_inverse": "storm_0",
+      "world_unlock": false,
+      "date": 1727933466,
+      "version": "1.0.6",
+      "source_copyright": "From Paradigm: Reboot",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": -1,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": -1,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "橼",
+          "jacketDesigner": "兔仔牛奶",
+          "rating": 10,
+          "ratingPlus": false
+        }
+      ]
+    },
+    {
+      "id": "Boss Rush - USAO",
+      "title_localized": {
+        "en": "Boss Rush"
+      },
+      "artist": "USAO",
+      "bpm": "95",
+      "bpm_base": 95,
+      "set": "single",
+      "purchase": "",
+      "category": "poprec",
+      "audioPreview": 666,
+      "audioPreviewEnd": 21838,
+      "side": 1,
+      "bg": "single2_conflict",
+      "bg_inverse": "single2_light",
+      "world_unlock": false,
+      "date": 1739616110,
+      "version": "1.0.6",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": -1,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": -1,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "YHARCAVA",
+          "jacketDesigner": "OASU?",
+          "rating": 10,
+          "ratingPlus": false
+        }
+      ]
+    },
+    {
+      "id": "quadruplicity",
+      "title_localized": {
+        "en": "Quadruplicity"
+      },
+      "artist": "LucaProject vs NeLiME",
+      "bpm": "157",
+      "bpm_base": 157,
+      "set": "rot",
+      "purchase": "",
+      "audioPreview": 51974,
+      "audioPreviewEnd": 70414,
+      "side": 0,
+      "bg": "quadruplicity",
+      "bg_inverse": "quadruplicity_1",
+      "world_unlock": false,
+      "date": 1739526165,
+      "version": "1.0",
+      "source_copyright": "From Roteano",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "Fall_snoW",
+          "jacketDesigner": "月裏",
+          "rating": 10,
+          "ratingPlus": true
+        },
+        {
+          "ratingClass": 4,
+          "chartDesigner": "殘夢 IV APed",
+          "jacketDesigner": "月裏",
+          "rating": 11,
+          "ratingPlus": false
+        }
+      ]
+    },
+    {
+      "id": "sakuhoshiboshi",
+      "title_localized": {
+        "en": "咲く星々"
+      },
+      "artist": "ユアミトス",
+      "bpm": "185",
+      "bpm_base": 185,
+      "set": "rot",
+      "purchase": "",
+      "audioPreview": 53999,
+      "audioPreviewEnd": 74594,
+      "side": 0,
+      "bg": "rotaeno_light",
+      "bg_inverse": "rotaeno_conflict",
+      "world_unlock": false,
+      "date": 1740144705,
+      "version": "1.0",
+      "source_copyright": "From Roteano",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": -1,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": -1,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "九輪",
+          "jacketDesigner": "Elf",
+          "rating": 9,
+          "ratingPlus": true
+        }
+      ]
+    },
+    {
+      "id": "StarlightTraveler",
+      "title_localized": {
+        "en": "Starlight Traveler"
+      },
+      "artist": "ああああ+打打だいず",
+      "bpm": "214",
+      "bpm_base": 214,
+      "set": "rot",
+      "purchase": "",
+      "audioPreview": 900,
+      "audioPreviewEnd": 20000,
+      "side": 0,
+      "bg": "rotaeno_light",
+      "bg_inverse": "rotaeno_conflict",
+      "world_unlock": false,
+      "date": 1740144705,
+      "version": "1.0",
+      "source_copyright": "From Roteano",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "凛サきい",
+          "jacketDesigner": "Rotaeno",
+          "rating": 10,
+          "ratingPlus": true
+        }
+      ]
+    },
+    {
+      "id": "Meteorite Lotus",
+      "title_localized": {
+        "en": "Meteorite Lotus"
+      },
+      "artist": "wa.",
+      "bpm": "208",
+      "bpm_base": 208,
+      "set": "para",
+      "purchase": "",
+      "audioPreview": 87980,
+      "audioPreviewEnd": 110396,
+      "side": 1,
+      "bg": "mirai_conflict",
+      "bg_inverse": "mirai_conflict",
+      "world_unlock": false,
+      "date": 1727949518,
+      "version": "1.0.6",
+      "source_copyright": "From Paradigm: Reboot",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": -1,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": -1,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "Fatum",
+          "jacketDesigner": "",
+          "rating": 11,
+          "ratingPlus": false
+        }
+      ]
+    },
+    {
+      "id": "rere",
+      "title_localized": {
+        "en": "Ré：Ré"
+      },
+      "artist": "モリモリあつし vs. uma",
+      "bpm": "222",
+      "bpm_base": 222,
+      "set": "single",
+      "purchase": "",
+      "category": "poprec",
+      "audioPreview": 46214,
+      "audioPreviewEnd": 59187,
+      "side": 1,
+      "bg": "observer_conflict",
+      "bg_inverse": "observer_light",
+      "world_unlock": false,
+      "date": 1731223375,
+      "version": "1.0.6",
+      "source_copyright": "From Muse Dash",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": -1,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": -1,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": -1,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 4,
+          "chartDesigner": "- 残された鼓動 -\n- 壊れた魂 -",
+          "jacketDesigner": "thurim6 ©PeroPero",
+          "rating": 11,
+          "ratingPlus": false
+        }
+      ]
+    },
+    {
+      "id": "noel",
+      "title_localized": {
+        "en": "Noël"
+      },
+      "artist": "morimori feat.uma",
+      "bpm": "220",
+      "bpm_base": 220,
+      "set": "single",
+      "purchase": "",
+      "category": "poprec",
+      "audioPreview": 92449,
+      "audioPreviewEnd": 105540,
+      "side": 0,
+      "bg": "shiawase2",
+      "bg_inverse": "shiawase2_1",
+      "world_unlock": false,
+      "date": 1620691201,
+      "version": "1.0.6",
+      "source_copyright": "From VOZE",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": -1,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": -1,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "IIlCutR1ylII affected by Okita",
+          "jacketDesigner": "",
+          "rating": 10,
+          "ratingPlus": true
+        }
+      ]
+    },
+    {
+      "id": "tresuskeenae",
+      "title_localized": {
+        "en": "イガク"
+      },
+      "artist": "原口沙輔 feat. 重音テト",
+      "bpm": "170",
+      "bpm_base": 170,
+      "set": "single",
+      "purchase": "",
+      "category": "poprec",
+      "audioPreview": 40941,
+      "audioPreviewEnd": 70235,
+      "side": 0,
+      "bg": "yu",
+      "bg_inverse": "yu",
+      "world_unlock": false,
+      "date": 1732896675,
+      "version": "1.0.6",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": -1,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": -1,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "ユユユユユユユユユユユユユユユユユユユユユユユ",
+          "jacketDesigner": "原口沙輔",
+          "rating": 9,
+          "ratingPlus": true
+        }
+      ]
+    },
+    {
+      "id": "World Vanquisher(Full)",
+      "title_localized": {
+        "en": "World Vanquisher(Full)"
+      },
+      "artist": "void(Mournfinale)",
+      "bpm": "170",
+      "bpm_base": 170,
+      "set": "single",
+      "purchase": "",
+      "category": "poprec",
+      "audioPreview": 23834,
+      "audioPreviewEnd": 48352,
+      "side": 0,
+      "bg": "worldvanquisherfull",
+      "bg_inverse": "worldvanquisherfull",
+      "world_unlock": false,
+      "date": 1740203372,
+      "version": "1.0.6",
+      "source_copyright": "From CHUNITHM",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "処刑人【Aug31】",
+          "jacketDesigner": "タカヤマトシアキ",
+          "rating": 11,
+          "ratingPlus": false
+        }
+      ]
+    },
+    {
+      "id": "dongzhuo",
+      "title_localized": {
+        "en": "董卓討つべし"
+      },
+      "artist": "おもしろ三国志",
+      "bpm": "140",
+      "bpm_base": 140,
+      "set": "chaotic",
+      "purchase": "",
+      "audioPreview": 0,
+      "audioPreviewEnd": 13681644,
+      "side": 1,
+      "bg": "dongzhuo",
+      "bg_inverse": "dongzhuo",
+      "world_unlock": false,
+      "date": 1740203950,
+      "version": "1.0.6",
+      "source_copyright": "Chaotic 止",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "ickちゃん推し",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 3,
+          "chartDesigner": "ickちゃん推し",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        }
+      ]
+    },
+    {
+      "id": "supernova",
+      "title_localized": {
+        "en": "SUPERNOVA"
+      },
+      "artist": "Kyotsugyon",
+      "bpm": "252",
+      "bpm_base": 252,
+      "set": "single",
+      "purchase": "",
+      "category": "poprec",
+      "audioPreview": 146785,
+      "audioPreviewEnd": 163928,
+      "side": 1,
+      "bg": "supernova",
+      "bg_inverse": "supernova",
+      "world_unlock": false,
+      "date": 1737860611,
+      "version": "1.0.6",
+      "source_copyright": "From vivid/stasis",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": -1,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": -1,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "Cycle Count:8266\nLock S has been reset.",
+          "jacketDesigner": "AriaL",
+          "rating": 13,
+          "ratingPlus": false
+        }
+      ]
+    },
+    {
+      "id": "epitaxy",
+      "title_localized": {
+        "en": "epitaxy"
+      },
+      "artist": "Camellia",
+      "bpm": "183",
+      "bpm_base": 183,
+      "set": "rot",
+      "purchase": "",
+      "audioPreview": 51728,
+      "audioPreviewEnd": 74023,
+      "side": 0,
+      "bg": "epitaxy",
+      "bg_inverse": "epitaxy",
+      "world_unlock": false,
+      "date": 1719459527,
+      "version": "1.1.0",
+      "source_copyright": "From Roteano",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "F",
+          "jacketDesigner": "",
+          "rating": 10,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 4,
+          "chartDesigner": "Repeatpump",
+          "jacketDesigner": "",
+          "rating": 10,
+          "ratingPlus": false
+        }
+      ]
+    },
+    {
+      "id": "totsukanotsurugi",
+      "title_localized": {
+        "en": "十拳剣"
+      },
+      "artist": "5KiLOBYTE vs Raphiiel",
+      "bpm": "191.919~232.323",
+      "bpm_base": 212,
+      "set": "single",
+      "purchase": "",
+      "category": "poprec",
+      "audioPreview": 128349,
+      "audioPreviewEnd": 154176,
+      "side": 1,
+      "bg": "totsukanotsurugi",
+      "bg_inverse": "totsukanotsurugi",
+      "world_unlock": false,
+      "date": 1706447312,
+      "version": "2.0",
+      "source_copyright": "From Orzmic",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": -1,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": -1,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "Johnese",
+          "jacketDesigner": "",
+          "rating": 11,
+          "ratingPlus": false
+        }
+      ]
+    },
+    {
+      "id": "tsunagite(SaltedFish)",
+      "title_localized": {
+        "en": "系ぎて"
+      },
+      "artist": "rintaro soma",
+      "bpm": "88",
+      "bpm_base": 177,
+      "set": "single",
+      "purchase": "",
+      "category": "poprec",
+      "audioPreview": 47922,
+      "audioPreviewEnd": 69541,
+      "side": 0,
+      "bg": "vs_light",
+      "bg_inverse": "vs_light",
+      "world_unlock": false,
+      "date": 20240317,
+      "version": "2.0",
+      "source_copyright": "From maimai",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "···line to line···\n···hand to hand···\n···friend to friend···\n···heart to heart···",
+          "jacketDesigner": "Shinichiro Miyazaki",
+          "rating": 9,
+          "ratingPlus": true
+        }
+      ]
+    },
+    {
+      "id": "turningpoint",
+      "title_localized": {
+        "en": "Turning Point"
+      },
+      "artist": "Junk",
+      "bpm": "133",
+      "bpm_base": 133,
+      "set": "para",
+      "purchase": "",
+      "audioPreview": 16240,
+      "audioPreviewEnd": 48271,
+      "side": 0,
+      "bg": "storm_0",
+      "bg_inverse": "storm_1",
+      "world_unlock": false,
+      "date": 1651477892,
+      "version": "2.0",
+      "source_copyright": "From Paradigm:Reboot",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "-",
+          "jacketDesigner": "",
+          "rating": -1,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "-",
+          "jacketDesigner": "",
+          "rating": -1,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "PureWhite3733",
+          "jacketDesigner": "",
+          "rating": 9,
+          "ratingPlus": true
+        }
+      ]
+    },
+    {
+      "id": "viyellasmelancholy",
+      "title_localized": {
+        "en": "Viyella's Melancholy"
+      },
+      "artist": "Laur",
+      "bpm": "190-220",
+      "bpm_base": 220,
+      "set": "para",
+      "purchase": "",
+      "audioPreview": 91634,
+      "audioPreviewEnd": 118907,
+      "side": 1,
+      "bg": "viyella",
+      "bg_inverse": "viyella",
+      "world_unlock": false,
+      "date": 1736754607,
+      "version": "2.0",
+      "source_copyright": "From Paradigm:Reboot",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "PureWhite3733",
+          "jacketDesigner": "みしやも",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "PureWhite3733",
+          "jacketDesigner": "みしやも",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "PureWhite3733",
+          "jacketDesigner": "みしやも",
+          "rating": 11,
+          "ratingPlus": false
+        }
+      ]
+    },
+    {
+      "id": "Abyssgazer",
+      "title_localized": {
+        "en": "Abyssgazer"
+      },
+      "artist": "xi VS Sakuzyo",
+      "bpm": "191",
+      "bpm_base": 191,
+      "set": "para",
+      "purchase": "",
+      "audioPreview": 21688,
+      "audioPreviewEnd": 34022,
+      "side": 0,
+      "bg": "abyssgazer",
+      "bg_inverse": "abyssgazer_2",
+      "world_unlock": false,
+      "date": 7,
+      "version": "2.0",
+      "source_copyright": "From Paradigm:Reboot",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": -1,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "TragedyComposer",
+          "jacketDesigner": "子一",
+          "rating": 9,
+          "ratingPlus": true
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "柴狸",
+          "jacketDesigner": "子一",
+          "rating": 11,
+          "ratingPlus": true
+        }
+      ]
+    },
+    {
+      "id": "observatory",
+      "title_localized": {
+        "en": "Observatory"
+      },
+      "artist": "かめりあ",
+      "bpm": "195",
+      "bpm_base": 195,
+      "set": "para",
+      "purchase": "",
+      "audioPreview": 117922,
+      "audioPreviewEnd": 148999,
+      "side": 1,
+      "bg": "observatory",
+      "bg_inverse": "observatory",
+      "world_unlock": false,
+      "date": 1705059854,
+      "version": "2.0",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": -1,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "[UAC]Toward the stars,toward the light.",
+          "jacketDesigner": "Rs",
+          "rating": 11,
+          "ratingPlus": false
+        }
+      ]
+    },
+    {
+      "id": "renascence",
+      "title_localized": {
+        "en": "Re_Nascence(Psystyle.ver)"
+      },
+      "artist": "Rinth_live",
+      "bpm": "150",
+      "bpm_base": 150,
+      "set": "single",
+      "purchase": "",
+      "category": "poprec",
+      "audioPreview": 30500,
+      "audioPreviewEnd": 44400,
+      "side": 1,
+      "bg": "renascence",
+      "bg_inverse": "renascence",
+      "world_unlock": false,
+      "date": 1494547200,
+      "version": "2.0",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "TinySnowPig x FoxSqrt Revitalization",
+          "jacketDesigner": "Tsuioku",
+          "rating": 9,
+          "ratingPlus": true
+        }
+      ]
+    },
+    {
+      "id": "rushe",
+      "title_localized": {
+        "en": "RUSH E"
+      },
+      "artist": "Sheet Music Boss",
+      "bpm": "170",
+      "bpm_base": 170,
+      "set": "single",
+      "purchase": "",
+      "category": "poprec",
+      "audioPreview": 41495,
+      "audioPreviewEnd": 67174,
+      "side": 1,
+      "bg": "base_conflict",
+      "bg_inverse": "base_light",
+      "world_unlock": false,
+      "date": 1740840149,
+      "version": "2.0",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": -1,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": -1,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "抖mのCOOR",
+          "jacketDesigner": "Tsukimi Kaya",
+          "rating": 10,
+          "ratingPlus": false
+        }
+      ]
+    },
+    {
+      "id": "Lostwizz",
+      "title_localized": {
+        "en": "Lostwizz"
+      },
+      "artist": "s-don",
+      "bpm": "155",
+      "bpm_base": 155,
+      "set": "single",
+      "purchase": "",
+      "category": "poprec",
+      "audioPreview": 0,
+      "audioPreviewEnd": 100000,
+      "side": 1,
+      "bg": "byd2conflict",
+      "bg_inverse": "byd2conflict",
+      "world_unlock": false,
+      "date": 1740888460,
+      "version": "2.0",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "Lostawaken",
+          "jacketDesigner": "",
+          "rating": 10,
+          "ratingPlus": false
+        }
+      ]
+    },
+    {
+      "id": "eureka",
+      "title_localized": {
+        "en": "'Eureka'"
+      },
+      "artist": "sasakure.UK x ArmyTom",
+      "bpm": "150",
+      "bpm_base": 150,
+      "set": "lowest",
+      "purchase": "",
+      "audioPreview": 21688,
+      "audioPreviewEnd": 34022,
+      "side": 1,
+      "bg": "single2_conflict",
+      "bg_inverse": "single2_light",
+      "world_unlock": false,
+      "date": 10,
+      "version": "2.0",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "2005*1998 'Eureka!'",
+          "jacketDesigner": "pam+HDLV",
+          "rating": 10,
+          "ratingPlus": false
+        }
+      ]
+    },
+    {
+      "id": "anomaly",
+      "title_localized": {
+        "en": "Anomaly"
+      },
+      "artist": "姜米條 vs RocketLant",
+      "bpm": "200",
+      "bpm_base": 200,
+      "set": "lowest",
+      "purchase": "base",
+      "audioPreview": 78606,
+      "audioPreviewEnd": 93456,
+      "side": 0,
+      "bg": "single2_light",
+      "bg_inverse": "single2_conflict",
+      "world_unlock": false,
+      "date": 1,
+      "version": "2.0",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "C/:--h61ai--)))lLL551",
+          "jacketDesigner": "姜米條",
+          "rating": 9,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 3,
+          "chartDesigner": "··71-322:;[[.;:",
+          "jacketDesigner": "姜米條",
+          "rating": 10,
+          "ratingPlus": false
+        }
+      ]
+    },
+    {
+      "id": "angeldust",
+      "title_localized": {
+        "en": "Angel dust"
+      },
+      "artist": "LV.4",
+      "bpm": "170",
+      "bpm_base": 170,
+      "set": "single",
+      "purchase": "",
+      "category": "poprec",
+      "audioPreview": 92024,
+      "audioPreviewEnd": 114529,
+      "side": 1,
+      "bg": "single_conflict",
+      "bg_inverse": "single_light",
+      "world_unlock": false,
+      "date": 1740936016,
+      "version": "2.0",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "鈴海風",
+          "jacketDesigner": "",
+          "rating": 10,
+          "ratingPlus": false
+        }
+      ]
+    },
+    {
+      "id": "Double Agent",
+      "title_localized": {
+        "en": "Double Agent"
+      },
+      "artist": "Wav.AV",
+      "bpm": "160",
+      "bpm_base": 160,
+      "set": "single",
+      "purchase": "",
+      "category": "poprec",
+      "audioPreview": 109874,
+      "audioPreviewEnd": 121596,
+      "side": 1,
+      "bg": "prelude_conflict",
+      "bg_inverse": "prelude_light",
+      "world_unlock": false,
+      "date": 1740821787,
+      "version": "2.1.0",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 3,
+          "chartDesigner": "shui/iuhs affected by lssic005",
+          "jacketDesigner": "",
+          "rating": 10,
+          "ratingPlus": false
+        }
+      ]
+    },
+    {
+      "id": "boundedquietude",
+      "title_localized": {
+        "en": "Bounded Quietude"
+      },
+      "artist": "SiLiS vs Finite Limit",
+      "bpm": "280",
+      "bpm_base": 280,
+      "set": "single",
+      "purchase": "",
+      "category": "poprec",
+      "audioPreview": 54428,
+      "audioPreviewEnd": 84000,
+      "side": 1,
+      "bg": "eden_conflict",
+      "bg_inverse": "eden_light",
+      "world_unlock": false,
+      "date": 0,
+      "version": "2.1.0",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "[EXTRA+] FindersX ~BREAK the SILENCE~",
+          "jacketDesigner": "",
+          "rating": 11,
+          "ratingPlus": false
+        }
+      ]
+    },
+    {
+      "id": "gekka",
+      "title_localized": {
+        "en": "Gekka (Short Version)"
+      },
+      "artist": "Nhato",
+      "bpm": "132",
+      "bpm_base": 132,
+      "set": "single",
+      "purchase": "",
+      "category": "poprec",
+      "audioPreview": 0,
+      "audioPreviewEnd": 10000,
+      "side": 0,
+      "bg": "single_light",
+      "bg_inverse": "single_conflict",
+      "world_unlock": false,
+      "date": 0,
+      "version": "2.1.0",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 3,
+          "chartDesigner": "TheSamsara666 affected by Nitro",
+          "jacketDesigner": "",
+          "rating": 9,
+          "ratingPlus": true
+        }
+      ]
+    },
+    {
+      "id": "wegonnaparty",
+      "title_localized": {
+        "en": "We Gonna Party"
+      },
+      "artist": "Cranky",
+      "bpm": "159",
+      "bpm_base": 159,
+      "set": "lowest",
+      "purchase": "",
+      "audioPreview": 9063,
+      "audioPreviewEnd": 22258,
+      "side": 0,
+      "bg": "maimai_boss",
+      "bg_inverse": "maimai_boss",
+      "world_unlock": false,
+      "date": 1739119281,
+      "version": "2.1.0",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "Suzu Umikaze",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "Suzu Umikaze",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "Suzu Umikaze",
+          "jacketDesigner": "",
+          "rating": 9,
+          "ratingPlus": false
+        }
+      ]
+    },
+    {
+      "id": "missionary",
+      "title_localized": {
+        "en": "名無しの宣教師"
+      },
+      "artist": "Missionary",
+      "bpm": "195",
+      "bpm_base": 195,
+      "set": "lowest",
+      "purchase": "",
+      "audioPreview": 0,
+      "audioPreviewEnd": 111111111,
+      "side": 0,
+      "bg": "single_light",
+      "bg_inverse": "single_conflict",
+      "world_unlock": false,
+      "date": 1741422535,
+      "version": "2.1.0",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "Issic005",
+          "jacketDesigner": "",
+          "rating": 9,
+          "ratingPlus": true
+        }
+      ]
+    },
+    {
+      "id": "Reversed Zenith",
+      "title_localized": {
+        "en": "Reversed Zenith"
+      },
+      "artist": "硝酸生菜",
+      "bpm": "195",
+      "bpm_base": 195,
+      "set": "para",
+      "purchase": "",
+      "audioPreview": 0,
+      "audioPreviewEnd": 111111111,
+      "side": 0,
+      "bg": "storm_0",
+      "bg_inverse": "storm_1",
+      "world_unlock": false,
+      "date": 1741422982,
+      "version": "2.1.0",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "Issic005",
+          "jacketDesigner": "",
+          "rating": 10,
+          "ratingPlus": false
+        }
+      ]
+    },
+    {
+      "id": "amiya",
+      "title_localized": {
+        "en": "......已至"
+      },
+      "artist": "萨卡兹的无终奇语 OST",
+      "bpm": "146",
+      "bpm_base": 146,
+      "set": "arknights",
+      "purchase": "",
+      "audioPreview": 69010,
+      "audioPreviewEnd": 104372,
+      "side": 1,
+      "bg": "amiya",
+      "bg_inverse": "amiya",
+      "world_unlock": false,
+      "date": 1736921746,
+      "version": "2.1.0",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": -1,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": -1,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "Dr.Fantasy",
+          "jacketDesigner": "",
+          "rating": 10,
+          "ratingPlus": true
+        }
+      ]
+    },
+    {
+      "id": "para with riz",
+      "title_localized": {
+        "en": "Paradial Resonator"
+      },
+      "artist": "Reku Mochizuki",
+      "bpm": "156",
+      "bpm_base": 156,
+      "set": "single",
+      "purchase": "",
+      "category": "poprec",
+      "audioPreview": 14712,
+      "audioPreviewEnd": 27020,
+      "side": 0,
+      "bg": "paradialresonator",
+      "bg_inverse": "paradialresonator",
+      "world_unlock": false,
+      "date": 1741496143,
+      "version": "2.1.0",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "Aximax -Diagonal Frequency-",
+          "jacketDesigner": "2AI4wU4",
+          "rating": 10,
+          "ratingPlus": false
+        }
+      ]
+    },
+    {
+      "id": "Tsukuyomi",
+      "title_localized": {
+        "en": "月詠に鳴る"
+      },
+      "artist": "Feryquitous feat. 藍月なくる",
+      "bpm": "180",
+      "bpm_base": 180,
+      "set": "single",
+      "purchase": "",
+      "category": "poprec",
+      "audioPreview": 0,
+      "audioPreviewEnd": 134394,
+      "side": 2,
+      "bg": "colorless",
+      "bg_inverse": "colorless",
+      "world_unlock": false,
+      "date": 1741500674,
+      "version": "2.1.0",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "海底特急間も無く到着",
+          "jacketDesigner": "",
+          "rating": 9,
+          "ratingPlus": true
+        }
+      ]
+    },
+    {
+      "id": "echoism",
+      "title_localized": {
+        "en": "Echoism"
+      },
+      "artist": "塞壬唱片-MSR & Casey Lee Williams",
+      "bpm": "117",
+      "bpm_base": 117,
+      "set": "arknights",
+      "purchase": "",
+      "audioPreview": 160191,
+      "audioPreviewEnd": 191986,
+      "side": 1,
+      "bg": "echoism",
+      "bg_inverse": "echoism",
+      "world_unlock": false,
+      "date": 1716038840,
+      "version": "2.1.0",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": -1,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": -1,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": -1,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 4,
+          "chartDesigner": "往昔萦绕身旁\n明日渺远不及\n编织重构现世",
+          "jacketDesigner": "",
+          "rating": 8,
+          "ratingPlus": true
+        }
+      ]
+    },
+    {
+      "id": "kupingjing",
+      "title_localized": {
+        "en": "枯枰竞"
+      },
+      "artist": "塞壬唱片-MSR / Return to Sender",
+      "bpm": "144",
+      "bpm_base": 144,
+      "set": "arknights",
+      "purchase": "",
+      "audioPreview": 189999,
+      "audioPreviewEnd": 223333,
+      "side": 0,
+      "bg": "kupingjing",
+      "bg_inverse": "kupingjing",
+      "world_unlock": false,
+      "date": 1738579863,
+      "version": "2.1.0",
+      "source_copyright": "©Monster Siren Records",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": -1,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": -1,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "司岁台",
+          "jacketDesigner": "",
+          "rating": 10,
+          "ratingPlus": false
+        }
+      ]
+    },
+    {
+      "id": "vividabyss",
+      "title_localized": {
+        "en": "VIVID ABYSS"
+      },
+      "artist": "かたぎり",
+      "bpm": "156-234",
+      "bpm_base": 208,
+      "set": "lowest",
+      "purchase": "",
+      "audioPreview": 242947,
+      "audioPreviewEnd": 276409,
+      "side": 1,
+      "bg": "observer_conflict",
+      "bg_inverse": "observer_light",
+      "world_unlock": false,
+      "date": 2024,
+      "version": "2.1.0",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "来来来 看看这是什么物量",
+          "jacketDesigner": "Transendium",
+          "rating": 11,
+          "ratingPlus": true
+        }
+      ]
+    },
+    {
+      "id": "traxxendenza",
+      "title_localized": {
+        "en": "Traxxendenza"
+      },
+      "artist": "CS4W",
+      "bpm": "87-240",
+      "bpm_base": 240,
+      "set": "lowest",
+      "purchase": "",
+      "audioPreview": 27120,
+      "audioPreviewEnd": 40620,
+      "side": 1,
+      "bg": "chunithmthird_conflict",
+      "bg_inverse": "chunithmthird_conflict",
+      "world_unlock": false,
+      "date": 20241001,
+      "version": "2.1.0",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "LivalinkZ & DAYE",
+          "jacketDesigner": "榊原またぎ",
+          "rating": 11,
+          "ratingPlus": false
+        }
+      ]
+    },
+    {
+      "id": "seelewanderung",
+      "title_localized": {
+        "en": "ゼーレンヴァンデルング"
+      },
+      "artist": "ke-ji",
+      "bpm": "194",
+      "bpm_base": 194,
+      "set": "lowest",
+      "purchase": "",
+      "audioPreview": 84073,
+      "audioPreviewEnd": 124589,
+      "side": 0,
+      "bg": "tonesphere-solarsphere",
+      "bg_inverse": "tonesphere-darksphere",
+      "world_unlock": false,
+      "date": 1705059854,
+      "version": "2.1.0",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "LivalinkZ",
+          "jacketDesigner": "",
+          "rating": 10,
+          "ratingPlus": true
+        }
+      ]
+    },
+    {
+      "id": "maggod",
+      "title_localized": {
+        "en": "MAGGOD"
+      },
+      "artist": "DJ Myosuke feat.つぐ",
+      "bpm": "220",
+      "bpm_base": 220,
+      "set": "lowest",
+      "purchase": "",
+      "audioPreview": 72273,
+      "audioPreviewEnd": 81000,
+      "side": 1,
+      "bg": "tempestissimo_red",
+      "bg_inverse": "tempestissimo_red",
+      "world_unlock": false,
+      "date": 1706071203,
+      "version": "2.1.0",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "炼狱の魂",
+          "jacketDesigner": "北屋けけ",
+          "rating": 11,
+          "ratingPlus": false
+        }
+      ]
+    },
+    {
+      "id": "kizukizuitatsura",
+      "title_localized": {
+        "en": "傷つき傷つけ痛くて辛い"
+      },
+      "artist": "トゲナシトゲアリ",
+      "bpm": "150",
+      "bpm_base": 150,
+      "set": "lowest",
+      "purchase": "",
+      "audioPreview": 63800,
+      "audioPreviewEnd": 92800,
+      "side": 0,
+      "bg": "bg_mirai_light",
+      "bg_inverse": "bg_mirai_conflict",
+      "world_unlock": false,
+      "date": 1665741735,
+      "version": "2.1.0",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 1,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 1,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "Hurtful & Painful",
+          "jacketDesigner": "手島nari",
+          "rating": 10,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 3,
+          "chartDesigner": "Fantasy",
+          "jacketDesigner": "",
+          "rating": 10,
+          "ratingPlus": true
+        }
+      ]
+    },
+    {
+      "id": "fracturedangel",
+      "title_localized": {
+        "en": "Fractured Angel"
+      },
+      "artist": "DJ Raisei",
+      "bpm": "150-301",
+      "bpm_base": 301,
+      "set": "single",
+      "purchase": "",
+      "category": "poprec",
+      "audioPreview": 996,
+      "audioPreviewEnd": 38272,
+      "side": 0,
+      "bg": "epilogue",
+      "bg_inverse": "epilogue",
+      "world_unlock": false,
+      "date": 1688954258,
+      "version": "2.1.0",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": -1,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": -1,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": -1,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 3,
+          "chartDesigner": "絕滅の天使【クレマチス】",
+          "jacketDesigner": "",
+          "rating": 12,
+          "ratingPlus": true
+        }
+      ]
+    },
+    {
+      "id": "emptycatharsis",
+      "title_localized": {
+        "en": "空白とカタルシス"
+      },
+      "artist": "トゲナシトゲアリ",
+      "bpm": "186",
+      "bpm_base": 186,
+      "set": "lowest",
+      "purchase": "",
+      "audioPreview": 52796,
+      "audioPreviewEnd": 71872,
+      "side": 1,
+      "bg": "tanoc_conflict",
+      "bg_inverse": "tanoc_light",
+      "world_unlock": false,
+      "date": 1720526899,
+      "version": "2.1.0",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "Fantasy",
+          "jacketDesigner": "",
+          "rating": 9,
+          "ratingPlus": true
+        },
+        {
+          "ratingClass": 3,
+          "chartDesigner": "ひとりぼっちの怒りも    無くした喜びも\nウソの哀しさも\nこの歌に    全部ぶちこめ",
+          "jacketDesigner": "",
+          "rating": 11,
+          "ratingPlus": false
+        }
+      ]
+    },
+    {
+      "id": "raven",
+      "title_localized": {
+        "en": "Raven Emperor"
+      },
+      "artist": "kobaryo",
+      "bpm": "205",
+      "bpm_base": 205,
+      "set": "lowest",
+      "purchase": "",
+      "audioPreview": 91316,
+      "audioPreviewEnd": 111218,
+      "side": 1,
+      "bg": "maimai_boss",
+      "bg_inverse": "maimai_boss",
+      "world_unlock": false,
+      "date": 1615090270,
+      "version": "2.1.0",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 1,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "DAYE",
+          "jacketDesigner": "",
+          "rating": 9,
+          "ratingPlus": true
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "高级抄手一周目",
+          "jacketDesigner": "",
+          "rating": 11,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 3,
+          "chartDesigner": "Raven Graven",
+          "jacketDesigner": "",
+          "rating": 11,
+          "ratingPlus": false
+        }
+      ]
+    },
+    {
+      "id": "blewmoon",
+      "title_localized": {
+        "en": "Blew Moon"
+      },
+      "artist": "t+pazolite",
+      "bpm": "180",
+      "bpm_base": 180,
+      "set": "lowest",
+      "purchase": "",
+      "audioPreview": 45333,
+      "audioPreviewEnd": 55833,
+      "side": 1,
+      "bg": "maimai_conflict",
+      "bg_inverse": "maimai_light",
+      "world_unlock": false,
+      "date": 1731620656,
+      "version": "2.1.0",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "Suzu Umikaze",
+          "jacketDesigner": "",
+          "rating": 9,
+          "ratingPlus": true
+        }
+      ]
+    },
+    {
+      "id": "giveroflife",
+      "title_localized": {
+        "en": "Giver of Life"
+      },
+      "artist": "New World",
+      "bpm": "138",
+      "bpm_base": 138,
+      "set": "single",
+      "purchase": "",
+      "category": "poprec",
+      "audioPreview": 363478,
+      "audioPreviewEnd": 418260,
+      "side": 1,
+      "bg": "mirai_awakened",
+      "bg_inverse": "mirai_awakened",
+      "world_unlock": false,
+      "date": 1689947581,
+      "version": "2.1.0",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "Freshman-兰-",
+          "jacketDesigner": "",
+          "rating": 11,
+          "ratingPlus": false
+        }
+      ]
+    },
+    {
+      "id": "minima",
+      "title_localized": {
+        "en": "冲破穹顶"
+      },
+      "artist": "塞壬唱片-MSR,PMP",
+      "bpm": "190",
+      "bpm_base": 190,
+      "set": "arknights",
+      "purchase": "",
+      "audioPreview": 25263,
+      "audioPreviewEnd": 35368,
+      "side": 0,
+      "bg": "cytus_light",
+      "bg_inverse": "cytus_conflict",
+      "world_unlock": false,
+      "date": 1723453923,
+      "version": "2.2.0",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "HJZS",
+          "jacketDesigner": "",
+          "rating": 10,
+          "ratingPlus": true
+        }
+      ]
+    },
+    {
+      "id": "untitledworld",
+      "title_localized": {
+        "en": "Untitled World"
+      },
+      "artist": "ReoNa",
+      "bpm": "93",
+      "bpm_base": 93,
+      "set": "arknights",
+      "purchase": "",
+      "audioPreview": 59354,
+      "audioPreviewEnd": 79838,
+      "side": 0,
+      "bg": "untitledworld",
+      "bg_inverse": "untitledworld",
+      "world_unlock": false,
+      "date": 1724818477,
+      "version": "2.2.0",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "HJZS",
+          "jacketDesigner": "",
+          "rating": 9,
+          "ratingPlus": false
+        }
+      ]
+    },
+    {
+      "id": "lightspark",
+      "title_localized": {
+        "en": "「阴云火花」"
+      },
+      "artist": "鹰角网络",
+      "bpm": "175",
+      "bpm_base": 175,
+      "set": "arknights",
+      "purchase": "",
+      "audioPreview": 74742,
+      "audioPreviewEnd": 98057,
+      "side": 0,
+      "bg": "bg_mirai_conflict",
+      "bg_inverse": "bg_mirai_light",
+      "world_unlock": false,
+      "date": 1644321806,
+      "version": "2.2.0",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": -1,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": -1,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "Dr.悠雨千夜",
+          "jacketDesigner": "",
+          "rating": 9,
+          "ratingPlus": false
+        }
+      ]
+    },
+    {
+      "id": "braveroad",
+      "title_localized": {
+        "en": "BRAVE：ROAD"
+      },
+      "artist": "uma vs. モリモリあつし",
+      "bpm": "240",
+      "bpm_base": 240,
+      "set": "single",
+      "purchase": "",
+      "category": "poprec",
+      "audioPreview": 72246,
+      "audioPreviewEnd": 97246,
+      "side": 0,
+      "bg": "braveroad",
+      "bg_inverse": "braveroad",
+      "world_unlock": false,
+      "date": 1715173772,
+      "version": "2.2.1",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 1,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 1,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "KURUMI：087",
+          "jacketDesigner": "",
+          "rating": 10,
+          "ratingPlus": true
+        }
+      ]
+    },
+    {
+      "id": "maboroshi",
+      "title_localized": {
+        "en": "Maboroshi"
+      },
+      "artist": "かめりあ(EDP)",
+      "bpm": "190",
+      "bpm_base": 190,
+      "set": "single",
+      "purchase": "",
+      "category": "poprec",
+      "audioPreview": 0,
+      "audioPreviewEnd": 50000,
+      "side": 1,
+      "bg": "maboroshi",
+      "bg_inverse": "maboroshi",
+      "world_unlock": false,
+      "date": 1648608318,
+      "version": "2.2.1",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "Kurorak",
+          "jacketDesigner": "",
+          "rating": 2,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "Kurorak",
+          "jacketDesigner": "",
+          "rating": 5,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "Kurumi vs 美味的厚蛋烧",
+          "jacketDesigner": "",
+          "rating": 10,
+          "ratingPlus": false
+        }
+      ]
+    },
+    {
+      "id": "please",
+      "title_localized": {
+        "en": "幻影鬼魅(PLEASE)"
+      },
+      "artist": "R300K",
+      "bpm": "161",
+      "bpm_base": 161,
+      "set": "lowest",
+      "purchase": "",
+      "audioPreview": 49937,
+      "audioPreviewEnd": 74533,
+      "side": 1,
+      "bg": "single_conflict",
+      "bg_inverse": "single_light",
+      "world_unlock": false,
+      "date": 1740028716,
+      "version": "2.2.1",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "COOR",
+          "jacketDesigner": "RM Design Team",
+          "rating": 4,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "COOR",
+          "jacketDesigner": "RM Design Team",
+          "rating": 6,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "COOR",
+          "jacketDesigner": "RM Design Team",
+          "rating": 10,
+          "ratingPlus": false
+        }
+      ]
+    },
+    {
+      "id": "bibicheart",
+      "title_localized": {
+        "en": "Bibic Heart"
+      },
+      "artist": "MYUKKE.",
+      "bpm": "128",
+      "bpm_base": 128,
+      "set": "lowest",
+      "purchase": "",
+      "audioPreview": 77811,
+      "audioPreviewEnd": 100780,
+      "side": 0,
+      "bg": "single2_light",
+      "bg_inverse": "single2_conflict",
+      "world_unlock": false,
+      "date": 1740028074,
+      "version": "2.2.1",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": -1,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": -1,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "COOR",
+          "jacketDesigner": "",
+          "rating": 9,
+          "ratingPlus": false
+        }
+      ]
+    },
+    {
+      "id": "divideetimpera",
+      "title_localized": {
+        "en": "Divide et impera!"
+      },
+      "artist": "BlackY a.k.a. WAiKURO survive",
+      "bpm": "166",
+      "bpm_base": 166,
+      "set": "lowest",
+      "purchase": "",
+      "audioPreview": 16455,
+      "audioPreviewEnd": 41455,
+      "side": 1,
+      "bg": "maimai_boss",
+      "bg_inverse": "maimai_boss",
+      "world_unlock": false,
+      "date": 1660106040,
+      "version": "2.2.1",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "Kurumi087(forgot to sleep)",
+          "jacketDesigner": "",
+          "rating": 11,
+          "ratingPlus": false
+        }
+      ]
+    },
+    {
+      "id": "synthesizedgirlsheart",
+      "title_localized": {
+        "en": "Synthesized Girl's Heart"
+      },
+      "artist": "SHIKI",
+      "bpm": "188",
+      "bpm_base": 188,
+      "set": "lowest",
+      "purchase": "",
+      "audioPreview": 72765,
+      "audioPreviewEnd": 113617,
+      "side": 0,
+      "bg": "single2_light",
+      "bg_inverse": "single2_conflict",
+      "world_unlock": false,
+      "date": 1741478401,
+      "version": "2.2.1",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "NanGua",
+          "jacketDesigner": "",
+          "rating": 4,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "NanGua",
+          "jacketDesigner": "",
+          "rating": 7,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "NanGua",
+          "jacketDesigner": "",
+          "rating": 10,
+          "ratingPlus": true
+        }
+      ]
+    },
+    {
+      "id": "spellofchaos",
+      "title_localized": {
+        "en": "Spell of ChaoS"
+      },
+      "artist": "Halv",
+      "bpm": "280",
+      "bpm_base": 280,
+      "set": "extra",
+      "purchase": "",
+      "audioPreview": 214,
+      "audioPreviewEnd": 21000,
+      "side": 1,
+      "bg": "vs_conflict",
+      "bg_inverse": "vs_conflict",
+      "world_unlock": false,
+      "date": 1735321991,
+      "version": "UrcSlow2TestMatch",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": -1,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": -1,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": -1,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 3,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 11,
+          "ratingPlus": false
+        }
+      ]
+    },
+    {
+      "id": "SuperUniverse",
+      "title_localized": {
+        "en": "Super Universe (Knighthood Remix)"
+      },
+      "artist": "BlueWind vs Knighthood",
+      "bpm": "196",
+      "bpm_base": 196,
+      "set": "single",
+      "purchase": "",
+      "category": "poprec",
+      "audioPreview": 91933,
+      "audioPreviewEnd": 112364,
+      "side": 1,
+      "bg": "SuperUniverse",
+      "bg_inverse": "SuperUniverse",
+      "world_unlock": false,
+      "date": 1742031206,
+      "version": "2.2.2",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "殘夢「Numinous Ether」",
+          "jacketDesigner": "绀屋",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 4,
+          "chartDesigner": "殘夢「Numinous Ether」",
+          "jacketDesigner": "绀屋",
+          "rating": 11,
+          "ratingPlus": false
+        }
+      ]
+    },
+    {
+      "id": "rainshower",
+      "title_localized": {
+        "en": "驟雨の狭間"
+      },
+      "artist": "Silentroom",
+      "bpm": "174",
+      "bpm_base": 174,
+      "set": "single",
+      "purchase": "",
+      "category": "poprec",
+      "audioPreview": 108963,
+      "audioPreviewEnd": 132240,
+      "side": 1,
+      "bg": "rainshower",
+      "bg_inverse": "rainshower",
+      "world_unlock": false,
+      "date": 1740191714,
+      "version": "2.2.2",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "Howaaard -Endless Rain-",
+          "jacketDesigner": "",
+          "rating": 11,
+          "ratingPlus": false
+        }
+      ]
+    },
+    {
+      "id": "raikiri",
+      "title_localized": {
+        "en": "雷切-RAIKIRI-"
+      },
+      "artist": "kanone",
+      "bpm": "165",
+      "bpm_base": 165,
+      "set": "lowest",
+      "purchase": "",
+      "audioPreview": 84000,
+      "audioPreviewEnd": 99677,
+      "side": 1,
+      "bg": "maimai_boss",
+      "bg_inverse": "maimai_boss",
+      "world_unlock": false,
+      "date": 1607838000,
+      "version": "2.2.2",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 1,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 1,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "Myo",
+          "jacketDesigner": "",
+          "rating": 10,
+          "ratingPlus": true
+        }
+      ]
+    },
+    {
+      "id": "evergreen",
+      "title_localized": {
+        "en": "EVERGREEN"
+      },
+      "artist": "Cranky",
+      "bpm": "145",
+      "bpm_base": 145,
+      "set": "lowest",
+      "purchase": "",
+      "audioPreview": 28137,
+      "audioPreviewEnd": 54479,
+      "side": 0,
+      "bg": "rei",
+      "bg_inverse": "yugamu",
+      "world_unlock": false,
+      "date": 1742061286,
+      "version": "2.2.2",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "Suzu Umikaze",
+          "jacketDesigner": "",
+          "rating": 9,
+          "ratingPlus": true
+        }
+      ]
+    },
+    {
+      "id": "natsu",
+      "title_localized": {
+        "en": "Soreha, Tooi Natsu no Hi",
+        "ja": "それは、遠い夏の日"
+      },
+      "artist": "AKITO",
+      "bpm": "156",
+      "bpm_base": 156,
+      "set": "lowest",
+      "purchase": "",
+      "audioPreview": 79230,
+      "audioPreviewEnd": 135384,
+      "side": 1,
+      "bg": "base_light",
+      "bg_inverse": "base_conflict",
+      "world_unlock": false,
+      "date": 1741478400,
+      "version": "2.2.2",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "NanGua 2003",
+          "jacketDesigner": "",
+          "rating": 8,
+          "ratingPlus": false
+        }
+      ]
+    },
+    {
+      "id": "enjoythistime",
+      "title_localized": {
+        "en": "Enjoy This Time feat. Yukacco"
+      },
+      "artist": "DJ Noriken",
+      "bpm": "170",
+      "bpm_base": 170,
+      "set": "lowest",
+      "purchase": "",
+      "audioPreview": 35294,
+      "audioPreviewEnd": 69176,
+      "side": 1,
+      "bg": "single2_conflict",
+      "bg_inverse": "single2_light",
+      "world_unlock": false,
+      "date": 1723852800,
+      "version": "2.2.2",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "",
+          "jacketDesigner": "黒兎 + Hitomasu Modoru",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "",
+          "jacketDesigner": "黒兎 + Hitomasu Modoru",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "NanGuaGuGu",
+          "jacketDesigner": "黒兎 + Hitomasu Modoru",
+          "rating": 9,
+          "ratingPlus": true
+        }
+      ]
+    },
+    {
+      "id": "sora",
+      "title_localized": {
+        "en": "Distant Sky",
+        "ja": "遠すぎた空"
+      },
+      "artist": "AKITO",
+      "bpm": "156",
+      "bpm_base": 156,
+      "set": "lowest",
+      "purchase": "",
+      "audioPreview": 105384,
+      "audioPreviewEnd": 136922,
+      "side": 0,
+      "bg": "base_light",
+      "bg_inverse": "base_conflict",
+      "world_unlock": false,
+      "date": 1738108800,
+      "version": "2.2.2",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "NANGUA",
+          "jacketDesigner": "",
+          "rating": 9,
+          "ratingPlus": false
+        }
+      ]
+    },
+    {
+      "id": "toybox",
+      "title_localized": {
+        "en": "とあちゃんのおもちゃ箱"
+      },
+      "artist": "Linear ring",
+      "bpm": "159",
+      "bpm_base": 159,
+      "set": "lowest",
+      "purchase": "",
+      "audioPreview": 86027,
+      "audioPreviewEnd": 104082,
+      "side": 0,
+      "bg": "eden_light",
+      "bg_inverse": "eden_conflict",
+      "world_unlock": false,
+      "date": 1,
+      "version": "2.2.2",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "柴狸『玩具箱』",
+          "jacketDesigner": "お久しぶり",
+          "rating": 9,
+          "ratingPlus": true
+        }
+      ]
+    },
+    {
+      "id": "gekiteikokukagekidan",
+      "title_localized": {
+        "en": "檄！帝国華撃団(改)"
+      },
+      "artist": "「サクラ大戦」",
+      "bpm": "144",
+      "bpm_base": 144,
+      "set": "lowest",
+      "purchase": "",
+      "audioPreview": 60835,
+      "audioPreviewEnd": 73879,
+      "side": 0,
+      "bg": "base_light",
+      "bg_inverse": "base_conflict",
+      "world_unlock": false,
+      "date": 1739407058,
+      "version": "2.2.2",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "Suzu Umikaze",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "Suzu Umikaze",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "Suzu Umikaze",
+          "jacketDesigner": "",
+          "rating": 7,
+          "ratingPlus": false
+        }
+      ]
+    },
+    {
+      "id": "j219",
+      "title_localized": {
+        "en": "J219"
+      },
+      "artist": "Cranky",
+      "bpm": "100",
+      "bpm_base": 100,
+      "set": "lowest",
+      "purchase": "",
+      "audioPreview": 19591,
+      "audioPreviewEnd": 32592,
+      "side": 0,
+      "bg": "single_light",
+      "bg_inverse": "single_conflict",
+      "world_unlock": false,
+      "date": 1731620165,
+      "version": "2.2.2",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": -1,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": -1,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "Suzu Umikaze",
+          "jacketDesigner": "",
+          "rating": 9,
+          "ratingPlus": true
+        }
+      ]
+    },
+    {
+      "id": "tetorisu",
+      "title_localized": {
+        "en": "テトリス"
+      },
+      "artist": "柊マグネタイト/重音テト",
+      "bpm": "170",
+      "bpm_base": 170,
+      "set": "lowest",
+      "purchase": "",
+      "audioPreview": 90352,
+      "audioPreviewEnd": 112940,
+      "side": 0,
+      "bg": "shiawase",
+      "bg_inverse": "shiawase_1",
+      "world_unlock": false,
+      "date": 1741448620,
+      "version": "2.2.2",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "mawaruのCOOR",
+          "jacketDesigner": "Unknown",
+          "rating": 8,
+          "ratingPlus": true
+        },
+        {
+          "ratingClass": 3,
+          "chartDesigner": "mawaruのCOOR",
+          "jacketDesigner": "Unknown",
+          "rating": 9,
+          "ratingPlus": true
+        }
+      ]
+    },
+    {
+      "id": "gbcop",
+      "title_localized": {
+        "en": "雑踏、僕らの街"
+      },
+      "artist": "TOGENASHI TOGEARI",
+      "bpm": "171",
+      "bpm_base": 171,
+      "set": "lowest",
+      "purchase": "",
+      "audioPreview": 47323,
+      "audioPreviewEnd": 83024,
+      "side": 1,
+      "bg": "GBC",
+      "bg_inverse": "GBC",
+      "world_unlock": false,
+      "date": 1741436382,
+      "version": "2.2.2",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": -1,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": -1,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": -1,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 3,
+          "chartDesigner": "Fantasy",
+          "jacketDesigner": "",
+          "rating": 10,
+          "ratingPlus": true
+        }
+      ]
+    },
+    {
+      "id": "exris",
+      "title_localized": {
+        "en": "EX - RiS"
+      },
+      "artist": "CS4W",
+      "bpm": "250",
+      "bpm_base": 250,
+      "set": "lowest",
+      "purchase": "",
+      "audioPreview": 100800,
+      "audioPreviewEnd": 131760,
+      "side": 1,
+      "bg": "exris",
+      "bg_inverse": "exris",
+      "world_unlock": false,
+      "date": 1693305143,
+      "version": "2.2.7",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "LivalinkZ",
+          "jacketDesigner": "",
+          "rating": 11,
+          "ratingPlus": true
+        }
+      ]
+    },
+    {
+      "id": "vw",
+      "title_localized": {
+        "en": "Vapor Whirl"
+      },
+      "artist": "vencent & windwan",
+      "bpm": "140",
+      "bpm_base": 140,
+      "set": "lowest",
+      "purchase": "",
+      "audioPreview": 30857,
+      "audioPreviewEnd": 50571,
+      "side": 1,
+      "bg": "cytus_conflict",
+      "bg_inverse": "cytus_light",
+      "world_unlock": false,
+      "date": 1741835068,
+      "version": "2.2.6",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": -1,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": -1,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "Zeap",
+          "jacketDesigner": "",
+          "rating": 10,
+          "ratingPlus": false
+        }
+      ]
+    },
+    {
+      "id": "mysticlightquestfull",
+      "title_localized": {
+        "en": "Mystic Light Quest (Full ver.)"
+      },
+      "artist": "塞壬唱片-MSR,RANASOL,KOTONOHOUSE",
+      "bpm": "80",
+      "bpm_base": 80,
+      "set": "arknights",
+      "purchase": "",
+      "audioPreview": 60000,
+      "audioPreviewEnd": 71812,
+      "side": 0,
+      "bg": "pepe",
+      "bg_inverse": "pepe",
+      "world_unlock": false,
+      "date": 1722652013,
+      "version": "2.3.1",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "HJZS",
+          "jacketDesigner": "",
+          "rating": 9,
+          "ratingPlus": true
+        }
+      ]
+    },
+    {
+      "id": "ge",
+      "title_localized": {
+        "en": "彁"
+      },
+      "artist": "LeaF",
+      "bpm": "125",
+      "bpm_base": 125,
+      "set": "single",
+      "purchase": "",
+      "category": "poprec",
+      "audioPreview": 0,
+      "audioPreviewEnd": 1111111,
+      "side": 1,
+      "bg": "cyblack",
+      "bg_inverse": "cyblack",
+      "world_unlock": false,
+      "date": 1739401282,
+      "version": "2.3.1",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": -1,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": -1,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "[U+5F41]",
+          "jacketDesigner": "",
+          "rating": 10,
+          "ratingPlus": true
+        },
+        {
+          "ratingClass": 3,
+          "chartDesigner": "[U+5F41]",
+          "jacketDesigner": "",
+          "rating": 12,
+          "ratingPlus": true
+        }
+      ]
+    },
+    {
+      "id": "aclock",
+      "title_localized": {
+        "en": "A Clock"
+      },
+      "artist": "kurobe studio",
+      "bpm": "89",
+      "bpm_base": 89,
+      "set": "rot",
+      "purchase": "",
+      "audioPreview": 87134,
+      "audioPreviewEnd": 109211,
+      "side": 0,
+      "bg": "aclock",
+      "bg_inverse": "aclock",
+      "world_unlock": false,
+      "date": 1487980800,
+      "version": "2.3.1",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": -1,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": -1,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "花火離子",
+          "jacketDesigner": "",
+          "rating": 9,
+          "ratingPlus": false
+        }
+      ]
+    },
+    {
+      "id": "endtime",
+      "title_localized": {
+        "en": "End Time"
+      },
+      "artist": "Cres.",
+      "bpm": "180",
+      "bpm_base": 180,
+      "set": "single",
+      "purchase": "",
+      "category": "poprec",
+      "audioPreview": 77415,
+      "audioPreviewEnd": 112082,
+      "side": 0,
+      "bg": "prelude_light",
+      "bg_inverse": "prelude_conflict",
+      "world_unlock": false,
+      "date": 1487980800,
+      "version": "2.3.1",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": -1,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": -1,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 10,
+          "ratingPlus": true
+        }
+      ]
+    },
+    {
+      "id": "folern",
+      "title_localized": {
+        "en": "folern"
+      },
+      "artist": "ぬゆり",
+      "bpm": "200",
+      "bpm_base": 200,
+      "set": "single",
+      "purchase": "",
+      "category": "poprec",
+      "audioPreview": 79400,
+      "audioPreviewEnd": 118800,
+      "side": 1,
+      "bg": "chunithmthird_conflict",
+      "bg_inverse": "chunithmthird_conflict",
+      "world_unlock": false,
+      "date": 1718726492,
+      "version": "2.3.1",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": -1,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": -1,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "「星」から降る「コナユキ」",
+          "jacketDesigner": "",
+          "rating": 10,
+          "ratingPlus": false
+        }
+      ]
+    },
+    {
+      "id": "internetyamero",
+      "title_localized": {
+        "en": "INTERNET YAMERO"
+      },
+      "artist": "Aiobahn feat.KOTOYO",
+      "bpm": "185",
+      "bpm_base": 185,
+      "set": "single",
+      "purchase": "",
+      "category": "poprec",
+      "audioPreview": 174403,
+      "audioPreviewEnd": 200428,
+      "side": 1,
+      "bg": "single2_conflict",
+      "bg_inverse": "single2_light",
+      "world_unlock": false,
+      "date": 1487980800,
+      "version": "2.3.1",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": -1,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": -1,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "†Riko Patto†",
+          "jacketDesigner": "",
+          "rating": 10,
+          "ratingPlus": false
+        }
+      ]
+    },
+    {
+      "id": "liftoff",
+      "title_localized": {
+        "en": "LiftOff"
+      },
+      "artist": "MAYA AKAI",
+      "bpm": "137",
+      "bpm_base": 137,
+      "set": "single",
+      "purchase": "",
+      "category": "poprec",
+      "audioPreview": 86147,
+      "audioPreviewEnd": 115127,
+      "side": 1,
+      "bg": "ongeki_conflict",
+      "bg_inverse": "ongeki_light",
+      "world_unlock": false,
+      "date": 1732808889,
+      "version": "2.3.1",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": -1,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": -1,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "\"Riko Patto\"\n↓↓↓ VS ↓↓↓\n\"Luxance's Case-Book\"",
+          "jacketDesigner": "",
+          "rating": 10,
+          "ratingPlus": false
+        }
+      ]
+    },
+    {
+      "id": "quiq",
+      "title_localized": {
+        "en": "QuiQ"
+      },
+      "artist": "owl*tree feat.nie*tree",
+      "bpm": "120-235",
+      "bpm_base": 170,
+      "set": "mai",
+      "purchase": "",
+      "audioPreview": 12190,
+      "audioPreviewEnd": 27950,
+      "side": 0,
+      "bg": "alice_light",
+      "bg_inverse": "alice_conflict",
+      "world_unlock": false,
+      "date": 1712328167,
+      "version": "2.3.1",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": -1,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": -1,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "Riko Patto,\nDon't go back to sleep!!",
+          "jacketDesigner": "サム & 群青リコリス",
+          "rating": 11,
+          "ratingPlus": false
+        }
+      ]
+    },
+    {
+      "id": "vspook",
+      "title_localized": {
+        "en": "VSpook!"
+      },
+      "artist": "s-don",
+      "bpm": "155-180",
+      "bpm_base": 165,
+      "set": "mai",
+      "purchase": "",
+      "audioPreview": 39397,
+      "audioPreviewEnd": 53285,
+      "side": 1,
+      "bg": "chunithmthird_conflict",
+      "bg_inverse": "chunithmthird_conflict",
+      "world_unlock": false,
+      "date": 1739905723,
+      "version": "2.3.1",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": -1,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": -1,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "Riko Patto \"Phantasma\"",
+          "jacketDesigner": "",
+          "rating": 10,
+          "ratingPlus": false
+        }
+      ]
+    },
+    {
+      "id": "hyakusanjyugosyousetsu",
+      "title_localized": {
+        "en": "氷滅の135小節"
+      },
+      "artist": "大国奏音",
+      "bpm": "205",
+      "bpm_base": 205,
+      "set": "mai",
+      "purchase": "",
+      "audioPreview": 1756,
+      "audioPreviewEnd": 32780,
+      "side": 1,
+      "bg": "observer_conflict",
+      "bg_inverse": "observer_light",
+      "world_unlock": false,
+      "date": 1732648225,
+      "version": "2.3.1",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": -1,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": -1,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "Riko Patto \"Insurekcio\"",
+          "jacketDesigner": "",
+          "rating": 10,
+          "ratingPlus": true
+        }
+      ]
+    },
+    {
+      "id": "tothecosmic",
+      "title_localized": {
+        "en": "とびだせ！TO THE COSMIC!!"
+      },
+      "artist": "t+pazolite feat. しゃま(CV:種﨑 敦美) & みるく(CV:伊藤 あすか)",
+      "bpm": "185",
+      "bpm_base": 185,
+      "set": "mai",
+      "purchase": "",
+      "audioPreview": 53674,
+      "audioPreviewEnd": 75161,
+      "side": 1,
+      "bg": "maimai_conflict",
+      "bg_inverse": "maimai_light",
+      "world_unlock": false,
+      "date": 1487980800,
+      "version": "2.3.1",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": -1,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": -1,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "Pαttoωo♪",
+          "jacketDesigner": "",
+          "rating": 10,
+          "ratingPlus": false
+        }
+      ]
+    },
+    {
+      "id": "idiotictransaction",
+      "title_localized": {
+        "en": "Idiotic Transaction",
+        "ja": "バカ通信"
+      },
+      "artist": "isonosuke",
+      "bpm": "240",
+      "bpm_base": 240,
+      "set": "single",
+      "purchase": "",
+      "category": "poprec",
+      "audioPreview": 109062,
+      "audioPreviewEnd": 117125,
+      "side": 1,
+      "bg": "single2_conflict",
+      "bg_inverse": "single2_light",
+      "world_unlock": false,
+      "date": 1718643060,
+      "version": "2.3.1",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": -1,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": -1,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "バカヒナベ！",
+          "jacketDesigner": "",
+          "rating": 10,
+          "ratingPlus": false
+        }
+      ]
+    },
+    {
+      "id": "etabetaita",
+      "title_localized": {
+        "en": "エータ・ベータ・イータ"
+      },
+      "artist": "ルゼ",
+      "bpm": "186",
+      "bpm_base": 186,
+      "set": "single",
+      "purchase": "",
+      "category": "poprec",
+      "audioPreview": 88064,
+      "audioPreviewEnd": 108740,
+      "side": 1,
+      "bg": "ongeki_conflict",
+      "bg_inverse": "ongeki_light",
+      "world_unlock": false,
+      "date": 1546992004,
+      "version": "2.3.1",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": -1,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": -1,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": -1,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 3,
+          "chartDesigner": "縦連打の神「火鍋ミ」",
+          "jacketDesigner": "",
+          "rating": 11,
+          "ratingPlus": false
+        }
+      ]
+    },
+    {
+      "id": "lagtrain",
+      "title_localized": {
+        "en": "ラグトレイン"
+      },
+      "artist": "稲葉曇",
+      "bpm": "147",
+      "bpm_base": 147,
+      "set": "single",
+      "purchase": "",
+      "category": "poprec",
+      "audioPreview": 60400,
+      "audioPreviewEnd": 76224,
+      "side": 0,
+      "bg": "single2_light",
+      "bg_inverse": "single2_conflict",
+      "world_unlock": false,
+      "date": 1487980800,
+      "version": "2.3.1",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": -1,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": -1,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "自動改札",
+          "jacketDesigner": "ぬくぬくにぎりめし",
+          "rating": 9,
+          "ratingPlus": true
+        }
+      ]
+    },
+    {
+      "id": "calamity",
+      "title_localized": {
+        "en": "Calamity Fortune"
+      },
+      "artist": "LeaF",
+      "bpm": "200",
+      "bpm_base": 200,
+      "set": "single",
+      "purchase": "",
+      "category": "poprec",
+      "audioPreview": 11885,
+      "audioPreviewEnd": 26550,
+      "side": 1,
+      "bg": "zettai",
+      "bg_inverse": "zettai_light",
+      "world_unlock": false,
+      "date": 1713024616,
+      "version": "2.3.1",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": -1,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": -1,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "くさぐさこ with ひなべみ",
+          "jacketDesigner": "",
+          "rating": 10,
+          "ratingPlus": false
+        }
+      ]
+    },
+    {
+      "id": "daybreak",
+      "title_localized": {
+        "en": "The Daybreak Will Never Come Again."
+      },
+      "artist": "seatrus",
+      "bpm": "200",
+      "bpm_base": 200,
+      "set": "lanotacolla",
+      "purchase": "",
+      "audioPreview": 22825,
+      "audioPreviewEnd": 50425,
+      "side": 1,
+      "bg": "daybreak",
+      "bg_inverse": "daybreak",
+      "world_unlock": false,
+      "date": 1719460782,
+      "version": "2.4.0",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "Repeatpump",
+          "jacketDesigner": "",
+          "rating": 10,
+          "ratingPlus": false
+        }
+      ]
+    },
+    {
+      "id": "horizonblue",
+      "title_localized": {
+        "en": "Horizon Blue"
+      },
+      "artist": "Nothing But Requiem feat Aikapin & Chiyoko",
+      "bpm": "200",
+      "bpm_base": 200,
+      "set": "lanotacolla",
+      "purchase": "",
+      "audioPreview": 43133,
+      "audioPreviewEnd": 71998,
+      "side": 1,
+      "bg": "horizonblue",
+      "bg_inverse": "horizonblue",
+      "world_unlock": false,
+      "date": 1725895090,
+      "version": "2.4.0",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": -1,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": -1,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": -1,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 4,
+          "chartDesigner": "↓↓↓リッコパット↓↓↓",
+          "jacketDesigner": "",
+          "rating": 11,
+          "ratingPlus": false
+        }
+      ]
+    },
+    {
+      "id": "tempestla",
+      "title_localized": {
+        "en": "TεμπεΣT"
+      },
+      "artist": "Zekk",
+      "bpm": "195",
+      "bpm_base": 195,
+      "set": "lanotacolla",
+      "purchase": "",
+      "audioPreview": 79999,
+      "audioPreviewEnd": 100923,
+      "side": 1,
+      "bg": "tempestla",
+      "bg_inverse": "tempestla",
+      "world_unlock": false,
+      "date": 1725895090,
+      "version": "2.4.0",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": -1,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": -1,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "TheSamsara666",
+          "jacketDesigner": "",
+          "rating": 10,
+          "ratingPlus": false
+        }
+      ]
+    },
+    {
+      "id": "sweetmoment",
+      "title_localized": {
+        "en": "焦がれるひととき"
+      },
+      "artist": "种田梨沙",
+      "bpm": "110",
+      "bpm_base": 110,
+      "set": "Arknights1",
+      "purchase": "",
+      "audioPreview": 52226,
+      "audioPreviewEnd": 72135,
+      "side": 0,
+      "bg": "hime_light",
+      "bg_inverse": "hime_conflict",
+      "world_unlock": false,
+      "date": 1742630554,
+      "version": "2.4.2",
+      "source_copyright": "©Monster Siren Records",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": -1,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": -1,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "Fantasy the Hvít Aska",
+          "jacketDesigner": "",
+          "rating": 9,
+          "ratingPlus": false
+        }
+      ]
+    },
+    {
+      "id": "abovetheclouds",
+      "title_localized": {
+        "en": "Above the Clouds"
+      },
+      "artist": "lawy",
+      "bpm": "140",
+      "bpm_base": 140,
+      "set": "lowest",
+      "purchase": "",
+      "audioPreview": 73714,
+      "audioPreviewEnd": 102857,
+      "side": 0,
+      "bg": "single2_light",
+      "bg_inverse": "single2_conflict",
+      "world_unlock": false,
+      "date": 1742083200,
+      "version": "2.4.0",
+      "source_copyright": "",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "nangua",
+          "jacketDesigner": "",
+          "rating": 8,
+          "ratingPlus": true
+        }
+      ]
+    },
+    {
+      "id": "matsuri",
+      "title_localized": {
+        "en": "金色のマーチ"
+      },
+      "artist": "emon(Tes.)",
+      "bpm": "122",
+      "bpm_base": 122,
+      "set": "Arknights1",
+      "purchase": "",
+      "audioPreview": 105307,
+      "audioPreviewEnd": 125223,
+      "side": 0,
+      "bg": "bg_mirai_conflict",
+      "bg_inverse": "bg_mirai_light",
+      "world_unlock": false,
+      "date": 1742292724,
+      "version": "2.4.0",
+      "source_copyright": "©Monster Siren Records",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": -1,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": -1,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "Dr.Fantasy",
+          "jacketDesigner": "",
+          "rating": 9,
+          "ratingPlus": true
+        }
+      ]
+    },
+    {
+      "id": "mistymemory",
+      "title_localized": {
+        "en": "Misty Memory (Night Version)"
+      },
+      "artist": "塞壬唱片-MSR",
+      "bpm": "115",
+      "bpm_base": 115,
+      "set": "Arknights1",
+      "purchase": "",
+      "audioPreview": 92084,
+      "audioPreviewEnd": 112693,
+      "side": 0,
+      "bg": "hime_light",
+      "bg_inverse": "hime_conflict",
+      "world_unlock": false,
+      "date": 1742294234,
+      "version": "2.4.0",
+      "source_copyright": "©Monster Siren Records",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": -1,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": -1,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "To Eyjafjalla",
+          "jacketDesigner": "",
+          "rating": 9,
+          "ratingPlus": true
+        }
+      ]
+    },
+    {
+      "id": "DoubleAgent",
+      "title_localized": {
+        "en": "Double Agent"
+      },
+      "artist": "Wav.AV",
+      "bpm": "160",
+      "bpm_base": 160,
+      "set": "chaotic",
+      "purchase": "",
+      "audioPreview": 109874,
+      "audioPreviewEnd": 121596,
+      "side": 1,
+      "bg": "prelude_conflict",
+      "bg_inverse": "prelude_light",
+      "world_unlock": false,
+      "date": 1740821787,
+      "version": "2.4.0",
+      "source_copyright": "Chaotic 初",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 3,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        }
+      ]
+    },
+    {
+      "id": "Kamurogiku",
+      "title_localized": {
+        "en": "冠菊"
+      },
+      "artist": "HATSUBOSHI GAKUEN",
+      "bpm": "135",
+      "bpm_base": 135,
+      "set": "lowest",
+      "purchase": "",
+      "audioPreview": 52796,
+      "audioPreviewEnd": 71872,
+      "side": 1,
+      "bg": "ongeki_conflict",
+      "bg_inverse": "ongeki_light",
+      "world_unlock": false,
+      "date": 1731238088,
+      "version": "2.4.0",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 9,
+          "ratingPlus": true
+        }
+      ]
+    },
+    {
+      "id": "shawarma",
+      "title_localized": {
+        "en": "Shawarma Legend"
+      },
+      "artist": "artist",
+      "bpm": "126",
+      "bpm_base": 126,
+      "set": "lowest",
+      "purchase": "",
+      "audioPreview": 7215,
+      "audioPreviewEnd": 40078,
+      "side": 0,
+      "bg": "base_light",
+      "bg_inverse": "base_conflict",
+      "world_unlock": false,
+      "date": 1742290639,
+      "version": "2.4.0",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": -1,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": -1,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "COOR",
+          "jacketDesigner": "",
+          "rating": 7,
+          "ratingPlus": true
+        },
+        {
+          "ratingClass": 3,
+          "chartDesigner": "COOR",
+          "jacketDesigner": "",
+          "rating": 14,
+          "ratingPlus": true
+        }
+      ]
+    },
+    {
+      "id": "theatorecreatore",
+      "title_localized": {
+        "en": "Theatore Creatore"
+      },
+      "artist": "Toby Fox & かめりあ",
+      "bpm": "185",
+      "bpm_base": 185,
+      "set": "lowest",
+      "purchase": "",
+      "audioPreview": 0,
+      "audioPreviewEnd": 110000,
+      "side": 1,
+      "bg": "chunigarakuta",
+      "bg_inverse": "chunigarakuta",
+      "world_unlock": false,
+      "date": 11,
+      "version": "2.4.0",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "C=A:11:",
+          "jacketDesigner": "ぴば子",
+          "rating": 11,
+          "ratingPlus": false
+        }
+      ]
+    },
+    {
+      "id": "ziweichang",
+      "title_localized": {
+        "en": "滋味常"
+      },
+      "artist": "塞壬唱片-MSR / 十音 / 黑金雨 / 辻原",
+      "bpm": "110",
+      "bpm_base": 110,
+      "set": "Arknights1",
+      "purchase": "",
+      "audioPreview": 63266,
+      "audioPreviewEnd": 122175,
+      "side": 1,
+      "bg": "ziweichang",
+      "bg_inverse": "ziweichang",
+      "world_unlock": false,
+      "date": 1737813118,
+      "version": "2.4.0",
+      "source_copyright": "©Monster Siren Records",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": -1,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": -1,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "今日做东\n厚礼上宾\n灶里乾坤",
+          "jacketDesigner": "",
+          "rating": 10,
+          "ratingPlus": false
+        }
+      ]
+    },
+    {
+      "id": "jinchunwu",
+      "title_localized": {
+        "en": "浸春芜"
+      },
+      "artist": "塞壬唱片-MSR / 宋柏 / 十音 / 解伟苓",
+      "bpm": "130",
+      "bpm_base": 130,
+      "set": "Arknights1",
+      "purchase": "",
+      "audioPreview": 91474,
+      "audioPreviewEnd": 121935,
+      "side": 0,
+      "bg": "jinchunwu",
+      "bg_inverse": "jinchunwu",
+      "world_unlock": false,
+      "date": 1707222220,
+      "version": "2.4.0",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": -1,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": -1,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "春雷响，万物长\n稻禾厚，顺秋收",
+          "jacketDesigner": "",
+          "rating": 9,
+          "ratingPlus": true
+        },
+        {
+          "ratingClass": 4,
+          "chartDesigner": "春雷响，万物长\n稻禾厚，顺秋收",
+          "jacketDesigner": "",
+          "rating": 9,
+          "ratingPlus": true
+        }
+      ]
+    },
+    {
+      "id": "firstcrevasseonthefrozenlake",
+      "title_localized": {
+        "en": "First Crevasse on the Frozen Lake"
+      },
+      "artist": "塞壬唱片-MSR",
+      "bpm": "220",
+      "bpm_base": 220,
+      "set": "Arknights1",
+      "purchase": "",
+      "audioPreview": 59423,
+      "audioPreviewEnd": 76878,
+      "side": 0,
+      "bg": "firstcrevasseonthefrozenlake",
+      "bg_inverse": "firstcrevasseonthefrozenlake",
+      "world_unlock": false,
+      "date": 1703327591,
+      "version": "2.4.0",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": -1,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": -1,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "泽贰七",
+          "jacketDesigner": "",
+          "rating": 9,
+          "ratingPlus": true
+        }
+      ]
+    },
+    {
+      "id": "Wolves Standing Towards Ememies",
+      "title_localized": {
+        "en": "Wolves Standing Towards Ememies"
+      },
+      "artist": "かめりあ",
+      "bpm": "191",
+      "bpm_base": 191,
+      "set": "lanotacolla",
+      "purchase": "",
+      "audioPreview": 120314,
+      "audioPreviewEnd": 144502,
+      "side": 1,
+      "bg": "Wolves",
+      "bg_inverse": "Wolves",
+      "world_unlock": false,
+      "date": 10,
+      "version": "2.4.0",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 7,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 9,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "Team.Solar vs. SaturnKiller",
+          "jacketDesigner": "",
+          "rating": 12,
+          "ratingPlus": false
+        }
+      ]
+    },
+    {
+      "id": "opia",
+      "title_localized": {
+        "en": "opia"
+      },
+      "artist": "rN",
+      "bpm": "193",
+      "bpm_base": 193,
+      "set": "lowest",
+      "purchase": "",
+      "audioPreview": 73445,
+      "audioPreviewEnd": 93341,
+      "side": 1,
+      "bg": "alice_conflict",
+      "bg_inverse": "alice_light",
+      "world_unlock": false,
+      "date": 1737532994,
+      "version": "2.4.0",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": -1,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": -1,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "cooR",
+          "jacketDesigner": "",
+          "rating": 9,
+          "ratingPlus": false
+        }
+      ]
+    },
+    {
+      "id": "mythos",
+      "title_localized": {
+        "en": "MYTHOS"
+      },
+      "artist": "Cranky feat. まらしぃ & てっぺい 先生",
+      "bpm": "158",
+      "bpm_base": 158,
+      "set": "lowest",
+      "purchase": "",
+      "audioPreview": 36457,
+      "audioPreviewEnd": 50128,
+      "side": 1,
+      "bg": "maimai_boss",
+      "bg_inverse": "maimai_boss",
+      "world_unlock": false,
+      "date": 1739118818,
+      "version": "2.4.0",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "Suzu Umikaze",
+          "jacketDesigner": "",
+          "rating": 10,
+          "ratingPlus": false
+        }
+      ]
+    },
+    {
+      "id": "outerheaven",
+      "title_localized": {
+        "en": "OUTERHEΛVEN"
+      },
+      "artist": "Juggernaut.",
+      "bpm": "210",
+      "bpm_base": 210,
+      "set": "lowest",
+      "purchase": "",
+      "audioPreview": 28671,
+      "audioPreviewEnd": 47814,
+      "side": 1,
+      "bg": "single2_conflict",
+      "bg_inverse": "single2_light",
+      "world_unlock": false,
+      "date": 1698670226,
+      "version": "2.4.0",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "Anthem Pen_Z",
+          "jacketDesigner": "",
+          "rating": 10,
+          "ratingPlus": true
+        }
+      ]
+    },
+    {
+      "id": "dbdoll",
+      "title_localized": {
+        "en": "dB doll"
+      },
+      "artist": "YUE.STEVEN/uen",
+      "bpm": "128",
+      "bpm_base": 128,
+      "set": "lowest",
+      "purchase": "",
+      "audioPreview": 50273,
+      "audioPreviewEnd": 73125,
+      "side": 0,
+      "bg": "shiawase2",
+      "bg_inverse": "shiawase2_1",
+      "world_unlock": false,
+      "date": 1742351979,
+      "version": "2.4.0",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": -1,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": -1,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "cooring",
+          "jacketDesigner": "何呵",
+          "rating": 7,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 3,
+          "chartDesigner": "coor:ずっと、一緒に居てね",
+          "jacketDesigner": "何呵",
+          "rating": 8,
+          "ratingPlus": true
+        }
+      ]
+    },
+    {
+      "id": "alastingpromise",
+      "title_localized": {
+        "en": "A Lasting Promise"
+      },
+      "artist": "Laur",
+      "bpm": "270",
+      "bpm_base": 270,
+      "set": "lowest",
+      "purchase": "",
+      "audioPreview": 43667,
+      "audioPreviewEnd": 59667,
+      "side": 1,
+      "bg": "byd2conflict",
+      "bg_inverse": "byd2light",
+      "world_unlock": false,
+      "date": 1491868800,
+      "version": "2.4.0",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "LivalinkZ",
+          "jacketDesigner": "",
+          "rating": 11,
+          "ratingPlus": true
+        }
+      ]
+    },
+    {
+      "id": "HeavensCage",
+      "title_localized": {
+        "en": "Heaven's Cage"
+      },
+      "artist": "ETIA.",
+      "bpm": "150",
+      "bpm_base": 150,
+      "set": "rot",
+      "purchase": "",
+      "audioPreview": 62800,
+      "audioPreviewEnd": 92200,
+      "side": 0,
+      "bg": "HeavensCage",
+      "bg_inverse": "HeavensCage",
+      "world_unlock": false,
+      "date": 1742733841,
+      "version": "2.4.0",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "Potato -unbound-",
+          "jacketDesigner": "三更",
+          "rating": 10,
+          "ratingPlus": false
+        }
+      ]
+    },
+    {
+      "id": "cryptarithm",
+      "title_localized": {
+        "en": "Cryptarithm"
+      },
+      "artist": "Sakuzyo",
+      "bpm": "175",
+      "bpm_base": 175,
+      "set": "lowest",
+      "purchase": "",
+      "audioPreview": 4219,
+      "audioPreviewEnd": 29219,
+      "side": 1,
+      "bg": "single_conflict",
+      "bg_inverse": "single_light",
+      "world_unlock": false,
+      "date": 1735968930,
+      "version": "2.4.0",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": -1,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": -1,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "Kurumi",
+          "jacketDesigner": "",
+          "rating": 10,
+          "ratingPlus": false
+        }
+      ]
+    },
+    {
+      "id": "raputa",
+      "title_localized": {
+        "en": "raputa"
+      },
+      "artist": "sasakure.‌UK × TJ.hangneil",
+      "bpm": "230-339",
+      "bpm_base": 230,
+      "set": "single",
+      "purchase": "",
+      "category": "poprec",
+      "audioPreview": 2086,
+      "audioPreviewEnd": 17739,
+      "side": 1,
+      "bg": "byd2conflict",
+      "bg_inverse": "byd2light",
+      "world_unlock": false,
+      "date": 1212121212,
+      "version": "2.4.0",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": -1,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": -1,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "F",
+          "jacketDesigner": "Shun Yamaguchi",
+          "rating": 11,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 3,
+          "chartDesigner": "\"ChartGPT\" worked at \"Apollo XVIII\"\n towards \"Shangrila\"",
+          "jacketDesigner": "Shun Yamaguchi",
+          "rating": 11,
+          "ratingPlus": false
+        }
+      ]
+    },
+    {
+      "id": "amethyst",
+      "title_localized": {
+        "en": "amethyst"
+      },
+      "artist": "かねこちはる",
+      "bpm": "170",
+      "bpm_base": 170,
+      "set": "echoes",
+      "purchase": "",
+      "audioPreview": 25631,
+      "audioPreviewEnd": 57846,
+      "side": 1,
+      "bg": "amethyst",
+      "bg_inverse": "amethyst",
+      "world_unlock": false,
+      "date": 1742811064,
+      "version": "3.0",
+      "source_copyright": "CH3COOCH2CH3_541 生贺",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": -1,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": -1,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "Ilot Love Hoppe",
+          "jacketDesigner": "Nich",
+          "rating": 9,
+          "ratingPlus": true
+        }
+      ]
+    },
+    {
+      "id": "vsTREAMER",
+      "title_localized": {
+        "en": "vs.TREAMEЯ"
+      },
+      "artist": "AAAAoi(ああああ+Aoi)",
+      "bpm": "182",
+      "bpm_base": 182,
+      "set": "StellarBonds",
+      "purchase": "",
+      "audioPreview": 100,
+      "audioPreviewEnd": 18721,
+      "side": 0,
+      "bg": "vs",
+      "bg_inverse": "vs_1",
+      "world_unlock": false,
+      "date": 1742811064,
+      "version": "3.0.0",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 4,
+          "chartDesigner": "和泉凛咲",
+          "jacketDesigner": "Rotaeno",
+          "rating": 10,
+          "ratingPlus": true
+        }
+      ]
+    },
+    {
+      "id": "Gangnam Style",
+      "title_localized": {
+        "en": "Gangnam Style"
+      },
+      "artist": "PSY",
+      "bpm": "132",
+      "bpm_base": 132,
+      "set": "chaotic",
+      "purchase": "",
+      "audioPreview": 0,
+      "audioPreviewEnd": 114514,
+      "side": 1,
+      "bg": "base_conflict",
+      "bg_inverse": "base_light",
+      "world_unlock": false,
+      "date": 1737727387,
+      "version": "24.4",
+      "source_copyright": "Chaotic A",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        }
+      ]
+    },
+    {
+      "id": "faded",
+      "title_localized": {
+        "en": "Faded"
+      },
+      "artist": "Alan Walker",
+      "bpm": "90",
+      "bpm_base": 180,
+      "set": "chaotic",
+      "purchase": "",
+      "audioPreview": 16172,
+      "audioPreviewEnd": 21505,
+      "side": 1,
+      "bg": "Background_nijuusei2_conflict",
+      "bg_inverse": "Background_nijuusei2_conflict",
+      "world_unlock": false,
+      "date": 1923486863,
+      "version": "24.4",
+      "source_copyright": "Chaotic W",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": -1,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": -1,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": -1,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 3,
+          "chartDesigner": "wys0318/nwys0319/nwys0320/nwys0321",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        }
+      ]
+    },
+    {
+      "id": "song",
+      "title_localized": {
+        "en": "Waht Song"
+      },
+      "artist": "void",
+      "bpm": "180",
+      "bpm_base": 180,
+      "set": "chaotic",
+      "purchase": "",
+      "audioPreview": 84928,
+      "audioPreviewEnd": 110954,
+      "side": 0,
+      "bg": "bg_designant",
+      "bg_inverse": "bg_designant",
+      "world_unlock": false,
+      "date": 1716390745,
+      "version": "24.4",
+      "source_copyright": "Chaotic 干什么!",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 3,
+          "chartDesigner": "HXdaN",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        }
+      ]
+    },
+    {
+      "id": "youlikethreewinter",
+      "title_localized": {
+        "en": "你若三冬 (想吃广东菜DJ)"
+      },
+      "artist": "秦末",
+      "bpm": "225",
+      "bpm_base": 225,
+      "set": "chaotic",
+      "purchase": "",
+      "audioPreview": 2000,
+      "audioPreviewEnd": 19133,
+      "side": 0,
+      "bg": "base_light",
+      "bg_inverse": "base_conflict",
+      "world_unlock": false,
+      "date": 1743079593,
+      "version": "24.4",
+      "source_copyright": "Chaotic 3",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "IsSun50000",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "IsSun50000",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        }
+      ]
+    },
+    {
+      "id": "lightning",
+      "title_localized": {
+        "en": "Lightning"
+      },
+      "artist": "Ajurika",
+      "bpm": "174",
+      "bpm_base": 174,
+      "set": "lanotacolla",
+      "purchase": "",
+      "audioPreview": 45561,
+      "audioPreviewEnd": 67629,
+      "side": 0,
+      "bg": "lightning_0",
+      "bg_inverse": "lightning_1",
+      "world_unlock": false,
+      "date": 1582290840,
+      "version": "2.4.4",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": 0,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "Thundering【Hibiki ft. Daye】",
+          "jacketDesigner": "",
+          "rating": 9,
+          "ratingPlus": true
+        }
+      ]
+    },
+    {
+      "id": "Rainmaker",
+      "title_localized": {
+        "en": "Rainmaker"
+      },
+      "artist": "kamome sano",
+      "bpm": "180",
+      "bpm_base": 180,
+      "set": "lanotacolla",
+      "purchase": "",
+      "audioPreview": 106695,
+      "audioPreviewEnd": 130028,
+      "side": 0,
+      "bg": "Rainmaker_0",
+      "bg_inverse": "Rainmaker_1",
+      "world_unlock": false,
+      "date": 1743310010,
+      "version": "2.4.4",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": -1,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": -1,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "アルカリ人格",
+          "jacketDesigner": "",
+          "rating": 9,
+          "ratingPlus": false
+        }
+      ]
+    },
+    {
+      "id": "southerncross",
+      "title_localized": {
+        "en": "Southern Cross"
+      },
+      "artist": "403",
+      "bpm": "171",
+      "bpm_base": 171,
+      "set": "single",
+      "purchase": "",
+      "category": "poprec",
+      "audioPreview": 63069,
+      "audioPreviewEnd": 84035,
+      "side": 0,
+      "bg": "base_light",
+      "bg_inverse": "base_conflict",
+      "world_unlock": false,
+      "date": 1743251651,
+      "version": "2.4.4",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": -1,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": -1,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "Issouth403",
+          "jacketDesigner": "",
+          "rating": 10,
+          "ratingPlus": false
+        }
+      ]
+    },
+    {
+      "id": "rrays",
+      "title_localized": {
+        "en": "Radial Raylights"
+      },
+      "artist": "aran",
+      "bpm": "155",
+      "bpm_base": 155,
+      "set": "StellarBonds",
+      "purchase": "",
+      "audioPreview": 116195,
+      "audioPreviewEnd": 130130,
+      "side": 1,
+      "bg": "cytus_conflict",
+      "bg_inverse": "cytus_light",
+      "world_unlock": false,
+      "date": 1742052523,
+      "version": "2.4.4",
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": -1,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "",
+          "jacketDesigner": "",
+          "rating": -1,
+          "ratingPlus": false
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "迷音 -Reach for the stars-",
+          "jacketDesigner": "柒柒",
+          "rating": 10,
+          "ratingPlus": true
+        }
+      ]
+    }
+  ]
+}
