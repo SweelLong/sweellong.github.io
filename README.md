@@ -1,11 +1,11 @@
 # Hi there 👋
-## 欢迎来到浮华的Loc
+## 欢迎来到浮华のloc
 
 这里是SweelLong的个人博客，欢迎来到这里，一起学习，一起分享，一起进步！
 
 ## 如何开始博客？
 
-- 点击右上角的“Fork”按钮，将浮华的Loc项目Fork到自己的Github账户下。
+- 点击右上角的“Fork”按钮，将浮华のloc项目Fork到自己的Github账户下。
 - 克隆到本地：`git clone https://github.com/your-username/your-username.github.io.git`
 - 在本地修改博客内容，并提交到Github。
 - 访问`https://your-username.github.io`查看博客效果。
