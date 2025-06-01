@@ -86,6 +86,11 @@
             "description": "提供游戏模组制作教程和资源的网站，专注于特定游戏的个性化修改"
         },
         {
+            "title": "tModLoader官方更新迁移教程",
+            "link": "https://github.com/tModLoader/tModLoader/wiki/Update-Migration-Guide",
+            "description": "tModLoader官方更新迁移教程，帮助用户从旧版本升级到最新版本"
+        },
+        {
             "title": "搜图工具",
             "link": "https://saucenao.com",
             "description": "反向图片搜索引擎，可以通过图片查找来源和相似图片"

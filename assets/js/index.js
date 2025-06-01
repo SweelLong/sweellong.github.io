@@ -38,7 +38,7 @@ window.addEventListener("DOMContentLoaded", async function () {
     cardContainer.appendChild(card);
   });
   // 动态插入推荐文章
-  var rec_art = document.getElementById("rec_art");
+  var rec_article = document.getElementById("rec_article");
   artJson.forEach(item => {
     const card = document.createElement("div");
     card.className = "tutorial-card";
@@ -51,6 +51,16 @@ window.addEventListener("DOMContentLoaded", async function () {
         </div>
         <a href="${item.link}" class="btn-readmore">查看完整文章</a>
     `;
-    rec_art.appendChild(card);
+    rec_article.appendChild(card);
+  });
+  var blogTitle = document.getElementById("blog-title");
+  blogTitle.addEventListener("click", function () {
+    alert("欢迎来到SweelLong的博客！");
+  });
+  blogTitle.addEventListener("mouseenter", function () {
+    blogTitle.textContent = document.title;
+  });
+  blogTitle.addEventListener("mouseleave", function () {
+    blogTitle.textContent = "SweelLong's blog";
   });
 });

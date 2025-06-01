@@ -47,4 +47,17 @@ window.addEventListener('DOMContentLoaded', async () => {
             `;
         }
     });
+    var colorfulTitle = document.getElementById('header');
+    if (colorfulTitle) {
+        colorfulTitle.addEventListener("mouseover", function () {
+            colorfulTitle.style.transition = 'all 0.5s ease-out';
+            colorfulTitle.style.left = `-${colorfulTitle.offsetWidth}px`;
+            colorfulTitle.style.opacity = '0';
+
+        });
+        colorfulTitle.addEventListener("mouseout", function () {
+            colorfulTitle.style.left = colorfulTitle.style.left || '0px';
+            colorfulTitle.style.opacity = '1';
+        });
+    }
 });

@@ -341,7 +341,7 @@
         },
         {
             "title": "C#自定义语言文件HJSON",
-            "description": "HJSON 是一种轻量级的 JSON 格式，可用于存储和传输配置数据。本文将介绍 HJSON 的语法和用法。",
+            "description": "HJSON,轻量级的JSON格式，用于存储配置数据.本文将介绍 HJSON 的语法和用法。",
             "time": "2022-04-15",
             "tags": [
                 "C#",

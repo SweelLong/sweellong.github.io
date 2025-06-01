@@ -1,3 +1,63 @@
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.05);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+#back-to-top,
+#back-to-bottom {
+    position: fixed;
+    right: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+    width: 50px;
+    height: 50px;
+    padding: 8px;
+    color: #fff;
+    background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+    border-radius: 50%;
+    text-decoration: none;
+    box-shadow: 0 4px 15px rgba(106, 17, 203, 0.4);
+    opacity: 0.85;
+    font-weight: bold;
+}
+
+#back-to-bottom {
+    bottom: 20px;
+}
+
+#back-to-top {
+    bottom: 90px;
+}
+
+#back-to-top:hover,
+#back-to-bottom:hover {
+    opacity: 1;
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 6px 20px rgba(106, 17, 203, 0.5);
+}
+
+#back-to-top:hover,
+#back-to-bottom:hover {
+    animation: pulse 1.5s infinite;
+}
+
+.page-body.scrolled #back-to-top,
+.page-body.scrolled #back-to-bottom {
+    opacity: 0.85;
+    visibility: visible;
+}
+
 .tutorial-image {
     width: 100%;
 }
@@ -10,7 +70,9 @@
 
     header h1 {
         top: 0.5em;
+        left: 0.5em;
         position: fixed;
+        transition: all 0.5s ease-out;
     }
 }
 
@@ -172,18 +234,4 @@ summary::before {
 
 .lang-cs .number {
     color: #3498db;
-}
-
-@media (max-width: 768px) {
-    .page-container {
-        padding: 20px 15px;
-    }
-
-    h1 {
-        font-size: 1.8em;
-    }
-
-    h2 {
-        font-size: 1.4em;
-    }
 }
