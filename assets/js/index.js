@@ -49,7 +49,7 @@ window.addEventListener("DOMContentLoaded", async function () {
             <span>标签：${item.tags.join("、")}</span><br>
             <span>发布时间：${item.time}</span>
         </div>
-        <a href="${item.link}" class="btn-readmore">查看完整文章</a>
+        <a href="article.html?title=${item.type}" class="btn-readmore">查看完整文章</a>
     `;
     rec_article.appendChild(card);
   });
