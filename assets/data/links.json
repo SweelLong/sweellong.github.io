@@ -1,6 +1,11 @@
 {
     "links": [
         {
+            "title": "浮华のloc",
+            "link": "https://sweellong.github.io",
+            "description": "这是SweelLong的个人博客，浮华のloc，欢迎来到我的世界！"
+        },
+        {
             "title": "Arcaea本地查分",
             "link": "https://smartrte.github.io/index.html",
             "description": "用于Arcaea游戏本地成绩查询的工具，支持查看游戏内歌曲成绩、评级等数据"
@@ -78,7 +83,7 @@
         {
             "title": "恋恋的博客",
             "link": "https://sgkoi.dev/th",
-            "description": "技术博客，分享编程、网络技术和开发经验等内容"
+            "description": "泰拉圈某技术大佬的博客，分享编程、网络技术和开发经验等内容"
         },
         {
             "title": "裙子的模组制作",
@@ -254,6 +259,11 @@
             "title": "奶牛快传",
             "link": "https://cowtransfer.com",
             "description": "支持大文件传输的在线工具，提供高速上传和下载服务"
+        },
+        {
+            "title": "酷猫网络",
+            "link": "https://ico.kucat.cn",
+            "description": "用Api接口来获取网站的ico图标，可用于美化网站外链显示效果！"
         }
     ]
 }

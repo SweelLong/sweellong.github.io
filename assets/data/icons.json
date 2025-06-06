@@ -19,6 +19,11 @@
             "name": "今日诗词",
             "src": "jinrishici.png",
             "url": "https://www.jinrishici.com"
+        },
+        {
+            "name": "酷猫网络",
+            "src": "kucat.png",
+            "url": "https://ico.kucat.cn"
         }
     ],
     "big-icons": [

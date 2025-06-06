@@ -62,7 +62,8 @@ window.addEventListener("DOMContentLoaded", async function () {
                             <h3 class="res_title">${item.title}</h3>
                             <p class="card-description">${item.description}</p>
                             <div class="card-url">
-                                ${domain}
+                                <img src="https://ico.kucat.cn/get.php?url=https://${domain}&type=icon" alt="${item.title}" width="16" height="16">
+                                &nbsp;${domain}
                             </div>
                         </a>
                     </div>
