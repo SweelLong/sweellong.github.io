@@ -261,9 +261,9 @@
             "description": "支持大文件传输的在线工具，提供高速上传和下载服务"
         },
         {
-            "title": "酷猫网络",
-            "link": "https://ico.kucat.cn",
-            "description": "用Api接口来获取网站的ico图标，可用于美化网站外链显示效果！"
+            "title": "接口大全",
+            "link": "https://www.free-api.com",
+            "description": "提供各种API接口的查询和测试，帮助开发者快速接入和使用各种服务"
         }
     ]
 }

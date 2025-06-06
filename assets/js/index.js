@@ -49,6 +49,7 @@ window.addEventListener("DOMContentLoaded", async function () {
       document.getElementById("emptyState").style.display = "none";
     }
   });
+  
   function renderCards(links) {
     cardContainer.innerHTML = "";
     links.forEach(item => {
@@ -62,7 +63,7 @@ window.addEventListener("DOMContentLoaded", async function () {
                             <h3 class="res_title">${item.title}</h3>
                             <p class="card-description">${item.description}</p>
                             <div class="card-url">
-                                <img src="https://ico.kucat.cn/get.php?url=https://${domain}&type=icon" alt="${item.title}" width="16" height="16">
+                                <img src="https://ico.n3v.cn/get.php?url=${domain}" alt="${item.title}" width="16" height="16">
                                 &nbsp;${domain}
                             </div>
                         </a>

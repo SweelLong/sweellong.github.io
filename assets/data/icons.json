@@ -21,9 +21,14 @@
             "url": "https://www.jinrishici.com"
         },
         {
-            "name": "酷猫网络",
-            "src": "kucat.png",
-            "url": "https://ico.kucat.cn"
+            "name": "牛三维",
+            "src": "n3v.png",
+            "url": "https://ico.n3v.cn"
+        },
+        {
+            "name": "不蒜子",
+            "src": "ekumao.png",
+            "url": "https://b.ekumao.com"
         }
     ],
     "big-icons": [
