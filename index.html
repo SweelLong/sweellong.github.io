@@ -50,7 +50,16 @@
             <details>
                 <summary>[展开]</summary>
                 <br>
+                <div class="search-container">
+                    <span class="search-icon">🔍</span>
+                    <input type="text" id="searchInput" class="search-input" placeholder="搜索推荐资源...">
+                </div>
                 <div id="rec_src"></div>
+                <div id="emptyState" class="empty-state" style="display: none;">
+                    <div class="empty-state-icon">🔍</div>
+                    <h3 class="empty-state-title">未找到匹配的资源</h3>
+                    <p class="empty-state-message">尝试使用不同的关键词或浏览所有推荐资源</p>
+                </div>
             </details>
             <hr>
             <h2>推荐音乐</h2>

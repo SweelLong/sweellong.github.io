@@ -11,7 +11,9 @@
         transform: scale(1);
     }
 }
-
+ol, ul {
+    padding-left: 20px;
+}
 #back-to-top,
 #back-to-bottom {
     position: fixed;
