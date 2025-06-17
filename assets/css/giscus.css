@@ -1,0 +1,439 @@
+:root {
+  --primary-color: #6366f1; /* 主色调：靛蓝色 */
+  --secondary-color: #8b5cf6; /* 辅助色：紫色 */
+  --accent-color: #ec4899; /* 强调色：粉色 */
+  --glass-effect: rgba(255, 255, 255, 0.1);
+  --glass-effect-dark: rgba(0, 0, 0, 0.2);
+  --gradient: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+  --gradient-accent: linear-gradient(135deg, var(--primary-color), var(--accent-color));
+}
+
+.giscus {
+  margin: 0 auto;
+  border-radius: 20px;
+  max-width: 95%;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.15);
+  background: white;
+  transition: all 0.3s ease;
+  padding: 16px;
+}
+
+.giscus::before {
+  content: '';
+  position: absolute;
+  top: -50px;
+  right: -50px;
+  width: 150px;
+  height: 150px;
+  background: var(--gradient);
+  border-radius: 50%;
+  filter: blur(30px);
+  opacity: 0.5;
+  z-index: 0;
+}
+
+.giscus::after {
+  content: '';
+  position: absolute;
+  bottom: -80px;
+  left: -50px;
+  width: 200px;
+  height: 200px;
+  background: var(--gradient-accent);
+  border-radius: 50%;
+  filter: blur(40px);
+  opacity: 0.4;
+  z-index: 0;
+}
+
+.giscus-header {
+  padding: 20px 28px;
+  background: var(--gradient);
+  color: white;
+  border-bottom: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  z-index: 1;
+  box-shadow: 0 4px 20px rgba(99, 102, 241, 0.2);
+}
+
+.giscus-title {
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  display: flex;
+  align-items: center;
+}
+
+.giscus-title::before {
+  content: '';
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: white;
+  margin-right: 12px;
+  animation: pulse 2s infinite;
+}
+
+.giscus-meta {
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+.giscus-comments {
+  padding: 30px;
+  max-height: 600px;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(99, 102, 241, 0.3) transparent;
+  position: relative;
+  z-index: 1;
+  background: rgba(255, 255, 255, 0.95);
+}
+
+.giscus-comments::-webkit-scrollbar {
+  width: 8px;
+}
+
+.giscus-comments::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.giscus-comments::-webkit-scrollbar-thumb {
+  background-color: rgba(99, 102, 241, 0.3);
+  border-radius: 20px;
+  transition: background-color 0.3s;
+}
+
+.giscus-comments::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(99, 102, 241, 0.5);
+}
+
+.giscus-comment {
+  margin-bottom: 24px;
+  display: flex;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  position: relative;
+  opacity: 0;
+  transform: translateY(10px);
+  animation: fadeIn 0.5s forwards;
+}
+
+.giscus-comment:hover {
+  transform: translateY(-2px) scale(1.01);
+}
+
+.giscus-avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 16px;
+  flex-shrink: 0;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
+  border: 2px solid white;
+  position: relative;
+  z-index: 1;
+}
+
+.giscus-avatar::before {
+  content: '';
+  position: absolute;
+  inset: -2px;
+  border-radius: 50%;
+  background: var(--gradient);
+  z-index: -1;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.giscus-comment:hover .giscus-avatar::before {
+  opacity: 1;
+}
+
+.giscus-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.giscus-comment-body {
+  background: white;
+  padding: 16px 20px;
+  border-radius: 18px;
+  border-bottom-left-radius: 0;
+  max-width: 85%;
+  position: relative;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  transition: all 0.3s;
+}
+
+.giscus-comment-body::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: -10px;
+  width: 20px;
+  height: 20px;
+  background: white;
+  clip-path: polygon(0 100%, 100% 0, 100% 100%);
+  transition: all 0.3s;
+}
+
+.giscus-comment:hover .giscus-comment-body {
+  box-shadow: 0 10px 30px rgba(99, 102, 241, 0.1);
+}
+
+.giscus-comment-author {
+  font-weight: 600;
+  color: #212529;
+  margin-bottom: 6px;
+  display: flex;
+  align-items: center;
+}
+
+.giscus-comment-author::after {
+  content: '在线';
+  margin-left: 8px;
+  font-size: 11px;
+  color: #34d399;
+  display: flex;
+  align-items: center;
+}
+
+.giscus-comment-author::after::before {
+  content: '';
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #34d399;
+  margin-right: 4px;
+}
+
+.giscus-comment-content {
+  color: #495057;
+  line-height: 1.6;
+  word-wrap: break-word;
+  font-size: 15px;
+}
+
+.giscus-comment-meta {
+  margin-top: 8px;
+  font-size: 12px;
+  color: #adb5bd;
+  display: flex;
+  align-items: center;
+}
+
+.giscus-comment-meta span {
+  margin-right: 12px;
+  display: flex;
+  align-items: center;
+}
+
+.giscus-comment-meta svg {
+  margin-right: 4px;
+  width: 14px;
+  height: 14px;
+  fill: currentColor;
+}
+
+.giscus-comment.is-author {
+  flex-direction: row-reverse;
+}
+
+.giscus-comment.is-author .giscus-avatar {
+  margin-right: 0;
+  margin-left: 16px;
+}
+
+.giscus-comment.is-author .giscus-comment-body {
+  background: var(--gradient);
+  color: white;
+  border-bottom-left-radius: 18px;
+  border-bottom-right-radius: 0;
+  box-shadow: 0 10px 25px rgba(99, 102, 241, 0.2);
+}
+
+.giscus-comment.is-author .giscus-comment-body::before {
+  left: auto;
+  right: -10px;
+  background: var(--secondary-color);
+  clip-path: polygon(100% 100%, 0 0, 0 100%);
+}
+
+.giscus-comment.is-author .giscus-comment-author {
+  color: white;
+  justify-content: flex-end;
+}
+
+.giscus-comment.is-author .giscus-comment-author::after {
+  content: '我';
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.giscus-comment.is-author .giscus-comment-author::after::before {
+  display: none;
+}
+
+.giscus-comment.is-author .giscus-comment-content {
+  color: white;
+}
+
+.giscus-comment.is-author .giscus-comment-meta {
+  justify-content: flex-end;
+}
+
+.giscus-input {
+  padding: 20px 28px;
+  border-top: none;
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(10px);
+  position: relative;
+  z-index: 1;
+  box-shadow: 0 -5px 20px rgba(0, 0, 0, 0.03);
+}
+
+.giscus-input-wrapper {
+  position: relative;
+}
+
+.giscus-input textarea {
+  width: 100%;
+  padding: 16px 50px 16px 20px;
+  border: none;
+  border-radius: 24px;
+  resize: none;
+  font-size: 15px;
+  line-height: 1.6;
+  transition: all 0.3s;
+  outline: none;
+  min-height: 60px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.07);
+  background: white;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.giscus-input textarea:focus {
+  box-shadow: 0 8px 25px rgba(99, 102, 241, 0.15);
+  border-color: rgba(99, 102, 241, 0.3);
+}
+
+.giscus-input-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 16px;
+}
+
+.giscus-buttons {
+  display: flex;
+  gap: 12px;
+}
+
+.giscus-button {
+  padding: 10px 24px;
+  border-radius: 20px;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+.giscus-button:hover {
+  transform: translateY(-2px);
+}
+
+.giscus-button:active {
+  transform: translateY(1px);
+}
+
+.giscus-button-primary {
+  background: var(--gradient);
+  color: white;
+  box-shadow: 0 4px 20px rgba(99, 102, 241, 0.3);
+}
+
+.giscus-button-primary:hover {
+  box-shadow: 0 6px 25px rgba(99, 102, 241, 0.4);
+}
+
+.giscus-button-secondary {
+  background: rgba(241, 243, 245, 0.8);
+  color: #495057;
+}
+
+.giscus-button-secondary:hover {
+  background: rgba(233, 236, 239, 0.9);
+}
+
+.giscus-button svg {
+  margin-right: 8px;
+  width: 18px;
+  height: 18px;
+  fill: currentColor;
+}
+
+.giscus-send-button {
+  position: absolute;
+  right: 12px;
+  bottom: 12px;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: var(--gradient);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s;
+  box-shadow: 0 4px 15px rgba(99, 102, 241, 0.2);
+  opacity: 0.8;
+}
+
+.giscus-send-button:hover {
+  transform: scale(1.1);
+  opacity: 1;
+  box-shadow: 0 6px 20px rgba(99, 102, 241, 0.3);
+}
+
+.giscus-send-button svg {
+  width: 20px;
+  height: 20px;
+  fill: white;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.7);
+  }
+  
+  70% {
+    transform: scale(1);
+    box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
+  }
+  
+  100% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+  }
+}
