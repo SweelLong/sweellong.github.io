@@ -21,7 +21,7 @@ window.addEventListener("DOMContentLoaded", async function () {
   // 加载随机背景
   var cnt = Math.ceil(Math.random() * 70);
   var obj = document.getElementById("banner");
-  obj.style = "background-image: url('https://cdn.jsdelivr.net/gh/SweelLong/sweellong.github.io/assets/img/overlay.png'), url('https://cdn.jsdelivr.net/gh/SweelLong/sweellong.github.io/assets/img/bg/" + cnt + ".jpg')";
+  obj.style = "background-image: url('./assets/img/overlay.png'), url('./assets/img/bg/" + cnt + ".jpg')";
   // 动态插入推荐资源
   const rec_src = document.getElementById("rec_src");
   const cardContainer = document.createElement("div");

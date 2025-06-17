@@ -5,48 +5,48 @@
             "title": "Renegade",
             "artist": "sky_delta",
             "album": "Arcaea",
-            "image": "https://cdn.jsdelivr.net/gh/SweelLong/sweellong.github.io/assets/music/renegade.jpg",
-            "audio": "https://cdn.jsdelivr.net/gh/SweelLong/sweellong.github.io/assets/music/renegade.ogg"
+            "image": "./assets/music/renegade.jpg",
+            "audio": "./assets/music/renegade.ogg"
         },
         {
             "id": 2,
             "title": "Defection",
             "artist": "TeddyLoid feat. DELTA",
             "album": "Arcaea",
-            "image": "https://cdn.jsdelivr.net/gh/SweelLong/sweellong.github.io/assets/music/defection.jpg",
-            "audio": "https://cdn.jsdelivr.net/gh/SweelLong/sweellong.github.io/assets/music/defection.ogg"
+            "image": "./assets/music/defection.jpg",
+            "audio": "./assets/music/defection.ogg"
         },
         {
             "id": 3,
             "title": "Good bye, Merry-Go-Round.",
             "artist": "Yooh",
             "album": "O.N.G.E.K.I",
-            "image": "https://cdn.jsdelivr.net/gh/SweelLong/sweellong.github.io/assets/music/goodbyemerry.jpg",
-            "audio": "https://cdn.jsdelivr.net/gh/SweelLong/sweellong.github.io/assets/music/goodbyemerry.ogg"
+            "image": "./assets/music/goodbyemerry.jpg",
+            "audio": "./assets/music/goodbyemerry.ogg"
         },
         {
             "id": 4,
             "title": "LAMIA",
             "artist": "BlackY",
             "album": "O.N.G.E.K.I",
-            "image": "https://cdn.jsdelivr.net/gh/SweelLong/sweellong.github.io/assets/music/lamia.jpg",
-            "audio": "https://cdn.jsdelivr.net/gh/SweelLong/sweellong.github.io/assets/music/lamia.ogg"
+            "image": "./assets/music/lamia.jpg",
+            "audio": "./assets/music/lamia.ogg"
         },
         {
             "id": 5,
             "title": "Particle Arts",
             "artist": "Virtual Self",
             "album": "Arcaea",
-            "image": "https://cdn.jsdelivr.net/gh/SweelLong/sweellong.github.io/assets/music/particlearts.jpg",
-            "audio": "https://cdn.jsdelivr.net/gh/SweelLong/sweellong.github.io/assets/music/particlearts.ogg"
+            "image": "./assets/music/particlearts.jpg",
+            "audio": "./assets/music/particlearts.ogg"
         },
         {
             "id": 6,
             "title": "Stasis",
             "artist": "Maozon",
             "album": "Lanota",
-            "image": "https://cdn.jsdelivr.net/gh/SweelLong/sweellong.github.io/assets/music/stasis.jpg",
-            "audio": "https://cdn.jsdelivr.net/gh/SweelLong/sweellong.github.io/assets/music/stasis.ogg"
+            "image": "./assets/music/stasis.jpg",
+            "audio": "./assets/music/stasis.ogg"
         }
     ]
 }
