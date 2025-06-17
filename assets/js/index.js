@@ -3,17 +3,17 @@ window.addEventListener("DOMContentLoaded", async function () {
   var linkJson = [];
   var musicJson = [];
   var artJson = [];
-  await fetch("https://cdn.jsdelivr.net/gh/SweelLong/sweellong.github.io/assets/data/links.json")
+  await fetch("./assets/data/links.json")
     .then(response => response.json())
     .then(data => {
       linkJson = data["links"];
     });
-  await fetch("https://cdn.jsdelivr.net/gh/SweelLong/sweellong.github.io/assets/data/musics.json")
+  await fetch("./assets/data/musics.json")
     .then(response => response.json())
     .then(data => {
       musicJson = data["musics"];
     });
-  await fetch("https://cdn.jsdelivr.net/gh/SweelLong/sweellong.github.io/assets/data/articles.json")
+  await fetch("./assets/data/articles.json")
     .then(response => response.json())
     .then(data => {
       artJson = data["articles"];

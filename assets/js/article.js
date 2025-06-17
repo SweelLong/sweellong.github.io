@@ -1,5 +1,5 @@
 window.addEventListener('DOMContentLoaded', async () => {
-    await fetch("https://cdn.jsdelivr.net/gh/SweelLong/sweellong.github.io/assets/data/articles.json").then(response => response.json()).then(data => {
+    await fetch("./assets/data/articles.json").then(response => response.json()).then(data => {
         let article = data["articles"].find(article => (article.type == new URLSearchParams(window.location.search).get('title')));
         if (article != undefined) {
             document.title = article.title + '- 浮华のloc';
