@@ -3,17 +3,17 @@ window.addEventListener("DOMContentLoaded", async function () {
   var linkJson = [];
   var musicJson = [];
   var artJson = [];
-  await fetch("./assets/data/links.json")
+  await fetch("https://cdn.jsdelivr.net/gh/SweelLong/sweellong.github.io@main/assets/data/links.json")
     .then(response => response.json())
     .then(data => {
       linkJson = data["links"];
     });
-  await fetch("./assets/data/musics.json")
+  await fetch("https://cdn.jsdelivr.net/gh/SweelLong/sweellong.github.io@main/assets/data/musics.json")
     .then(response => response.json())
     .then(data => {
       musicJson = data["musics"];
     });
-  await fetch("./assets/data/articles.json")
+  await fetch("https://cdn.jsdelivr.net/gh/SweelLong/sweellong.github.io@main/assets/data/articles.json")
     .then(response => response.json())
     .then(data => {
       artJson = data["articles"];
@@ -21,7 +21,7 @@ window.addEventListener("DOMContentLoaded", async function () {
   // 加载随机背景
   var cnt = Math.ceil(Math.random() * 70);
   var obj = document.getElementById("banner");
-  obj.style = "background-image: url('./assets/img/overlay.png'), url('./assets/img/bg/" + cnt + ".jpg')";
+  obj.style = "background-image: url('https://cdn.jsdelivr.net/gh/SweelLong/sweellong.github.io@main/assets/img/overlay.png'), url('https://cdn.jsdelivr.net/gh/SweelLong/sweellong.github.io@main/assets/img/bg/" + cnt + ".jpg')";
   // 动态插入推荐资源
   const rec_src = document.getElementById("rec_src");
   const cardContainer = document.createElement("div");
