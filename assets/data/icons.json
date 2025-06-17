@@ -29,6 +29,11 @@
             "name": "Giscus",
             "src": "giscus.png",
             "url": "https://giscus.app/zh-CN"
+        },
+        {
+            "name": "jsDelivr",
+            "src": "jsdelivr.png",
+            "url": "https://www.jsdelivr.com/?docs=gh"
         }
     ],
     "big-icons": [
