@@ -237,3 +237,92 @@ summary::before {
 .lang-cs .number {
     color: #3498db;
 }
+
+input {
+    width: 100%;
+    padding: 12px 15px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 1em;
+    transition: all 0.3s ease;
+    background-color: #fff;
+}
+
+input:focus {
+    outline: none;
+    border-color: #6a11cb;
+    box-shadow: 0 0 0 3px rgba(106, 17, 203, 0.1);
+}
+
+input::placeholder {
+    color: #bbb;
+    font-style: italic;
+}
+
+button {
+    padding: 12px 24px;
+    margin: 5px 3px;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 1em;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(106, 17, 203, 0.2);
+}
+
+button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(106, 17, 203, 0.3);
+    animation: pulse 1.5s infinite;
+}
+
+button:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 5px rgba(106, 17, 203, 0.2);
+}
+
+button:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+    transform: none;
+    box-shadow: none;
+    animation: none;
+    background: linear-gradient(135deg, #a37acd 0%, #8ea3e2 100%);
+}
+
+code {
+  font-family: 'Consolas', 'Courier New', monospace;
+  background-color: #f1f1f1;
+  color: #e74c3c;
+  padding: 2px 5px;
+  border-radius: 4px;
+  font-size: 0.9em;
+  transition: all 0.3s ease;
+  border: 1px solid #e0e0e0;
+}
+
+code:hover {
+  transform: scale(1.05);
+  box-shadow: 0 2px 8px rgba(106, 17, 203, 0.15);
+  animation: pulse 1.5s infinite;
+}
+
+.code-block {
+  background: #f8f9fa;
+  padding: 18px 22px;
+  border-radius: 8px;
+  margin: 20px 0;
+  font-family: 'Consolas', 'Courier New', monospace;
+  font-size: 0.9em;
+  line-height: 1.4;
+  overflow-x: auto;
+  border-left: 4px solid #6a11cb;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
+}

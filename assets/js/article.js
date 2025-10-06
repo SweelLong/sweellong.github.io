@@ -1,15 +1,163 @@
+async function decryptContent(encryptedData, key) {
+    try {
+        const encryptedBytes = Uint8Array.from(atob(encryptedData), c => c.charCodeAt(0));
+        if (encryptedBytes.length < 44) {
+            console.error("加密数据长度不足，可能已损坏");
+        }
+        const salt = encryptedBytes.slice(0, 16);
+        const nonce = encryptedBytes.slice(16, 28);
+        const tag = encryptedBytes.slice(28, 44);
+        const ciphertext = encryptedBytes.slice(44);
+        const keyMaterial = await window.crypto.subtle.importKey(
+            "raw",
+            new TextEncoder().encode(key),
+            { name: "PBKDF2" },
+            false,
+            ["deriveKey"]
+        );
+        const encryptionKey = await window.crypto.subtle.deriveKey(
+            {
+                name: "PBKDF2",
+                salt: salt,
+                iterations: 100000,
+                hash: "SHA-256"
+            },
+            keyMaterial,
+            { name: "AES-GCM", length: 256 },
+            false,
+            ["decrypt"]
+        );
+        const combined = new Uint8Array(ciphertext.length + tag.length);
+        combined.set(ciphertext);
+        combined.set(tag, ciphertext.length);
+        const decryptedBytes = await window.crypto.subtle.decrypt(
+            {
+                name: "AES-GCM",
+                iv: nonce,
+            },
+            encryptionKey,
+            combined
+        );
+        const decryptedStr = new TextDecoder().decode(decryptedBytes);
+        return JSON.parse(decryptedStr);
+    } catch (e) {
+        console.error("解密失败:", e);
+        return null;
+    }
+}
+
+function decrypt(encryptedData, secretKey, title) {
+    decryptContent(encryptedData, secretKey).then(result => {
+        if (result) {
+            document.title = title.replace("【已加密】", "");
+            document.getElementById('header').getElementsByTagName('a')[0].textContent = '浮华のloc : ' + title.replace("【已加密】", "").replace(" - 浮华のloc", "");
+            document.getElementById('articleSection').innerHTML = `
+            <h1>${title.replace("【已加密】", "")}</h1>
+            <article class="article-content">
+                ${markdownToHtml(result.join('\n'))}
+            </article>
+            `;
+        } 
+        else {
+            document.getElementById('articleSection').innerHTML = `
+            <h1>【已加密】无访问权限</h1>
+            <article class="article-content">
+                <h2>该内容已被加密，没有访问权限！</h2>
+                <p>您可以尝试联系管理员以获取正确的密钥。</p>
+            </article>
+            `;
+        }
+    });
+}
+
+function markdownToHtml(markdown) {
+  if (!markdown) return '';
+  const lines = markdown.split('\n');
+  let html = '';
+  let inCodeBlock = false;
+  let inList = false;
+  const closeListIfNeeded = () => {
+    if (inList) {
+      html += '</ul>\n';
+      inList = false;
+    }
+  };
+  lines.forEach(line => {
+    let content = line;
+    const trimmed = content.trim();
+    if (trimmed.startsWith('```') && !trimmed.includes('```', 3)) {
+      closeListIfNeeded();
+      inCodeBlock = !inCodeBlock;
+      html += inCodeBlock ? '<div class="code-block"><pre>' : '</pre></div>';
+      return;
+    }
+    if (inCodeBlock) {
+      html += content + '\n';
+      return;
+    }
+    if (trimmed.startsWith('#')) {
+      closeListIfNeeded();
+      const level = trimmed.indexOf(' ');
+      if (level > 0 && level <= 6) {
+        const text = trimmed.slice(level).trim()
+          .replace(/```(.*?)```/g, '<code>$1</code>')
+          .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2">$1</a>');
+        html += `<h${level}>${text}</h${level}>\n`;
+      } else {
+        html += `<p>${trimmed}</p>\n`;
+      }
+      return;
+    }
+    if (trimmed.startsWith('- ')) {
+      const text = trimmed.slice(2).trim()
+        .replace(/```(.*?)```/g, '<code>$1</code>')
+        .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2">$1</a>');
+      if (!inList) {
+        html += '<ul>\n';
+        inList = true;
+      }
+      html += `<li>${text}</li>\n`;
+      return;
+    }
+    closeListIfNeeded();
+    if (trimmed.startsWith('![')) {
+      const match = trimmed.match(/!\[([^\]]+)\]\(([^)]+)\)/);
+      if (match) html += `<img src="${match[2]}" alt="${match[1]}" class="tutorial-image">\n`;
+      return;
+    }
+    content = content.replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2">$1</a>')
+      .replace(/```(.*?)```/g, '<code>$1</code>');
+    if (trimmed) html += `<p>${content}</p>\n`;
+  });
+  closeListIfNeeded();
+  if (inCodeBlock) html += '</pre></div>';
+  return html;
+}
+
 window.addEventListener('DOMContentLoaded', async () => {
     await fetch("./assets/data/articles.json").then(response => response.json()).then(data => {
         let article = data["articles"].find(article => (article.type == new URLSearchParams(window.location.search).get('title')));
         if (article != undefined) {
-            document.title = article.title + '- 浮华のloc';
+            document.title = article.title + ' - 浮华のloc';
             document.getElementById('header').getElementsByTagName('a')[0].textContent = '浮华のloc : ' + article.title;
-            document.getElementById('articleSection').innerHTML = `
+            if (article["tags"][0] == "🔒") {
+                document.getElementById('articleSection').innerHTML = `
                 <h1>${article.title}</h1>
                 <article class="article-content">
-                    ${article["content"].join('\n')}
+                    <h2>该文章已被加密，仅供部分人员查看！</h2>
+                    <input type="text" id="password" placeholder="请输入密码">
+                    <button onclick="decrypt('${article["ciphertext"]}', password.value, document.title)">解密</button>
                 </article>
-            `;
+                `;
+            }
+            else {
+                document.getElementById('articleSection').innerHTML = `
+                <h1>${article.title}</h1>
+                <article class="article-content">
+                    ${markdownToHtml(article["content"].join('\n'))}
+                </article>
+                `;
+            }
             var prevArticle = document.getElementById('prevArticle');
             var nextArticle = document.getElementById('nextArticle');
             const currentIndex = data.articles.indexOf(article);
