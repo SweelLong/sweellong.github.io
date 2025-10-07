@@ -1,71 +1,104 @@
-async function decryptContent(encryptedData, key) {
-    try {
-        const encryptedBytes = Uint8Array.from(atob(encryptedData), c => c.charCodeAt(0));
-        if (encryptedBytes.length < 44) {
-            console.error("加密数据长度不足，可能已损坏");
-        }
-        const salt = encryptedBytes.slice(0, 16);
-        const nonce = encryptedBytes.slice(16, 28);
-        const tag = encryptedBytes.slice(28, 44);
-        const ciphertext = encryptedBytes.slice(44);
-        const keyMaterial = await window.crypto.subtle.importKey(
-            "raw",
-            new TextEncoder().encode(key),
-            { name: "PBKDF2" },
-            false,
-            ["deriveKey"]
-        );
-        const encryptionKey = await window.crypto.subtle.deriveKey(
-            {
-                name: "PBKDF2",
-                salt: salt,
-                iterations: 100000,
-                hash: "SHA-256"
-            },
-            keyMaterial,
-            { name: "AES-GCM", length: 256 },
-            false,
-            ["decrypt"]
-        );
-        const combined = new Uint8Array(ciphertext.length + tag.length);
-        combined.set(ciphertext);
-        combined.set(tag, ciphertext.length);
-        const decryptedBytes = await window.crypto.subtle.decrypt(
-            {
-                name: "AES-GCM",
-                iv: nonce,
-            },
-            encryptionKey,
-            combined
-        );
-        const decryptedStr = new TextDecoder().decode(decryptedBytes);
-        return JSON.parse(decryptedStr);
-    } catch (e) {
-        console.error("解密失败:", e);
-        return null;
+function generateTableOfContents(containerSelector = "#toc-container", contentSelector = ".page-container", levels = [1, 2, 3, 4, 5, 6]) {
+    let toggleBtn = document.getElementById("toc-toggle");
+    if (!toggleBtn) {
+        toggleBtn = document.createElement("button");
+        toggleBtn.id = "toc-toggle";
+        toggleBtn.textContent = "点击查看目录";
+        document.body.prepend(toggleBtn);
     }
-}
-
-function decrypt(encryptedData, secretKey, title) {
-    decryptContent(encryptedData, secretKey).then(result => {
-        if (result) {
-            document.title = title.replace("【已加密】", "");
-            document.getElementById('header').getElementsByTagName('a')[0].textContent = '浮华のloc : ' + title.replace("【已加密】", "").replace(" - 浮华のloc", "");
-            document.getElementById('articleSection').innerHTML = `
-            <h1>${title.replace("【已加密】", "")}</h1>
-            <article class="article-content">
-                ${markdownToHtml(result.join('\n'))}
-            </article>
-            `;
-        } 
-        else {
-            document.getElementById('articleSection').innerHTML = `
-            <h1>【已加密】无访问权限</h1>
-            <article class="article-content">
-                <h2>该内容已被加密，没有访问权限！</h2>
-                <p>您可以尝试联系管理员以获取正确的密钥。</p>
-            </article>
-            `;
+    let tocContainer = document.querySelector(containerSelector);
+    if (!tocContainer) {
+        tocContainer = document.createElement("div");
+        tocContainer.id = "toc-container";
+        tocContainer.classList.add("hidden");
+        document.body.prepend(tocContainer);
+    }
+    tocContainer.innerHTML = '<h2>目录</h2><ul class="toc-list root-list"></ul>';
+    const rootList = tocContainer.querySelector(".root-list");
+    const contentContainer = document.querySelector(contentSelector);
+    if (!contentContainer) {
+        return;
+    }
+    const headings = [];
+    levels.forEach(level => {
+        const headingElements = contentContainer.querySelectorAll(`h${level}`);
+        headingElements.forEach(heading => {
+            headings.push({
+                element: heading,
+                level: level,
+                text: heading.textContent.trim(),
+                position: heading.offsetTop
+            });
+        });
+    });
+    headings.sort((a, b) => a.position - b.position);
+    if (headings.length === 0) {
+        return;
+    }
+    headings.forEach((heading, index) => {
+        if (!heading.element.id) {
+            heading.element.id = `heading-${index + 1}`;
+        }
+        heading.id = heading.element.id;
+    });
+    const parentLists = [];
+    parentLists[0] = rootList;
+    headings.forEach(heading => {
+        const listItem = document.createElement("li");
+        listItem.className = `toc-level-${heading.level}`;
+        const link = document.createElement("a");
+        link.href = `#${heading.id}`;
+        link.textContent = heading.text;
+        link.addEventListener("click", function(e) {
+            e.preventDefault();
+            document.getElementById(heading.id).scrollIntoView({
+                behavior: "smooth"
+            });
+            tocContainer.classList.add("hidden");
+            toggleBtn.classList.remove("display-none");
+        });
+        listItem.appendChild(link);
+        const parentLevel = heading.level - 1;
+        while (parentLists.length <= parentLevel) {
+            const newList = document.createElement("ul");
+            newList.className = "toc-list";
+            parentLists[parentLists.length - 1].lastChild.appendChild(newList);
+            parentLists.push(newList);
+        }
+        parentLists[parentLevel].appendChild(listItem);
+        while (parentLists.length > heading.level) {
+            parentLists.pop();
+        }
+        const subList = document.createElement("ul");
+        subList.className = "toc-list";
+        listItem.appendChild(subList);
+        parentLists[heading.level] = subList;
+    });
+    window.addEventListener("scroll", function() {
+        const scrollPosition = window.scrollY + 100;
+        headings.forEach(heading => {
+            const headingElement = document.getElementById(heading.id);
+            const linkElement = tocContainer.querySelector(`a[href="#${heading.id}"]`);
+            if (headingElement && linkElement) {
+                const headingTop = headingElement.offsetTop;
+                const nextHeading = headings[headings.indexOf(heading) + 1];
+                const headingBottom = nextHeading 
+                    ? document.getElementById(nextHeading.id).offsetTop 
+                    : document.body.scrollHeight;
+                
+                linkElement.classList.remove("toc-active");
+                if (scrollPosition >= headingTop && scrollPosition < headingBottom) {
+                    linkElement.classList.add("toc-active");
+                }
+            }
+        });
+    });
+    toggleBtn.addEventListener("click", function() {
+        tocContainer.classList.toggle("hidden");
+        if (!tocContainer.classList.contains("hidden")) {
+            toggleBtn.classList.add("display-none");
+        } else {
+            toggleBtn.classList.remove("display-none");
         }
     });
 }
@@ -134,6 +167,79 @@ function markdownToHtml(markdown) {
   return html;
 }
 
+async function decryptContent(encryptedData, key) {
+    try {
+        const encryptedBytes = Uint8Array.from(atob(encryptedData), c => c.charCodeAt(0));
+        if (encryptedBytes.length < 44) {
+            console.error("加密数据长度不足，可能已损坏");
+        }
+        const salt = encryptedBytes.slice(0, 16);
+        const nonce = encryptedBytes.slice(16, 28);
+        const tag = encryptedBytes.slice(28, 44);
+        const ciphertext = encryptedBytes.slice(44);
+        const keyMaterial = await window.crypto.subtle.importKey(
+            "raw",
+            new TextEncoder().encode(key),
+            { name: "PBKDF2" },
+            false,
+            ["deriveKey"]
+        );
+        const encryptionKey = await window.crypto.subtle.deriveKey(
+            {
+                name: "PBKDF2",
+                salt: salt,
+                iterations: 100000,
+                hash: "SHA-256"
+            },
+            keyMaterial,
+            { name: "AES-GCM", length: 256 },
+            false,
+            ["decrypt"]
+        );
+        const combined = new Uint8Array(ciphertext.length + tag.length);
+        combined.set(ciphertext);
+        combined.set(tag, ciphertext.length);
+        const decryptedBytes = await window.crypto.subtle.decrypt(
+            {
+                name: "AES-GCM",
+                iv: nonce,
+            },
+            encryptionKey,
+            combined
+        );
+        const decryptedStr = new TextDecoder().decode(decryptedBytes);
+        return JSON.parse(decryptedStr);
+    } catch (e) {
+        console.error("解密失败:", e);
+        return null;
+    }
+}
+
+function decrypt(encryptedData, secretKey, title) {
+    decryptContent(encryptedData, secretKey).then(result => {
+        if (result) {
+            document.title = title.replace("【已加密】", "");
+            document.getElementById('header').getElementsByTagName('a')[0].textContent = '浮华のloc : ' + title.replace("【已加密】", "").replace(" - 浮华のloc", "");
+            document.getElementById('articleSection').innerHTML = `
+            <h1>${title.replace("【已加密】", "")}</h1>
+            <article class="article-content">
+                ${markdownToHtml(result.join('\n'))}
+            </article>
+            `;
+            generateTableOfContents();
+        } 
+        else {
+            document.getElementById('articleSection').innerHTML = `
+            <h1>【已加密】无访问权限</h1>
+            <article class="article-content">
+                <h2>该内容已被加密，没有访问权限！</h2>
+                <p>您可以尝试联系管理员以获取正确的密钥。</p>
+            </article>
+            `;
+        }
+    });
+}
+
 window.addEventListener('DOMContentLoaded', async () => {
     await fetch("./assets/data/articles.json").then(response => response.json()).then(data => {
         let article = data["articles"].find(article => (article.type == new URLSearchParams(window.location.search).get('title')));
@@ -157,6 +263,7 @@ window.addEventListener('DOMContentLoaded', async () => {
                     ${markdownToHtml(article["content"].join('\n'))}
                 </article>
                 `;
+                generateTableOfContents();
             }
             var prevArticle = document.getElementById('prevArticle');
             var nextArticle = document.getElementById('nextArticle');

@@ -232,21 +232,44 @@ window.addEventListener("DOMContentLoaded", async function () {
     });
   }
   // 动态插入推荐文章
-  var rec_article = document.getElementById("rec_article");
-  artJson.forEach(item => {
-    const card = document.createElement("div");
-    card.className = "tutorial-card";
-    card.innerHTML = `
-        <h3 class="card-title">${item.title}</h3>
-        <p class="card-desc">${item.description}</p>
-        <div class="card-meta">
-            <span>标签：${item.tags.join("、")}</span><br>
-            <span>发布时间：${item.time}</span>
-        </div>
-        <a href="article.html?title=${item.type}" class="btn-readmore">查看完整文章</a>
-    `;
-    rec_article.appendChild(card);
-  });
+  const recArticle = document.getElementById("rec_article");
+  recArticle.innerHTML = '';
+  const groupedByLastTag = artJson.reduce((groups, item) => {
+    const lastTag = item.tags.length > 0 ? item.tags[item.tags.length - 1] : '未分类';
+    if (!groups[lastTag]) {
+      groups[lastTag] = [];
+    }
+    groups[lastTag].push(item);
+    return groups;
+  }, {});
+  Object.keys(groupedByLastTag).forEach(tag => {
+    const details = document.createElement("details");
+    const summary = document.createElement("summary");
+    summary.textContent = `[${tag}]`; 
+    const articlesContainer = document.createElement("div");
+    articlesContainer.className = "tutorial-grid";
+    articlesContainer.style.marginLeft = "1rem";
+    groupedByLastTag[tag].forEach(item => {
+      const card = document.createElement("div");
+      card.className = "tutorial-card";
+      card.innerHTML = `
+      <h3 class="card-title">${item.title}</h3>
+      <p class="card-desc">${item.description}</p>
+      <div class="card-meta">
+          <span>标签：${item.tags.join("、")}</span><br>
+          <span>发布时间：${item.time}</span>
+      </div>
+      <a href="article.html?title=${item.type}" class="btn-readmore">查看完整文章</a>
+      `;
+      articlesContainer.appendChild(card);
+      });
+      details.appendChild(summary);
+      details.appendChild(document.createElement("br"));
+      details.appendChild(articlesContainer);
+      recArticle.appendChild(details);
+    }
+  );
+  // 动态插入博客标题
   var blogTitle = document.getElementById("blog-title");
   blogTitle.addEventListener("click", function () {
     alert("欢迎来到SweelLong的博客！");

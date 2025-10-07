@@ -6,7 +6,8 @@
             "time": "2020-10-04",
             "tags": [
                 "C#",
-                "开发工具"
+                "开发工具",
+                "早期文章"
             ],
             "type": "csharp-tutorial",
             "content": [
@@ -162,7 +163,63 @@
                 "   }",
                 "}",
                 "</pre>",
-                "</div>"
+                "</div>",
+                "<h2>6. Hjson 配置文件</h2>",
+                "<h3>1. 基本介绍</h3>",
+                "<P style=\"color:red;\">说明：TML 1.4新版早已自动生成hjson文件，此教程Localizer.cs为早期教程的内容，现在无需编写，但不删除，仅供参考！</P>",
+                "<p>众所周知：<br>&emsp;&emsp;语言是人类进行沟通交流的表达方式。它是人与人之间的一种交流方式，人们彼此的交往离不开语言。尽管通过图片、动作、表情等可以传递人们的思想，但是语言是其中最重要的，也是最方便的媒介。然而世界各地的人们所用的语言各不相同，彼此间直接交谈是困难的，甚至是不可能的。即使是同一种语言，还有不同的方言，其差别程度也不相同。有的方言可以基本上相互理解，有的差别极大。</p>",
+                "<p>&emsp;&emsp;我们早期的模组开发者早已意识到多语言的重要性，@SweelLong为主要语言文件编写者，并且随着tModLoader的不断更迭,早期使用本地化模组，依靠代码实现自制语言格式的json文件读取……</p>",
+                "<p>&emsp;&emsp;TML 1.4的发布，TML-Team加入了新的本地化方案{*.hjson}，并提供了一系列的工具支持，使得开发者可以轻松的实现多语言支持。本教程将介绍HJSON的语法和用法。</p>",
+                "<h3>2. 文件类型</h2>",
+                "<p>&emsp;&emsp;JSON 是我们平时使用非常频繁的数据格式，尤其在网络传输中非常受欢迎。大部分编程语言都支持这种格式。但是作为配置文件还是有些许不足，最主要的一点是缺乏注释（其他比如低信噪比其实还可以接受），所以在 JSON 的基础上衍生出了更方便的作为配置文件的格式 HJSON 。</p>",
+                "<p>HJSON的写法毕竟还是多的，甚至可以直接模仿JSON的写法：</p>",
+                "<div class=\"code-block\"><pre>Xxx:\n{\n   Xx: “x”\n   Xxx:{\n     ...\n   }\n}\n这里称：Xxx和xx为键名、x为键值。</pre></div>",
+                "<p>调用HJSON值的方式类似调用命名空间：</p>",
+                "<p>&emsp;&emsp;现在给定HJSON文件：</p>",
+                "<div class=\"code-block\"><pre>",
+                "Mods:\n{\n   Terraria:\n   {\n      Name: “Terraria”\n      Description: “一个生存类模组”\n   }\n   tModLoader:\n   {\n      Name: “tModLoader”\n      Description: “一个模组加载器”\n   }\n}\n</pre></div>",
+                "</pre></div>",
+                "<p>&emsp;&emsp;在C#中读取HJSON文件(键名的完全路径)：</p>",
+                "<div class=\"code-block\">输出Terraria的描述：>>> Mods.Terraria.Description\n</div>",
+                "<div class=\"code-block\">输出结果：\"一个生存类模组\"</div>",
+                "<h3>3. TML本地化方案介绍</h3>",
+                "<div class=\"code-block\"><pre>",
+                "TML本地化方案：",
+                "// You may find this .hjson file approach to translations easier for your mod.",
+                "// 你会发现.hjson文件的方法让模组翻译更容易。",
+                "// .hjson files contain translations for the language specified in the filename. (Make sure this file is UTF-8 encoded only.)",
+                "// .hjson的文件夹名是指定的（确保文件编码只能为UTF-8）",
+                "// The possible languages are: English (\"en-US\"), German (\"de-DE\"), Italian (\"it-IT\"), French (\"fr-FR\"), Spanish (\"es-ES\"), Russian (\"ru-RU\"), Chinese (\"zh-Hans\"), Portuguese (\"pt-BR\"), and Polish (\"pl-PL\")",
+                "// 可能的语言是（引号内为指定的文件名）：英语(\"en-US\"), 德语(\"de-DE\"), 意大利语(\"it-IT\"), 法语(\"fr-FR\"), 西班牙语(\"es-ES\"), 俄语(\"ru-RU\"), 汉语(\"zh-Hans\"), 葡萄牙语(\"pt-BR\"), 波兰语(\"pl-PL\")",
+                "// We have organized these files in a folder called Localization. A single file per language makes it extremely easy to to integrate and maintain translations.",
+                "// 我们将这些文件组织在一个名为本地化的文件夹中。每种语言只有一个文件，因此非常容易整理和维护翻译。",
+                "// Each translation entry in .hjson files contains a key and a value. The key is determined following the rules of JSON [https://www.w3schools.com/js/js_json_syntax.asp]",
+                "// 每个翻译条目.hjson文件都包含一个键名和一个键值。键是根据JSON的规则确定的[https://www.w3schools.com/js/js_json_syntax.asp]",
+                "// The Key automatically inherits \"Mods.ModNameHere.\", which is useful to know if you want to use substitutions (as seen in the Paper Airplane example) or use Language.GetTextValue or Network text.",
+                "// 键自动继承“Mods.模组名”，如果您想使用代码设置语言或使用Language.GetTextValu或网络文本是非常有用的。",
+                "// The following are the currently autogenerated keys: ItemName, ItemTooltip, BuffName, BuffDescription, ProjectileName, NPCName, MapObject, and Prefix",
+                "// 这些键是自动继承的（开发组要求不使用自动键，可忽略）：ItemName, ItemTooltip, BuffName, BuffDescription, ProjectileName, NPCName, MapObject, and Prefix",
+                "</pre></div>",
+                "<h3>4. Localizer.cs</h3>",
+                "<div class=\"code-block\"><pre>",
+                "/// &lt;summary&gt;",
+                "/// Items/Weapons文件夹专用键",
+                "/// &lt;/summary&gt;",
+                "/// &lt;param name=\"keyName\"&gt;&lt;/param&gt;",
+                "/// &lt;returns&gt;&lt;/returns&gt;",
+                "internal static string WeaponsText(string keyName) => Language.GetTextValue(\"Mods.InterspaceMod.Weapons.{0}\", keyName);",
+                "根据第二行，我们发现这个方法允许Weapons文件夹下的类调用语言文本：",
+                "查阅语言文件（如zh-Hans.hjson）：如果要调用",
+                "Weapons:",
+                "{",
+                "    InterspaceSword: \"星际天河之刃\"",
+                "}",
+                "直接调用：Language.GetTextValue(\"Mods.InterspaceMod.Weapons.InterspaceSword\");",
+                "方法调用：WeaponsText(\"InterspaceSword\");",
+                "对于Armors键里有多层，则可以这样写：",
+                "ArmorsText(\"InterspaceArmors.Head\");",
+                "Language.GetTextValue(\"Mods.InterspaceMod.Armors.InterspaceArmors.Head\");",
+                "</pre></div>"
             ]
         },
         {
@@ -171,13 +228,14 @@
             "time": "2020-10-05",
             "tags": [
                 "网络",
-                "游戏开服"
+                "游戏开服",
+                "早期文章"
             ],
             "type": "network-tutorial",
             "content": [
                 "<h2>一、端口映射（IPv4 环境）</h2>",
                 "<p>⚠️ 需先确认拥有公网IP，IPv6环境可能不适用</p>",
-                "<h3>操作步骤：</h3>",
+                "<h3>操作步骤</h3>",
                 "<ol>",
                 "<li>进入路由器管理页面（通常为 <code>http://192.168.0.1</code> 或 <code>http://192.168.1.1</code>）</li>",
                 "<li>绑定本机局域网IP与MAC地址（可选，避免IP变动）</li>",
@@ -195,7 +253,7 @@
                 "</div>",
                 "<p>✅ 完成后可通过<a href=\"https://www.ipip.net\" target=\"_blank\">IP查询网站</a>获取公网IP进行连接</p>",
                 "<h2>二、租用云服务器（以华为云为例）</h2>",
-                "<h3>操作流程：</h3>",
+                "<h3>操作流程</h3>",
                 "<ol>",
                 "<li>购买Windows Server系统云服务器</li>",
                 "<li>在控制台开放入站规则（如开放7777端口）</li>",
@@ -247,14 +305,15 @@
             "time": "2021-07-29",
             "tags": [
                 "VS",
-                "Git"
+                "Git",
+                "早期文章"
             ],
             "type": "vs-git-solution",
             "content": [
                 "<h2>1. 拉取/提取失败：冲突解决</h2>",
                 "<p>当拉取代码出现冲突时，VS 会提示合并冲突：</p>",
                 "<img src=\"./assets/img/article/vs-git-solution/01.png\" class=\"tutorial-image\">",
-                "<h3>操作步骤：</h3>",
+                "<h3>操作步骤</h3>",
                 "<ol>",
                 "<li>在“团队资源管理器”中点击“解决冲突”</li>",
                 "<li>对比本地版本与远程版本，手动选择保留代码</li>",
@@ -264,14 +323,14 @@
                 "<h2>2. 推送失败：认证问题</h2>",
                 "<p>常见原因：未配置SSH密钥或密码错误</p>",
                 "<img src=\"./assets/img/article/vs-git-solution/02.png\" class=\"tutorial-image\">",
-                "<h3>解决方案：</h3>",
+                "<h3>解决方案</h3>",
                 "<ul>",
                 "<li>检查是否已在GitHub/GitLab配置SSH公钥：</li>",
                 "<div class=\"code-block\">",
                 "<pre>",
-                "   # 生成新密钥（如有需要）",
+                "   // 生成新密钥（如有需要）",
                 "   ssh-keygen -t rsa -b 4096 -C \"your_email@example.com\"",
-                "   # 查看公钥",
+                "   // 查看公钥",
                 "   cat ~/.ssh/id_rsa.pub",
                 "</pre>",
                 "</div>",
@@ -295,7 +354,8 @@
             "time": "2021-07-29",
             "tags": [
                 "Win11",
-                "安卓子系统"
+                "安卓子系统",
+                "早期文章"
             ],
             "type": "win11-android",
             "content": [
@@ -314,7 +374,7 @@
                 "<li>启用Windows功能“虚拟机平台”和“适用于Linux的Windows子系统”：</li>",
                 "<div class=\"code-block\">",
                 "<pre>",
-                "# 以管理员身份打开PowerShell",
+                "// 以管理员身份打开PowerShell",
                 "dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart",
                 "dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart",
                 "</pre>",
@@ -336,80 +396,13 @@
             ]
         },
         {
-            "title": "C#自定义语言文件HJSON",
-            "description": "HJSON,轻量级的JSON格式，用于存储配置数据.本文将介绍 HJSON 的语法和用法",
-            "time": "2022-04-15",
-            "tags": [
-                "C#",
-                "HJSON"
-            ],
-            "type": "csharp-hjson",
-            "content": [
-                "<h2>1. 基本介绍</h2>",
-                "<h3>&emsp;&emsp;你好！很高兴您愿意抽出一点时间来阅读此教程。</h3>",
-                "<h3 style=\"color:red;\">说明：TML 1.4新版早已自动生成hjson文件，此教程Localizer.cs为早期教程的内容，现在无需编写，但不删除，仅供参考！</h3>",
-                "<p>众所周知：<br>&emsp;&emsp;语言是人类进行沟通交流的表达方式。它是人与人之间的一种交流方式，人们彼此的交往离不开语言。尽管通过图片、动作、表情等可以传递人们的思想，但是语言是其中最重要的，也是最方便的媒介。然而世界各地的人们所用的语言各不相同，彼此间直接交谈是困难的，甚至是不可能的。即使是同一种语言，还有不同的方言，其差别程度也不相同。有的方言可以基本上相互理解，有的差别极大。</p>",
-                "<p>&emsp;&emsp;我们早期的模组开发者早已意识到多语言的重要性，@SweelLong为主要语言文件编写者，并且随着tModLoader的不断更迭,早期使用本地化模组，依靠代码实现自制语言格式的json文件读取……</p>",
-                "<p>&emsp;&emsp;TML 1.4的发布，TML-Team加入了新的本地化方案{*.hjson}，并提供了一系列的工具支持，使得开发者可以轻松的实现多语言支持。本教程将介绍HJSON的语法和用法。</p>",
-                "<h2>2. 文件类型</h2>",
-                "<p>&emsp;&emsp;JSON 是我们平时使用非常频繁的数据格式，尤其在网络传输中非常受欢迎。大部分编程语言都支持这种格式。但是作为配置文件还是有些许不足，最主要的一点是缺乏注释（其他比如低信噪比其实还可以接受），所以在 JSON 的基础上衍生出了更方便的作为配置文件的格式 HJSON 。</p>",
-                "<p>HJSON的写法毕竟还是多的，甚至可以直接模仿JSON的写法：</p>",
-                "<div class=\"code-block\"><pre>Xxx:\n{\n   Xx: “x”\n   Xxx:{\n     ...\n   }\n}\n这里称：Xxx和xx为键名、x为键值。</pre></div>",
-                "<p>调用HJSON值的方式类似调用命名空间：</p>",
-                "<p>&emsp;&emsp;现在给定HJSON文件：</p>",
-                "<div class=\"code-block\"><pre>",
-                "Mods:\n{\n   Terraria:\n   {\n      Name: “Terraria”\n      Description: “一个生存类模组”\n   }\n   tModLoader:\n   {\n      Name: “tModLoader”\n      Description: “一个模组加载器”\n   }\n}\n</pre></div>",
-                "</pre></div>",
-                "<p>&emsp;&emsp;在C#中读取HJSON文件(键名的完全路径)：</p>",
-                "<div class=\"code-block\">输出Terraria的描述：>>> Mods.Terraria.Description\n</div>",
-                "<div class=\"code-block\">输出结果：\"一个生存类模组\"</div>",
-                "<h2>3. TML本地化方案介绍</h2>",
-                "<div class=\"code-block\"><pre>",
-                "TML本地化方案：",
-                "# You may find this .hjson file approach to translations easier for your mod.",
-                "// 你会发现.hjson文件的方法让模组翻译更容易。",
-                "# .hjson files contain translations for the language specified in the filename. (Make sure this file is UTF-8 encoded only.)",
-                "// .hjson的文件夹名是指定的（确保文件编码只能为UTF-8）",
-                "# The possible languages are: English (\"en-US\"), German (\"de-DE\"), Italian (\"it-IT\"), French (\"fr-FR\"), Spanish (\"es-ES\"), Russian (\"ru-RU\"), Chinese (\"zh-Hans\"), Portuguese (\"pt-BR\"), and Polish (\"pl-PL\")",
-                "// 可能的语言是（引号内为指定的文件名）：英语(\"en-US\"), 德语(\"de-DE\"), 意大利语(\"it-IT\"), 法语(\"fr-FR\"), 西班牙语(\"es-ES\"), 俄语(\"ru-RU\"), 汉语(\"zh-Hans\"), 葡萄牙语(\"pt-BR\"), 波兰语(\"pl-PL\")",
-                "# We have organized these files in a folder called Localization. A single file per language makes it extremely easy to to integrate and maintain translations.",
-                "// 我们将这些文件组织在一个名为本地化的文件夹中。每种语言只有一个文件，因此非常容易整理和维护翻译。",
-                "# Each translation entry in .hjson files contains a key and a value. The key is determined following the rules of JSON [https://www.w3schools.com/js/js_json_syntax.asp]",
-                "// 每个翻译条目.hjson文件都包含一个键名和一个键值。键是根据JSON的规则确定的[https://www.w3schools.com/js/js_json_syntax.asp]",
-                "# The Key automatically inherits \"Mods.ModNameHere.\", which is useful to know if you want to use substitutions (as seen in the Paper Airplane example) or use Language.GetTextValue or Network text.",
-                "// 键自动继承“Mods.模组名”，如果您想使用代码设置语言或使用Language.GetTextValu或网络文本是非常有用的。",
-                "# The following are the currently autogenerated keys: ItemName, ItemTooltip, BuffName, BuffDescription, ProjectileName, NPCName, MapObject, and Prefix",
-                "// 这些键是自动继承的（开发组要求不使用自动键，可忽略）：ItemName, ItemTooltip, BuffName, BuffDescription, ProjectileName, NPCName, MapObject, and Prefix",
-                "</pre></div>",
-                "<h2>4. Localizer.cs</h2>",
-                "<div class=\"code-block\"><pre>",
-                "/// &lt;summary&gt;",
-                "/// Items/Weapons文件夹专用键",
-                "/// &lt;/summary&gt;",
-                "/// &lt;param name=\"keyName\"&gt;&lt;/param&gt;",
-                "/// &lt;returns&gt;&lt;/returns&gt;",
-                "internal static string WeaponsText(string keyName) => Language.GetTextValue(\"Mods.InterspaceMod.Weapons.{0}\", keyName);",
-                "根据第二行，我们发现这个方法允许Weapons文件夹下的类调用语言文本：",
-                "查阅语言文件（如zh-Hans.hjson）：如果要调用",
-                "Weapons:",
-                "{",
-                "    InterspaceSword: \"星际天河之刃\"",
-                "}",
-                "直接调用：Language.GetTextValue(\"Mods.InterspaceMod.Weapons.InterspaceSword\");",
-                "方法调用：WeaponsText(\"InterspaceSword\");",
-                "对于Armors键里有多层，则可以这样写：",
-                "ArmorsText(\"InterspaceArmors.Head\");",
-                "Language.GetTextValue(\"Mods.InterspaceMod.Armors.InterspaceArmors.Head\");",
-                "</pre></div>"
-            ]
-        },
-        {
             "title": "前端学习笔记",
             "description": "HTML + CSS + JavaScript 的基础学习笔记，轻松上手前端开发",
             "time": "2025-04-25",
             "tags": [
                 "前端",
-                "笔记"
+                "笔记",
+                "有感记录"
             ],
             "type": "html-css-js-note",
             "content": [
@@ -1098,7 +1091,8 @@
             "time": "2025-05-27",
             "tags": [
                 "Python",
-                "爬虫"
+                "爬虫",
+                "有感记录"
             ],
             "type": "spider-tutorial-simple",
             "content": [
@@ -1185,7 +1179,8 @@
             "time": "2025-06-06",
             "tags": [
                 "Python",
-                "PIL"
+                "PIL",
+                "有感记录"
             ],
             "type": "image-compress-tutorial",
             "content": [
@@ -1261,7 +1256,8 @@
             "time": "2025-08-25",
             "tags": [
                 "ARM 汇编",
-                "逆向工程"
+                "逆向工程",
+                "Arcaea逆向"
             ],
             "type": "arcaea-reverse-tutorial-basic",
             "content": [
@@ -1597,7 +1593,8 @@
             "tags": [
                 "🔒",
                 "ARM 汇编",
-                "逆向工程"
+                "逆向工程",
+                "Arcaea逆向"
             ],
             "type": "arcaea-reverse-tutorial-modding",
             "content": [],
@@ -1610,7 +1607,8 @@
             "tags": [
                 "🔒",
                 "ARM 汇编",
-                "逆向工程"
+                "逆向工程",
+                "Arcaea逆向"
             ],
             "type": "arcaea-reverse-tutorial-advanced",
             "content": [],
