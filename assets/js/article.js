@@ -49,7 +49,7 @@ function generateTableOfContents(containerSelector = "#toc-container", contentSe
         const link = document.createElement("a");
         link.href = `#${heading.id}`;
         link.textContent = heading.text;
-        link.addEventListener("click", function(e) {
+        link.addEventListener("click", function (e) {
             e.preventDefault();
             document.getElementById(heading.id).scrollIntoView({
                 behavior: "smooth"
@@ -74,7 +74,7 @@ function generateTableOfContents(containerSelector = "#toc-container", contentSe
         listItem.appendChild(subList);
         parentLists[heading.level] = subList;
     });
-    window.addEventListener("scroll", function() {
+    window.addEventListener("scroll", function () {
         const scrollPosition = window.scrollY + 100;
         headings.forEach(heading => {
             const headingElement = document.getElementById(heading.id);
@@ -82,10 +82,10 @@ function generateTableOfContents(containerSelector = "#toc-container", contentSe
             if (headingElement && linkElement) {
                 const headingTop = headingElement.offsetTop;
                 const nextHeading = headings[headings.indexOf(heading) + 1];
-                const headingBottom = nextHeading 
-                    ? document.getElementById(nextHeading.id).offsetTop 
+                const headingBottom = nextHeading
+                    ? document.getElementById(nextHeading.id).offsetTop
                     : document.body.scrollHeight;
-                
+
                 linkElement.classList.remove("toc-active");
                 if (scrollPosition >= headingTop && scrollPosition < headingBottom) {
                     linkElement.classList.add("toc-active");
@@ -93,7 +93,7 @@ function generateTableOfContents(containerSelector = "#toc-container", contentSe
             }
         });
     });
-    toggleBtn.addEventListener("click", function() {
+    toggleBtn.addEventListener("click", function () {
         tocContainer.classList.toggle("hidden");
         if (!tocContainer.classList.contains("hidden")) {
             toggleBtn.classList.add("display-none");
@@ -104,67 +104,107 @@ function generateTableOfContents(containerSelector = "#toc-container", contentSe
 }
 
 function markdownToHtml(markdown) {
-  if (!markdown) return '';
-  const lines = markdown.split('\n');
-  let html = '';
-  let inCodeBlock = false;
-  let inList = false;
-  const closeListIfNeeded = () => {
-    if (inList) {
-      html += '</ul>\n';
-      inList = false;
-    }
-  };
-  lines.forEach(line => {
-    let content = line;
-    const trimmed = content.trim();
-    if (trimmed.startsWith('```') && !trimmed.includes('```', 3)) {
-      closeListIfNeeded();
-      inCodeBlock = !inCodeBlock;
-      html += inCodeBlock ? '<div class="code-block"><pre>' : '</pre></div>';
-      return;
-    }
-    if (inCodeBlock) {
-      html += content + '\n';
-      return;
-    }
-    if (trimmed.startsWith('#')) {
-      closeListIfNeeded();
-      const level = trimmed.indexOf(' ');
-      if (level > 0 && level <= 6) {
-        const text = trimmed.slice(level).trim()
-          .replace(/```(.*?)```/g, '<code>$1</code>')
-          .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2">$1</a>');
-        html += `<h${level}>${text}</h${level}>\n`;
-      } else {
-        html += `<p>${trimmed}</p>\n`;
-      }
-      return;
-    }
-    if (trimmed.startsWith('- ')) {
-      const text = trimmed.slice(2).trim()
-        .replace(/```(.*?)```/g, '<code>$1</code>')
-        .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2">$1</a>');
-      if (!inList) {
-        html += '<ul>\n';
-        inList = true;
-      }
-      html += `<li>${text}</li>\n`;
-      return;
-    }
+    if (!markdown) return '';
+    const lines = markdown.split('\n');
+    let html = '';
+    let inCodeBlock = false;
+    let inList = false;
+    const closeListIfNeeded = () => {
+        if (inList) {
+            html += '</ul>\n';
+            inList = false;
+        }
+    };
+    lines.forEach(line => {
+        let content = line;
+        const trimmed = content.trim();
+        if (trimmed.startsWith('```') && !trimmed.includes('```', 3)) {
+            closeListIfNeeded();
+            inCodeBlock = !inCodeBlock;
+            html += inCodeBlock ? '<div class="code-block"><pre>' : '</pre></div>';
+            return;
+        }
+        if (inCodeBlock) {
+            html += content + '\n';
+            return;
+        }
+        if (trimmed.startsWith('#')) {
+            closeListIfNeeded();
+            const level = trimmed.indexOf(' ');
+            if (level > 0 && level <= 6) {
+                const text = trimmed.slice(level).trim()
+                    .replace(/```(.*?)```/g, '<code>$1</code>')
+                    .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2">$1</a>');
+                html += `<h${level}>${text}</h${level}>\n`;
+            } else {
+                html += `<p>${trimmed}</p>\n`;
+            }
+            return;
+        }
+        if (trimmed.startsWith('- ')) {
+            const text = trimmed.slice(2).trim()
+                .replace(/```(.*?)```/g, '<code>$1</code>')
+                .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2">$1</a>');
+            if (!inList) {
+                html += '<ul>\n';
+                inList = true;
+            }
+            html += `<li>${text}</li>\n`;
+            return;
+        }
+        closeListIfNeeded();
+        if (trimmed.startsWith('![')) {
+            const match = trimmed.match(/!\[([^\]]+)\]\(([^)]+)\)/);
+            if (match) html += `<img src="${match[2]}" alt="${match[1]}" class="tutorial-image">\n`;
+            return;
+        }
+        content = content.replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2">$1</a>')
+            .replace(/```(.*?)```/g, '<code>$1</code>');
+        if (trimmed) html += `<p>${content}</p>\n`;
+    });
     closeListIfNeeded();
-    if (trimmed.startsWith('![')) {
-      const match = trimmed.match(/!\[([^\]]+)\]\(([^)]+)\)/);
-      if (match) html += `<img src="${match[2]}" alt="${match[1]}" class="tutorial-image">\n`;
-      return;
-    }
-    content = content.replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2">$1</a>')
-      .replace(/```(.*?)```/g, '<code>$1</code>');
-    if (trimmed) html += `<p>${content}</p>\n`;
-  });
-  closeListIfNeeded();
-  if (inCodeBlock) html += '</pre></div>';
-  return html;
+    if (inCodeBlock) html += '</pre></div>';
+    return html;
+}
+
+async function decryptAndDisplay(DECRYPTION_PASSWORD) {
+    const imgElements = document.querySelectorAll("img.tutorial-image");
+    imgElements.forEach(async (imgElement) => {
+        const originUrl = imgElement.src;
+        if (originUrl.endsWith('.slj')) {
+            try {
+                const response = await fetch(originUrl);
+                const blob = await response.blob();
+                const encryptedBuffer = await blob.arrayBuffer();
+                const encryptedUint8Array = new Uint8Array(encryptedBuffer);
+                if (encryptedUint8Array.length < 16 + 12) {
+                    console.error('文件损坏或不是有效的加密文件');
+                }
+                const salt = encryptedUint8Array.subarray(0, 16);
+                const iv = encryptedUint8Array.subarray(16, 16 + 12);
+                const dataToDecrypt = encryptedUint8Array.subarray(16 + 12);
+                const encoder = new TextEncoder();
+                const passwordBuffer = encoder.encode(DECRYPTION_PASSWORD);
+                const keyMaterial = await crypto.subtle.importKey(
+                    'raw', passwordBuffer, { name: 'PBKDF2' }, false, ['deriveKey']
+                );
+                key = await crypto.subtle.deriveKey(
+                    { name: 'PBKDF2', salt, iterations: 100000, hash: 'SHA-256' },
+                    keyMaterial, { name: 'AES-GCM', length: 256 }, false, ['decrypt']
+                );
+                const decryptedBuffer = await crypto.subtle.decrypt(
+                    { name: 'AES-GCM', iv: iv },
+                    key,
+                    dataToDecrypt
+                );
+                const decryptedBlob = new Blob([decryptedBuffer]);
+                const imageUrl = URL.createObjectURL(decryptedBlob);
+                imgElement.src = imageUrl;
+            } catch (error) {
+                console.error('解密错误:', error);
+            }
+        }
+    });
 }
 
 async function decryptContent(encryptedData, key) {
@@ -227,7 +267,8 @@ function decrypt(encryptedData, secretKey, title) {
             </article>
             `;
             generateTableOfContents();
-        } 
+            decryptAndDisplay(secretKey);
+        }
         else {
             document.getElementById('articleSection').innerHTML = `
             <h1>【已加密】无访问权限</h1>
