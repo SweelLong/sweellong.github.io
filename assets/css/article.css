@@ -215,6 +215,8 @@ summary::before {
 
 .code-block pre {
     margin: 0;
+    font-size: 0.9em;
+    font-family: 'Consolas', 'Courier New', monospace;
 }
 
 .lang-cs {
