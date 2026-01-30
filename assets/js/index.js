@@ -73,6 +73,7 @@ window.addEventListener("DOMContentLoaded", async function () {
     });
   }
   // 动态插入推荐音乐
+  /*
   let currentPlayingIndex = -1;
   const recMusicDiv = document.getElementById('rec_music');
   renderMusicPlayer();
@@ -230,7 +231,7 @@ window.addEventListener("DOMContentLoaded", async function () {
         }
       }
     });
-  }
+  }*/
   // 动态插入推荐文章
   const recArticle = document.getElementById("rec_article");
   recArticle.innerHTML = '';

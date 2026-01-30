@@ -286,6 +286,8 @@ window.addEventListener('DOMContentLoaded', async () => {
         let article = data["articles"].find(article => (article.type == new URLSearchParams(window.location.search).get('title')));
         if (article != undefined) {
             document.title = article.title + ' - 浮华のloc';
+            document.head.appendChild(Object.assign(document.createElement('meta'), { name: 'description', content: article.description }));
+            document.head.appendChild(Object.assign(document.createElement('meta'), { name: 'keywords', content: article.tags.join(', ') }));
             document.getElementById('header').getElementsByTagName('a')[0].textContent = '浮华のloc : ' + article.title;
             if (article["tags"][0] == "🔒") {
                 document.getElementById('articleSection').innerHTML = `
